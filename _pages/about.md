@@ -26,4 +26,30 @@ Publications
 ======
 1. _Noncommuting conserved charges in quantum thermodynamics and beyond_ <br>
 **Shayan Majidy**, William F Braasch Jr, Aleksander Lasek, Twesh Upadhyaya, Amir Kalev, Nicole Yunger Halpern<br>
-*[Nature Reviews Physics](https://www.nature.com/articles/s42254-023-00641-9) (2023).* [<a href="https://www.nature.com/articles/s42254-023-00641-9" target="_blank">pdf</a>]
+*[Nature Reviews Physics](https://www.nature.com/articles/s42254-023-00641-9) (2023).* [<a href="https://arxiv.org/pdf/2306.00054.pdf" target="_blank">arXiv pdf</a>]
+
+1. _A unification of the coding theory and OAQEC perspectives on hybrid codes_ <br>
+**Shayan Majidy**<br>
+*[International Journal of Theoretical Physics](https://link.springer.com/article/10.1007/s10773-023-05439-0) (2023).* [<a href="https://arxiv.org/pdf/1806.03702.pdf" target="_blank">arXiv pdf</a>]
+
+1. _Critical phase and spin sharpening in SU (2)-symmetric monitored quantum circuits_ <br>
+**Shayan Majidy**, Utkarsh Agrawal, Sarang Gopalakrishnan, Andrew C Potter, Romain Vasseur, Nicole Yunger Halpern<br>
+*[Physical Review B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.054307) (2023).* [<a href="https://arxiv.org/pdf/2305.13356.pdf" target="_blank">arXiv pdf</a>]
+
+1. _Non-Abelian symmetry can increase entanglement entropy_ <br>
+**Shayan Majidy**, Aleksander Lasek, David A Huse, Nicole Yunger Halpern <br>
+*[Physical Review B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045102) (2023).* [<a href="https://arxiv.org/pdf/2209.14303.pdf" target="_blank">arXiv pdf</a>]
+
+1. _How to build Hamiltonians that transport noncommuting charges in quantum thermodynamics_ <br>
+Nicole Yunger Halpern, **Shayan Majidy** <br>
+*[npj Quantum Information](https://www.nature.com/articles/s41534-022-00516-4) (2022).* [<a href="https://arxiv.org/pdf/2103.14041.pdf" target="_blank">arXiv pdf</a>]
+
+1. _Detecting violations of macrorealism when the original Leggett-Garg inequalities are satisfied_ <br>
+**Shayan Majidy**, Jonathan J Halliwell, Raymond Laflamme<br>
+*[Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.062212) (2021).* [<a href="https://arxiv.org/pdf/2101.12266.pdf" target="_blank">arXiv pdf</a>]
+
+1. _Exploration of an augmented set of Leggett-Garg inequalities using a noninvasive continuous-in-time velocity measurement_ <br>
+**Shayan Majidy**, Hemant Katiyar, Galit Anikeeva, Jonathan Halliwell, Raymond Laflamme<br>
+*[Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.042325) (2019).* [<a href="https://arxiv.org/abs/1907.05489" target="_blank">arXiv pdf</a>]
+
+
