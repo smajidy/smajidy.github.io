@@ -26,4 +26,4 @@ Publications
 ======
 1. _Noncommuting conserved charges in quantum thermodynamics and beyond_ <br>
 **Shayan Majidy**, William F Braasch Jr, Aleksander Lasek, Twesh Upadhyaya, Amir Kalev, Nicole Yunger Halpern<br>
-*Nature Reviews Physics (2023).* [<a href="https://www.nature.com/articles/s42254-023-00641-9" target="_blank">pdf</a>]
+*[Nature Reviews Physics](https://www.nature.com/articles/s42254-023-00641-9) (2023).* [<a href="https://www.nature.com/articles/s42254-023-00641-9" target="_blank">pdf</a>]
