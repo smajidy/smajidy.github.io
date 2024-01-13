@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Shayan (pronounced "Shaw Yawn") Majidy, a Vanier Scholar and PhD Candidate at the Perimeter Institute and the Institute for Quantum Computing at the University of Waterloo. 
+I am Shayan (pronounced "Shaw Yawn") Majidy, a Vanier Scholar and PhD Candidate at the Perimeter Institute and the Institute for Quantum Computing at the University of Waterloo. I'm also a co-author of _Building Quantum Computers: A practical introduction_ by Majidy, Wilson and Laflamme (Cambridge University Press, 2024).
 
 Research Interests
 ======
@@ -19,3 +19,10 @@ Education
 * Ph.D in Physics (Quantum Information), University of Waterloo, 2019-2023 (expected)
 * M.Sc. in Physics (Quantum Information), University of Waterloo, 2018-2019 (expected)
 * B.Sc. in Theoretical Physics, University of Guelph, 2010-2015
+
+Publications
+======
+* Test1
+  * Test2
+* Test3
+* Test4
