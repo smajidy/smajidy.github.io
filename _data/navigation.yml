@@ -15,8 +15,8 @@ main:
  # - title: "Media"
  #   url: /media/
     
-  - title: "CV"
-    url: /cv/
+  - title: "Download CV"
+    url: /files/CV_240113.pdf
     
   #- title: "Guide"
   #  url: /markdown/
