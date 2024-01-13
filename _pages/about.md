@@ -19,7 +19,7 @@ My research is centred on the dynamics of quantum information---specifically, on
 Education
 ======
 * Ph.D in Physics (Quantum Information), University of Waterloo, 2019-2023 (expected)
-* M.Sc. in Physics (Quantum Information), University of Waterloo, 2018-2019 (expected)
+* M.Sc. in Physics (Quantum Information), University of Waterloo, 2018-2019
 * B.Sc. in Theoretical Physics, University of Guelph, 2010-2015
 
 Publications
