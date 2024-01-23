@@ -20,7 +20,7 @@ Education
 ======
 * Ph.D in Physics (Quantum Information), University of Waterloo, 2019-2024 (expected)
 * M.Sc. in Physics (Quantum Information), University of Waterloo, 2018-2019
-* B.Sc. in Theoretical Physics, University of Guelph, 2010-2015
+* B.Sc. in Theoretical Physics, University of Guelph, 2011-2015
 
 Publications
 ======
