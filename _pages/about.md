@@ -24,7 +24,7 @@ Textbooks
 ======  
 1.  _Building Quantum Computers: A Practical Introduction_ <br>
 **Shayan Majidy**, Christopher Wilson, Raymond Laflamme<br>
-*[Cambridge University Press] (2024).* (Available for purchase September 2024)
+*Cambridge University Press (2024).* [Available for purchase September 2024]
 
 Journal Publications
 ======
