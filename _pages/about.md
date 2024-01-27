@@ -17,6 +17,7 @@ My research is centred on the dynamics of quantum information---specifically, on
 Education
 ======
 * Ph.D in Physics, University of Waterloo, 2019-2024 (expected)
+  * [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html) (2021-2024), [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS) (2023)
 * M.Sc. in Physics, University of Waterloo, 2018-2019
 * B.Sc. in Theoretical Physics, University of Guelph, 2011-2015
 
