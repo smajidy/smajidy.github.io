@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Shayan Majidy"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 Research Interests
 ======
 My research is centred on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum many-body physics, quantum computing, and quantum thermodynamics. Recently, I have focused on how noncommuting conserved quantities effect dynamics to hinder thermalization and other forms of decoherence. 
