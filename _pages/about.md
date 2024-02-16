@@ -1,11 +1,14 @@
 ---
 permalink: /
-title: "Shayan Majidy"
+title: "About Me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+I am Shayan Majidy (Pronounced "shah-YAHN mah-JEE-dee"), a Vanier Scholar and PhD Candidate at the Perimeter Institute and the Institute for Quantum Computing at the University of Waterloo.
 
 Research Interests
 ======
