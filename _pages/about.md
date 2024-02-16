@@ -8,16 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-I am Shayan Majidy (Pronounced "shah-YAHN mah-JEE-dee"), a Vanier Scholar and PhD Candidate at the Perimeter Institute and the Institute for Quantum Computing at the University of Waterloo.
+My name is Shayan Majidy (Pronounced "shah-YAHN mah-JEE-dee") and I'm an incoming Postdoctorall Fellow at Princeton.
 
-Research Interests
-======
 My research is centred on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum many-body physics, quantum computing, and quantum thermodynamics. Recently, I have focused on how noncommuting conserved quantities effect dynamics to hinder thermalization and other forms of decoherence. 
+
+Postions
+======
+* Postdoctoral Fellow, Princeton, 2024-
 
 Education
 ======
-* Ph.D in Physics, University of Waterloo, 2019-2024 (expected)
-  * [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html) (2021-2024), [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS) (2023)
+* Ph.D in Physics, University of Waterloo, 2019-2024
+  * [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html) (2021-2024)
+  * [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS) (2023)
 * M.Sc. in Physics, University of Waterloo, 2018-2019
 * B.Sc. in Theoretical Physics, University of Guelph, 2011-2015
 
