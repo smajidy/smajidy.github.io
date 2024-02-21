@@ -13,12 +13,11 @@ My name is Shayan Majidy (Pronounced "shah-YAHN mah-JEE-dee") and I'm an incomin
 My research is centred on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum many-body physics, quantum computing, and quantum thermodynamics. 
 
 ### Education & Academic Postions
-| | |
-| :---: | --- |
-| ![Princeton University](https://media.licdn.com/dms/image/C4E0BAQE4zTC5PJAKSA/company-logo_100_100/0/1630648147093/princeton_university_logo?e=1716422400&v=beta&t=EB4jh-hEzvyNcPpVYXRZgNSSWJm8kIkvx8CCTEvnn7M) | **Banting Postdoctoral Fellow**<br>Princeton University<br>2024 - Current |
-| ![University of Waterloo](https://media.licdn.com/dms/image/C560BAQFI41Ly6leq7Q/company-logo_100_100/0/1631385538719?e=1716422400&v=beta&t=x9SrFvCxNJwPuk3ExYeZJeqrvIZCJ6KB9psq8kyMYL0) | **Ph.D. in Physics**<br>University of Waterloo<br>2019 - 2024<br>- [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html)<br>- [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS) |
-| ![University of Waterloo](https://media.licdn.com/dms/image/C560BAQFI41Ly6leq7Q/company-logo_100_100/0/1631385538719?e=1716422400&v=beta&t=x9SrFvCxNJwPuk3ExYeZJeqrvIZCJ6KB9psq8kyMYL0) | **M.Sc. in Physics**<br>University of Waterloo<br>2018 - 2019<br>
-| ![University of Guelph](https://media.licdn.com/dms/image/C560BAQGlCnbiLNr8YQ/company-logo_100_100/0/1656971795144/university_of_guelph_logo?e=1716422400&v=beta&t=Un4FnyPo6AFXSqj9lN-KvueF2ATZSbYl1MnKauiUNgo) | **B.Sc. in Theoretical Phyics**<br>University of Guelph<br>2011 - 2015 |
+| Entry            | Item   |                                                              |
+| --------         | ------ | ------------------------------------------------------------ |
+| [John Doe](#)    | 2016   | Description of the item in the list                          |
+| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
+| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
 
 
 Textbooks
