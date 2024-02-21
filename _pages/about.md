@@ -14,11 +14,13 @@ My research is centred on the dynamics of quantum information---specifically, on
 
 Education & Academic Postions
 ======
-* 2024-Current: [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html), Princeton
-* 2019-2024: Ph.D in Physics, University of Waterloo
-  * [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS)
-* 2018-2019: M.Sc. in Physics, University of Waterloo
-* 2011-2015: B.Sc. in Theoretical Physics, University of Guelph
+**[Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html)** <br> Princeton University <br> 2024-Current
+
+**Ph.D in Physics** <br> University of Waterloo <br> 2019-2024 <br> - [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html) <br> - [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS)
+
+**M.Sc. in Physics** <br> University of Waterloo <br> 2018-2019
+
+**B.Sc. in Theoretical Physics** <br> University of Guelph <br> 2011-2015
 
 |  |  |
 |:---:|---|
