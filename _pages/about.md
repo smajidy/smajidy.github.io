@@ -20,11 +20,6 @@ Education & Academic Postions
 * 2018-2019: M.Sc. in Physics, University of Waterloo
 * 2011-2015: B.Sc. in Theoretical Physics, University of Guelph
 
-| --------         | ------ |
-| [John Doe](#)    | 2016   | 
-| [Jane Doe](#)    | 2019   | 
-| [Doe Doe](#)     | 2022   | 
-
 Textbooks
 ======  
 1.  _Building Quantum Computers: A Practical Introduction_ <br>
