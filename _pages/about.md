@@ -12,9 +12,13 @@ My name is Shayan Majidy (Pronounced "shah-YAHN mah-JEE-dee") and I'm an incomin
 
 My research is centred on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum many-body physics, quantum computing, and quantum thermodynamics. 
 
-Education & Academic Positions
-======  
-
+Education & Academic Postions
+======
+* 2024-Current: [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html), Princeton
+* 2019-2024: Ph.D in Physics, University of Waterloo
+  * [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS)
+* 2018-2019: M.Sc. in Physics, University of Waterloo
+* 2011-2015: B.Sc. in Theoretical Physics, University of Guelph
 
 Textbooks
 ======  
