@@ -16,8 +16,7 @@ Education & Academic Postions
 ======
 * [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html), Princeton, 2024-Current
 * Ph.D in Physics, University of Waterloo, 2019-2024
-  * [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html) (2021-2024)
-  * [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS) (2023)
+  * [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html), [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS)
 * M.Sc. in Physics, University of Waterloo, 2018-2019
 * B.Sc. in Theoretical Physics, University of Guelph, 2011-2015
 
