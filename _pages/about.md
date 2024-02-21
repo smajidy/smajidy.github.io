@@ -12,8 +12,8 @@ My name is Shayan Majidy (Pronounced "shah-YAHN mah-JEE-dee") and I'm an incomin
 
 My research is centred on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum many-body physics, quantum computing, and quantum thermodynamics. 
 
-Test
-======
+### Table 1
+
 | Entry            | Item   |                                                              |
 | --------         | ------ | ------------------------------------------------------------ |
 | [John Doe](#)    | 2016   | Description of the item in the list                          |
@@ -22,6 +22,7 @@ Test
 
 Education & Academic Postions
 ======
+### Education & Academic Postions
 | | |
 | :---: | --- |
 | ![Princeton University](https://media.licdn.com/dms/image/C4E0BAQE4zTC5PJAKSA/company-logo_100_100/0/1630648147093/princeton_university_logo?e=1716422400&v=beta&t=EB4jh-hEzvyNcPpVYXRZgNSSWJm8kIkvx8CCTEvnn7M) | **Banting Postdoctoral Fellow**<br>Princeton University<br>2024 - Current |
