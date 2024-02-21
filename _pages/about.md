@@ -21,7 +21,7 @@ Education & Academic Postions
 * 2011-2015: B.Sc. in Theoretical Physics, University of Guelph
 
 |  |  |
-|---|---|
+|:---:|---|
 | <img src="https://media.licdn.com/dms/image/C4E0BAQE4zTC5PJAKSA/company-logo_100_100/0/1630648147093/princeton_university_logo?e=1716422400&v=beta&t=EB4jh-hEzvyNcPpVYXRZgNSSWJm8kIkvx8CCTEvnn7M" width="75" /> | **Banting Postdoctoral Fellow**<br>Princeton University<br>2024 - Current |
 | <img src="https://media.licdn.com/dms/image/C560BAQFI41Ly6leq7Q/company-logo_100_100/0/1631385538719?e=1716422400&v=beta&t=x9SrFvCxNJwPuk3ExYeZJeqrvIZCJ6KB9psq8kyMYL0" width="75" /> | **Ph.D. in Physics**<br>University of Waterloo<br>2019 - 2024<br>- Awarded the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html)<br>- Received the [IQC Achievement Award](https://uwaterloo.ca/institute-for-quantum-computing/research/awards/student-award-recipients#IQCAWARDS) |
 | <img src="https://media.licdn.com/dms/image/C560BAQFI41Ly6leq7Q/company-logo_100_100/0/1631385538719?e=1716422400&v=beta&t=x9SrFvCxNJwPuk3ExYeZJeqrvIZCJ6KB9psq8kyMYL0" width="75" /> | **M.Sc. in Physics**<br>University of Waterloo<br>2018 - 2019 |
