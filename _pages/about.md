@@ -20,6 +20,11 @@ Education & Academic Postions
 * 2018-2019: M.Sc. in Physics, University of Waterloo
 * 2011-2015: B.Sc. in Theoretical Physics, University of Guelph
 
+|  |  |
+|---|---|
+| <img src="https://media.licdn.com/dms/image/C4E0BAQE4zTC5PJAKSA/company-logo_100_100/0/1630648147093/princeton_university_logo?e=1716422400&v=beta&t=EB4jh-hEzvyNcPpVYXRZgNSSWJm8kIkvx8CCTEvnn7M" width="30" /> | **Banting Postdoctoral Fellow**<br>Princeton University<br>2024 - Current |
+
+
 Textbooks
 ======  
 1.  _Building Quantum Computers: A Practical Introduction_ <br>
