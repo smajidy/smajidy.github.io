@@ -20,15 +20,15 @@ Education & Academic Postions
 * 2018-2019: M.Sc. in Physics, University of Waterloo
 * 2011-2015: B.Sc. in Theoretical Physics, University of Guelph
 
-Textbooks
+Publications
 ======  
+<img align="right" height="300" src="/images/Cover.png">
+
 1.  _Building Quantum Computers: A Practical Introduction_ <br>
 **Shayan Majidy**, Christopher Wilson, Raymond Laflamme<br>
 *[Cambridge University Press](https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview) (2024).* [Available for purchase September 2024]
 
-Journal Publications
-======
-2. _Noncommuting conserved charges in quantum thermodynamics and beyond_ <br>
+1. _Noncommuting conserved charges in quantum thermodynamics and beyond_ <br>
 **Shayan Majidy**, William F Braasch Jr, Aleksander Lasek, Twesh Upadhyaya, Amir Kalev, Nicole Yunger Halpern<br>
 *[Nature Reviews Physics](https://www.nature.com/articles/s42254-023-00641-9) (2023).* [<a href="https://arxiv.org/pdf/2306.00054.pdf" target="_blank">arXiv pdf</a>]
 
