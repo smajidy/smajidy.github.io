@@ -22,7 +22,12 @@ Education & Academic Postions
 
 Publications
 ======  
-<img align="right" height="100" src="/images/Cover.png">
+
+<center>
+<img src="images/Cover.png"
+     alt="TBCover"
+     style="text-align:center; width:25%; border-radius:15%; padding-top:15px; padding-bottom:1px" />
+</center>
 
 1.  _Building Quantum Computers: A Practical Introduction_ <br>
 **Shayan Majidy**, Christopher Wilson, Raymond Laflamme<br>
