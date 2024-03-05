@@ -313,7 +313,6 @@
    Navigation list
    ========================================================================== */
 
-/*
 .nav__list {
   font-size: 1.25rem;
 
@@ -364,12 +363,12 @@
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
-*/
+
 
 /*
    Table of contents navigation
    ========================================================================== */
-/*
+
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
@@ -421,7 +420,7 @@
     padding-left: 2rem;
     font-weight: normal;
   }
-*/
+
   /* hide sub sub links on small screens*/
   li > ul li {
     display: none;
