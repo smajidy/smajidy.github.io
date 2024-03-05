@@ -83,7 +83,7 @@ author:
   name             : "Shayan Majidy"
   avatar           : "profile.png"
   bio              : "shah-YAHN mah-JEE-dee"
-  location         : "Waterloo, ON"
+  location         : #"Waterloo, ON"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en"
