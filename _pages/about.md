@@ -15,7 +15,7 @@ My research is centred on the dynamics of quantum information---specifically, on
 
 Education & Academic Postions
 ======
-*  <img src="images/Cover.png" alt="TBCover" style="float:right; text-align:right; width:10%; padding-left: 8px; padding-bottom:8px" /> 
+*  <img src="images/Cover.png" alt="TBCover" style="float:left; text-align:right; width:10%; padding-left: 8px; padding-bottom:8px" /> 
 2024-Current: Banting Fellow, Princeton
 * 2019-2024: Ph.D in Physics, University of Waterloo
 * 2018-2019: M.Sc. in Physics, University of Waterloo
