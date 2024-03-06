@@ -23,7 +23,7 @@ Education & Academic Postions
 Publications
 ======  
 
-1. <img src="images/Cover.png" alt="TBCover" style="float:right; text-align:right; width:25%; padding-left: 8px; padding-bottom:8px" />
+1. <img src="images/Cover.png" alt="TBCover" style="float:right; text-align:right; width:33%; padding-left: 8px; padding-bottom:8px" />
 _Building Quantum Computers: A Practical Introduction_ <br>
 **Shayan Majidy**, Christopher Wilson, Raymond Laflamme<br>
 *[Cambridge University Press](https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview) (2024).* [Available for purchase September 2024]
