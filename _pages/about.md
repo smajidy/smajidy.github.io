@@ -15,15 +15,17 @@ My research is centred on the dynamics of quantum information---specifically, on
 
 Education & Academic Postions
 ======
-<img src="images/Cover.png" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
+<img src="images/princeton_logo.jpeg" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
 Banting Fellow <br> Princeton University <br> 2024-Current
 
-<img src="images/Cover.png" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
-Banting Fellow <br> Princeton University <br> 2024-Current
+<img src="images/UW_logo.png" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
+Ph.D in Physics <br> University of Waterloo <br> 2019-2024
 
-* 2019-2024: Ph.D in Physics, University of Waterloo
-* 2018-2019: M.Sc. in Physics, University of Waterloo
-* 2011-2015: B.Sc. in Theoretical Physics, University of Guelph
+<img src="images/UW_logo.png" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
+M.Sc. in Physics <br> University of Waterloo <br> 2018-2019
+
+<img src="images/UG_logo.jpeg" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
+B.Sc. in Theoretical Physics <br> University of Guelph <br> 2011-2015
 
 Publications
 ======  
