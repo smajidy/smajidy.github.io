@@ -13,7 +13,7 @@ main:
  #   url: /media/
     
   - title: "Download CV"
-    url: /files/CV.pdf
+    url: /CV.pdf
 
   #- title: "Publications"
   # url: https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en
