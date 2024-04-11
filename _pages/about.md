@@ -13,6 +13,8 @@ My name is Shayan Majidy and I am an incoming [Banting Postdoctoral Fellow](http
 
 My research is centred on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum many-body physics, quantum computing, and quantum thermodynamics.
 
+I co-authored a textbook, [_Building Quantum Computers_](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), which explains the physics underlying various quantum computing hardware.
+
 Education & Academic Postions
 ======
 <img src="images/princeton_logo.jpeg" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
