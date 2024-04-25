@@ -19,8 +19,10 @@ I co-authored a textbook, [_Building Quantum Computers_](https://www.amazon.com/
 
 Education & Academic Postions
 ======
+<!--<img src="images/princeton_logo.jpeg" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
+**Banting Fellow** <br> Princeton University <br> 2024-Current-->
 <img src="images/princeton_logo.jpeg" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
-**Banting Fellow** <br> Princeton University <br> 2024-Current
+**Postdoctoral Fellow** <br> Princeton University <br> 2024-Current
 
 <img src="images/UW_logo.png" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
 **Ph.D in Physics** <br> University of Waterloo <br> 2019-2024
