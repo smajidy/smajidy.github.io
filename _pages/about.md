@@ -9,7 +9,9 @@ redirect_from:
   - /about.html
 ---
 
-My name is Shayan Majidy and I am an incoming [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Princeton University. I am currently a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html) at the University of Waterloo and a resident PhD student at the Perimeter Institute for Theoretical Physics.
+<!--My name is Shayan Majidy and I am an incoming [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Princeton University. I am currently a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html) at the University of Waterloo and a resident PhD student at the Perimeter Institute for Theoretical Physics.-->
+
+My name is Shayan Majidy and I am an incoming Postdoctoral Fellow at Princeton University. I am currently a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html) at the University of Waterloo and a resident PhD student at the Perimeter Institute for Theoretical Physics.
 
 My research is centred on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum many-body physics, quantum computing, and quantum thermodynamics.
 
