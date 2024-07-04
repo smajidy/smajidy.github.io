@@ -66,7 +66,7 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 <!-- Add the gallery below -->
 <div class="gallery">
     <div class="gallery-item">
-        <img src="Brodie.jpeg" alt="Image 1">
+        <img src="images/Brodie.jpeg" alt="Image 1">
         <div class="caption">Caption 1</div>
     </div>
     <div class="gallery-item">
