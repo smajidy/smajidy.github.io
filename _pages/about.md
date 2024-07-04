@@ -67,10 +67,10 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 <div class="gallery">
     <div class="gallery-item">
         <img src="images/Brodie.jpeg" alt="Image 1">
-        <div class="caption">Caption 1</div>
+        <div class="caption">Recieving the John Brodie</div>
     </div>
     <div class="gallery-item">
-        <img src="images/IQI.jpeg" alt="Image 2">
+        <img src="images/IQl.jpeg" alt="Image 2">
         <div class="caption">Caption 2</div>
     </div>
     <!-- Add more gallery items as needed -->
