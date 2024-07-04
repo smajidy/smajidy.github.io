@@ -70,7 +70,7 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
         <div class="caption">Caption 1</div>
     </div>
     <div class="gallery-item">
-        <img src="IQI.jpeg" alt="Image 2">
+        <img src="images/IQI.jpeg" alt="Image 2">
         <div class="caption">Caption 2</div>
     </div>
     <!-- Add more gallery items as needed -->
@@ -79,7 +79,7 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 <style>
     .gallery {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(2, 1fr); /* Set the grid to be 2 columns wide */
         gap: 15px;
         padding: 20px;
     }
@@ -102,4 +102,12 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
         padding: 10px 0;
         font-size: 16px;
     }
+
+    /* Media query for smaller screens */
+    @media (max-width: 600px) {
+        .gallery {
+            grid-template-columns: 1fr; /* Change to 1 column for smaller screens */
+        }
+    }
 </style>
+
