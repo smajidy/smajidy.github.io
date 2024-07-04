@@ -73,12 +73,24 @@ Oot and Aboot
         <div class="caption">Recieving the John Brodie (May 21, 2024) </div>
     </div>
     <div class="gallery-item">
+        <img src="images/Yale.jpeg" alt="Image 1">
+        <div class="caption">YQI Talk, Yale (Jam 16, 2024) </div>
+    </div>
+    <div class="gallery-item">
         <img src="images/Quirks.jpeg" alt="Image 3">
         <div class="caption"> I was on CBC Radio's Quirks and Quarks (Dec 30, 2023)</div>
     </div>
     <div class="gallery-item">
         <img src="images/Princeton.jpeg" alt="Image 3">
         <div class="caption"> From my semester as a visiting student in Sarang's group, Princeton (Sep 14, 2023)</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/Dinner.jpeg" alt="Image 3">
+        <div class="caption"> Dinner with Raymond Laflamme and John Preskill (Aug 1, 2023)</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/RayBDay.jpeg" alt="Image 3">
+        <div class="caption"> I had the pleasure of organizing Ray's birthday conference, University of Waterloo (July 17, 2023)</div>
     </div>
     <div class="gallery-item">
         <img src="images/RQS.jpeg" alt="Image 3">
@@ -99,6 +111,14 @@ Oot and Aboot
     <div class="gallery-item">
         <img src="images/UofT.jpeg" alt="Image 3">
         <div class="caption"> CQIQC seminar, University of Toronto (Feb 3, 2023)</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/Telluride.jpeg" alt="Image 3">
+        <div class="caption"> Post talk hike, Telluride (July 22, 2022)</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/RQS1.jpeg" alt="Image 3">
+        <div class="caption"> RQS seminar, University of Maryland (Aug 2, 2022)</div>
     </div>
     <!-- Add more gallery items as needed -->
 </div>
