@@ -73,8 +73,28 @@ Oot and Aboot
         <div class="caption">Recieving the John Brodie (May 21, 2024) </div>
     </div>
     <div class="gallery-item">
+        <img src="images/Quirks.jpeg" alt="Image 3">
+        <div class="caption"> I was on CBC Radio's Quirks and Quarks (Dec 30, 2023)</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/Princeton.jpeg" alt="Image 3">
+        <div class="caption"> From my semester as a visiting student in Sarang's group, Princeton (Sep 14, 2023)</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/RQS.jpeg" alt="Image 3">
+        <div class="caption"> RQS annual workshop, University of Maryland (June 22, 2023)</div>
+    </div>
+    <div class="gallery-item">
         <img src="images/IQl.jpeg" alt="Image 2">
         <div class="caption"> InfoQ Seminar, Institut Quantique (Mar 28, 2023) </div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/Stanford.jpeg" alt="Image 3">
+        <div class="caption"> Visiting Xiaoliang Qi's Group, Stanford (Feb 24, 2023)</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/Berkeley.jpeg" alt="Image 3">
+        <div class="caption"> After my Redwood seminar, Berkeley (Feb 22, 2023)</div>
     </div>
     <div class="gallery-item">
         <img src="images/UofT.jpeg" alt="Image 3">
