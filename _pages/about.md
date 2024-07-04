@@ -62,3 +62,44 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 1. _Exploration of an augmented set of Leggett-Garg inequalities using a noninvasive continuous-in-time velocity measurement_ <br>
 **Shayan Majidy**, Hemant Katiyar, Galit Anikeeva, Jonathan Halliwell, Raymond Laflamme<br>
 *[Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.042325) (2019).* [<a href="https://arxiv.org/abs/1907.05489" target="_blank">arXiv pdf</a>]
+
+<!-- Add the gallery below -->
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="path_to_your_image1.jpg" alt="Image 1">
+        <div class="caption">Caption 1</div>
+    </div>
+    <div class="gallery-item">
+        <img src="path_to_your_image2.jpg" alt="Image 2">
+        <div class="caption">Caption 2</div>
+    </div>
+    <!-- Add more gallery items as needed -->
+</div>
+
+<style>
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+        padding: 20px;
+    }
+    .gallery-item {
+        position: relative;
+    }
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+</style>
