@@ -25,7 +25,7 @@ Education & Academic Positions
 <img src="images/UW_logo.png" alt="UW Logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
 **M.Sc. in Physics** <br> University of Waterloo <br> 2018-2019
 
-<img src="images/UG_logo.png" alt="UofG Logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
+<img src="images/UG_Logo.png" alt="UofG Logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
 **B.Sc. in Theoretical Physics** <br> University of Guelph <br> 2011-2015
 
 <!--Publications
