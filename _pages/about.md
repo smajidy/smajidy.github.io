@@ -66,11 +66,11 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 <!-- Add the gallery below -->
 <div class="gallery">
     <div class="gallery-item">
-        <img src="path_to_your_image1.jpg" alt="Image 1">
+        <img src="Brodie.jpeg" alt="Image 1">
         <div class="caption">Caption 1</div>
     </div>
     <div class="gallery-item">
-        <img src="path_to_your_image2.jpg" alt="Image 2">
+        <img src="IQI.jpeg" alt="Image 2">
         <div class="caption">Caption 2</div>
     </div>
     <!-- Add more gallery items as needed -->
