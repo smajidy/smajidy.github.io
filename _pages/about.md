@@ -70,15 +70,15 @@ Oot and Aboot
 <div class="gallery">
     <div class="gallery-item">
         <img src="images/Brodie.jpeg" alt="Image 1">
-        <div class="caption">Recieving the John Brodie</div>
+        <div class="caption">Recieving the John Brodie (May 21, 2024) </div>
     </div>
     <div class="gallery-item">
         <img src="images/IQl.jpeg" alt="Image 2">
-        <div class="caption">Caption 2</div>
+        <div class="caption"> InfoQ Seminar, Institut Quantique (Mar 28, 2023) </div>
     </div>
     <div class="gallery-item">
         <img src="images/UofT.jpeg" alt="Image 3">
-        <div class="caption">Seminar at UofT</div>
+        <div class="caption"> CQIQC seminar, University of Toronto (Feb 3, 2023)</div>
     </div>
     <!-- Add more gallery items as needed -->
 </div>
