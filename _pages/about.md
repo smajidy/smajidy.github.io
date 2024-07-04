@@ -13,7 +13,7 @@ redirect_from:
 
 My name is Shayan Majidy. I am currently a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html) at the University of Waterloo and a resident PhD student at the Perimeter Institute for Theoretical Physics.
 
-My research is centred on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum many-body physics, quantum computing, and quantum thermodynamics.
+My research is centered on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum computing and quantum thermodynamics.
 
 I co-authored a textbook, [_Building Quantum Computers_](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), which explains the physics underlying various quantum computing hardware.
 
@@ -28,7 +28,7 @@ Education & Academic Positions
 <img src="images/UG_logo.jpeg" alt="TBCover" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
 **B.Sc. in Theoretical Physics** <br> University of Guelph <br> 2011-2015
 
-Publications
+<!--Publications
 ======  
 
 1. <img src="images/Cover.png" alt="TBCover" style="float:right; text-align:right; width:33%; padding-left: 8px; padding-bottom:8px" />
@@ -64,4 +64,4 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 **Shayan Majidy**, Hemant Katiyar, Galit Anikeeva, Jonathan Halliwell, Raymond Laflamme<br>
 *[Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.042325) (2019).* [<a href="https://arxiv.org/abs/1907.05489" target="_blank">arXiv pdf</a>]
 
-
+-->
