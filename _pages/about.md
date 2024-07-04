@@ -20,13 +20,13 @@ I co-authored a textbook, [_Building Quantum Computers_](https://www.amazon.com/
 Education & Academic Positions
 ======
 <img src="images/UW_Logo.png" alt="UW logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
-**Ph.D in Physics** <br> University of Waterloo <br> 2019-2024
+**University of Waterloo** <br> Ph.D in Physics <br> 2019-2024
 
 <img src="images/UW_Logo.png" alt="UW Logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
-**M.Sc. in Physics** <br> University of Waterloo <br> 2018-2019
+**University of Waterloo** <br> M.Sc. in Physics <br> 2018-2019
 
 <img src="images/UG_Logo.png" alt="UofG Logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
-**B.Sc. in Theoretical Physics** <br> University of Guelph <br> 2011-2015
+**University of Guelph** <br> B.Sc. in Theoretical Physics <br> 2011-2015
 
 <!--Publications
 ======  
