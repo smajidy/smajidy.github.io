@@ -63,6 +63,9 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 **Shayan Majidy**, Hemant Katiyar, Galit Anikeeva, Jonathan Halliwell, Raymond Laflamme<br>
 *[Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.042325) (2019).* [<a href="https://arxiv.org/abs/1907.05489" target="_blank">arXiv pdf</a>]
 
+
+Oot and Aboot
+======  
 <!-- Add the gallery below -->
 <div class="gallery">
     <div class="gallery-item">
@@ -72,6 +75,10 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
     <div class="gallery-item">
         <img src="images/IQl.jpeg" alt="Image 2">
         <div class="caption">Caption 2</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/UofT.jpeg" alt="Image 3">
+        <div class="caption">Seminar at UofT</div>
     </div>
     <!-- Add more gallery items as needed -->
 </div>
