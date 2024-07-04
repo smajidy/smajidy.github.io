@@ -11,11 +11,11 @@ redirect_from:
 
 <!--My name is Shayan Majidy. I am currently a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html) at the University of Waterloo and a resident PhD student at the Perimeter Institute for Theoretical Physics.-->
 
-My name is Shayan Majidy. I am currently a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html) at the University of Waterloo and a resident PhD student at the Perimeter Institute for Theoretical Physics.
+My name is Shayan Majidy. I completed my PhD in Physics at the University of Waterloo (2019-2024), where I also studied during my master's program (2018-2019). During my PhD, I was fortunate to receive notable recognitions: the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), the most prestigious PhD fellowship across Canada; the John Brodie Memorial Award, recognizing outstanding research accomplishments at the Perimeter Institute; and the IQC Achievement Award, recognizing outstanding research accomplishments at the Institute for Quantum Computing.
 
-My research is centered on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum computing and quantum thermodynamics.
+My research interests are building large-scale, coherent, and controllable quantum systems and identifying useful applications for them. 
 
-I co-authored a textbook, [_Building Quantum Computers_](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), which explains the physics underlying various quantum computing hardware.
+My research is centered on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum computing and quantum thermodynamics. Recently, this has led me to study the effects of noncommuting charges in quantum thermodynamics and near-term applications of quantum error correction on quantum hardware. I co-authored a textbook, [_Building Quantum Computers_](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), which explains the physics underlying various quantum computing hardware.
 
 Education & Academic Positions
 ======
@@ -28,7 +28,7 @@ Education & Academic Positions
 <img src="images/UG_Logo.png" alt="UofG Logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
 **University of Guelph** <br> B.Sc. in Theoretical Physics <br> 2011-2015
 
-<!--Publications
+Publications
 ======  
 
 1. <img src="images/Cover.png" alt="TBCover" style="float:right; text-align:right; width:33%; padding-left: 8px; padding-bottom:8px" />
@@ -63,5 +63,3 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 1. _Exploration of an augmented set of Leggett-Garg inequalities using a noninvasive continuous-in-time velocity measurement_ <br>
 **Shayan Majidy**, Hemant Katiyar, Galit Anikeeva, Jonathan Halliwell, Raymond Laflamme<br>
 *[Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.042325) (2019).* [<a href="https://arxiv.org/abs/1907.05489" target="_blank">arXiv pdf</a>]
-
--->
