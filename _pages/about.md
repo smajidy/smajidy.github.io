@@ -28,6 +28,7 @@ Education & Academic Positions
 
 Publications
 ======  
+See [Google Scholar](https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en) for a possibly more updated list that also includes preprints.
 
 1. <img src="images/Cover.png" alt="TBCover" style="float:right; text-align:right; width:33%; padding-left: 8px; padding-bottom:8px" />
 _Building Quantum Computers: A Practical Introduction_ <br>
