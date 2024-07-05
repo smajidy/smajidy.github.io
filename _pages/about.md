@@ -127,11 +127,14 @@ Oot and Aboot
     .gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Set the grid to be 2 columns wide */
+        grid-auto-rows: minmax(100px, auto); /* Flexible row heights */
         gap: 15px;
+        align-items: start; /* Align items to the start of the grid cell */
         padding: 20px;
     }
     .gallery-item {
         position: relative;
+        display: block; /* Ensure items are block to fill cells */
     }
     .gallery-item img {
         width: 100%;
