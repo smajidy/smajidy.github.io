@@ -148,6 +148,10 @@ Oot and Aboot
         text-align: center;
         padding: 10px 0;
         font-size: 16px;
+        display: none; /* Initially hide the caption */
+    }
+    .gallery-item:hover .caption {
+        display: block; /* Display the caption on hover */
     }
 
     /* Media query for smaller screens */
