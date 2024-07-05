@@ -66,6 +66,8 @@ Nicole Yunger Halpern, **Shayan Majidy** <br>
 
 Oot and Aboot
 ======  
+Hover over the photos for context.
+
 <!-- Add the gallery below -->
 <div class="gallery">
     <div class="gallery-item">
