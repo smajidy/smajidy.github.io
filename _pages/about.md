@@ -9,11 +9,11 @@ redirect_from:
   - /about.html
 ---
 
-<!--My name is Shayan Majidy. I am currently a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html) at the University of Waterloo and a resident PhD student at the Perimeter Institute for Theoretical Physics.-->
+My name is Shayan Majidy.<!-- I'm a Banting Postdoctoral Fellow in Misha Lukin's group at Harvard --> I received my PhD in 2024 from the University of Waterloo under the supervision of Raymond Laflamme and Nicole Yunger Halpern. During my PhD, I was awarded the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), the most prestigious and highest-valued PhD fellowship in Canada. My doctoral research was also recognized with the John Brodie Memorial Award and the IQC Achievement Award, which honor outstanding research achievements at the Perimeter Institute and the Institute for Quantum Computing, respectively.
 
-My name is Shayan Majidy. I completed my PhD in Physics at the University of Waterloo. During my PhD, I was fortunate to receive notable recognitions: the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), the most prestigious and highest-valued PhD fellowship across Canada; the John Brodie Memorial Award, recognizing outstanding research accomplishments at the Perimeter Institute; and the IQC Achievement Award, recognizing outstanding research accomplishments at the Institute for Quantum Computing.
+My research focuses on the dynamics of quantum information—specifically, how non-classical properties of information are generated, harnessed, or lost, and the resulting physical consequences in quantum computing and quantum thermodynamics. Recently, this has led me to study the effects of noncommuting charges in quantum thermodynamics and the near-term applications of quantum error correction on quantum hardware.
 
-My research is centered on the dynamics of quantum information---specifically, on how non-classical properties of information are generated, harnessed, or lost and the physical consequences that ensue in the domains of quantum computing and quantum thermodynamics. Recently, this has led me to study the effects of noncommuting charges in quantum thermodynamics and near-term applications of quantum error correction on quantum hardware. I am the lead author of a textbook, [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), which explains the physics underlying various quantum computing hardware.
+I am also the lead author of the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), which introduces the physics underlying various quantum computing hardware.
 
 Education & Academic Positions
 ======
