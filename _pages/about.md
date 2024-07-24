@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Shayan Majidy.<!-- I'm a Banting Postdoctoral Fellow in Misha Lukin's group at Harvard --> I received my PhD in 2024 from the University of Waterloo under the supervision of Raymond Laflamme and Nicole Yunger Halpern. During my PhD, I was awarded the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), the most prestigious and highest-valued PhD fellowship in Canada. My doctoral research was also recognized with the John Brodie Memorial Award and the IQC Achievement Award, which honor outstanding research achievements at the Perimeter Institute and the Institute for Quantum Computing, respectively.
+My name is Shayan Majidy.<!-- I'm a Banting Postdoctoral Fellow in Misha Lukin's group at Harvard --> I received my PhD in 2024 from the University of Waterloo under the supervision of Raymond Laflamme and Nicole Yunger Halpern. During my PhD, I was awarded the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html) (the highest-valued PhD fellowship in Canada) along with the John Brodie Memorial Award and the IQC Achievement Award, which honor outstanding research achievements at the Perimeter Institute and the Institute for Quantum Computing, respectively.
 
 My research focuses on the dynamics of quantum information—specifically, how non-classical properties of information are generated, harnessed, or lost, and the resulting physical consequences in quantum computing and quantum thermodynamics. Recently, this has led me to study the effects of noncommuting charges in quantum thermodynamics and the near-term applications of quantum error correction on quantum hardware.
 
