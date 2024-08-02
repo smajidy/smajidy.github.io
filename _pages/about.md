@@ -9,11 +9,9 @@ redirect_from:
   - /about.html
 ---
 
-My name is Shayan Majidy. I'm an incoming [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) in Misha Lukin's group at Harvard. I received my PhD in 2024 from the University of Waterloo. During my PhD, I was awarded the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html) along with the John Brodie Memorial Award and the IQC Achievement Award, which honor outstanding research achievements at the Perimeter Institute and the Institute for Quantum Computing, respectively.
+My name is Shayan Majidy. I'm an incoming [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) in Misha Lukin's group at Harvard. My current research focuses on quantum circuit design, with a focus on leveraging quantum error correction to identify practical applications for current quantum hardware. I received my PhD in 2024 from the University of Waterloo, where I investigated the effects of noncommuting conserved quantities in quantum information and thermodynamics. During my PhD, I was awarded the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html) along with the John Brodie Memorial Award and the IQC Achievement Award, which honor outstanding research achievements at the Perimeter Institute and the Institute for Quantum Computing, respectively.
 
-My research focuses on the dynamics of quantum information—specifically, how non-classical properties of information are generated, harnessed, or lost, and the resulting physical consequences in quantum computing and quantum thermodynamics. Recently, this has led me to study the effects of noncommuting charges in quantum thermodynamics and the near-term applications of quantum error correction on quantum hardware.
-
-I am also the lead author of the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), which introduces the physics underlying various quantum computing hardware.
+I am also the lead author of the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), published by Cambridge University Press. 
 
 Education & Academic Positions
 ======
