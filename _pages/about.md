@@ -17,6 +17,9 @@ I am also the lead author of the textbook [Building Quantum Computers](https://w
 
 Education & Academic Positions
 ======
+<img src="images/Harvard_logo.png" alt="Harvard logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
+**Harvard University** <br> Banting Postdoctoral Fellow <br> 2024-
+
 <img src="images/UW_Logo.png" alt="UW logo" style="float:left; text-align:right; height:85px; padding-right: 10px; padding-bottom:8px" /> 
 **University of Waterloo** <br> Ph.D in Physics <br> 2019-2024
 
