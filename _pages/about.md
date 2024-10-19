@@ -36,6 +36,11 @@ _Building Quantum Computers: A Practical Introduction_ <br>
 **Shayan Majidy**, Christopher Wilson, Raymond Laflamme<br>
 *[Cambridge University Press](https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview) (2024).* [Available for purchase September 2024]
 
+1. _Noncommuting charges can remove non-stationary quantum many-body dynamics_ <br>
+**Shayan Majidy**<br>
+*[Nature Communications](https://www.nature.com/articles/s41467-024-52588-9) (2024).* [<a href="https://arxiv.org/pdf/2403.13046" target="_blank">arXiv pdf</a>]
+
+
 2. _Noncommuting conserved charges in quantum thermodynamics and beyond_ <br>
 **Shayan Majidy**, William F Braasch Jr, Aleksander Lasek, Twesh Upadhyaya, Amir Kalev, Nicole Yunger Halpern<br>
 *[Nature Reviews Physics](https://www.nature.com/articles/s42254-023-00641-9) (2023).* [<a href="https://arxiv.org/pdf/2306.00054.pdf" target="_blank">arXiv pdf</a>]
