@@ -41,7 +41,7 @@ _Building Quantum Computers: A Practical Introduction_ <br>
 *[Nature Communications](https://www.nature.com/articles/s41467-024-52588-9) (2024).* [<a href="https://arxiv.org/pdf/2403.13046" target="_blank">arXiv pdf</a>]
 
 
-2. _Noncommuting conserved charges in quantum thermodynamics and beyond_ <br>
+1. _Noncommuting conserved charges in quantum thermodynamics and beyond_ <br>
 **Shayan Majidy**, William F Braasch Jr, Aleksander Lasek, Twesh Upadhyaya, Amir Kalev, Nicole Yunger Halpern<br>
 *[Nature Reviews Physics](https://www.nature.com/articles/s42254-023-00641-9) (2023).* [<a href="https://arxiv.org/pdf/2306.00054.pdf" target="_blank">arXiv pdf</a>]
 
