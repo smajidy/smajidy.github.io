@@ -9,9 +9,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) in [Misha Lukin's](https://lukin.physics.harvard.edu/) group at Harvard. My research currently focuses on quantum circuit design with logical qubits, exploring the many-body dynamics and quantum algorithms that can be implemented on current quantum hardware with quantum error correcting codes.
+My name is Shayan Majidy and I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) in [Misha Lukin's](https://lukin.physics.harvard.edu/) group at Harvard. My current research focuses on designing logical quantum circuits to explore many-body dynamics and implement quantum algorithms on today’s quantum hardware using quantum error correction.
 
-I received my PhD in 2024 from the University of Waterloo, where I primarily worked on identifying the effects of noncommuting conserved charges in quantum information and thermodynamics. During my Phd I held a [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), Canada's most prestigious PhD fellowship, and was awarded the John Brodie Memorial Award and the IQC Achievement Award, which honor outstanding research achievements at the Perimeter Institute and the Institute for Quantum Computing, respectively. During this time I also co-authored a textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), published by Cambridge University Press. 
+I completed my PhD in 2024 at the University of Waterloo, where my research focused on understanding the effects of noncommuting conserved charges in quantum information and thermodynamics. During my PhD, I was awarded the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), Canada's most prestigious fellowship for doctoral students, as well as the John Brodie Memorial Award and the IQC Achievement Award, recognizing outstanding research contributions at the Perimeter Institute and the Institute for Quantum Computing, respectively. During this time, I co-authored the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), published by Cambridge University Press. 
 
 Education & Academic Positions
 ======
