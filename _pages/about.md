@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Shayan Majidy, and I’m a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) supervised by [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://quics.umd.edu/people/michael-gullans).
+My name is Shayan Majidy, and I’m a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) supervised by [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://rqs.umd.edu/research/research-groups/gullans-research-group).
 
 My research interests lie in two connected areas: quantum computing and quantum error correction, and quantum thermodynamics and many-body physics. Currently, I’m focused on advancing quantum algorithm implementation and exploring many-body dynamics through logical circuit design. This involves developing and optimizing protocols for simulating many-body quantum phenomena on NISQ (noisy intermediate-scale quantum) and early-stage fault-tolerant quantum computers.
 
