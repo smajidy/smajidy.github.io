@@ -9,11 +9,13 @@ redirect_from:
   - /about.html
 ---
 
-My name is Shayan Majidy, and I’m a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) supervised by [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://rqs.umd.edu/research/research-groups/gullans-research-group).
+My name is Shayan Majidy, and I’m a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard supervised by [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://rqs.umd.edu/research/research-groups/gullans-research-group).
 
 My research interests lie in two connected areas: quantum computing and quantum error correction, and quantum thermodynamics and many-body physics. Currently, I’m focused on advancing quantum algorithm implementation and exploring many-body dynamics through logical circuit design. This involves developing and optimizing protocols for simulating many-body quantum phenomena on NISQ (noisy intermediate-scale quantum) and early-stage fault-tolerant quantum computers.
 
-Previously, I completed my PhD in 2024 at the University of Waterloo, where my research focused on understanding the effects of noncommuting charges in quantum information and thermodynamics. During my PhD, I received Canada’s prestigious [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html), as well as the John Brodie Memorial Award and the IQC Achievement Award, recognizing outstanding contributions in quantum information science at the Perimeter Institute and the Institute for Quantum Computing. I also co-authored the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), published by Cambridge University Press.
+I earned my PhD in 2024 from the University of Waterloo, where my research explored the role of noncommuting charges in quantum information and thermodynamics. My work was recognized with several national and institutional honors, including the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html)—Canada’s most prestigious doctoral award—the WB Pearson Medal, awarded annually to one physics PhD for creative research, the IQC Achievement Award, and the John Brodie Memorial Award, the top graduate prizes at the Institute for Quantum Computing and Perimeter Institute, respectively.
+
+I'm also the lead author of the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), published by Cambridge University Press.
 
 Education & Academic Positions
 ======
