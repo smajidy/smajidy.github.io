@@ -9,11 +9,15 @@ redirect_from:
   - /about.html
 ---
 
-Shayan Majidy is a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University supervised by [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://rqs.umd.edu/research/research-groups/gullans-research-group). His research focuses on quantum thermodynamics and quantum computing.
+Shayan Majidy is a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University supervised by [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://rqs.umd.edu/research/research-groups/gullans-research-group). His research focuses on quantum error correction, quantum simulation, and quantum thermodynamics. Shayan earned his PhD in 2024 from the University of Waterloo, under the supervision of [Raymond Laflamme](https://laflamme.iqc.uwaterloo.ca/) and [Nicole Yunger Halpern](https://quantumsteampunk.umiacs.io/people/nicole-yunger-halpern/). Shayan is also the lead author of the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), published by Cambridge University Press.
 
-Shayan earned his PhD in 2024 from the University of Waterloo, under the supervision of [Raymond Laflamme](https://laflamme.iqc.uwaterloo.ca/) and [Nicole Yunger Halpern](https://quantumsteampunk.umiacs.io/people/nicole-yunger-halpern/). His thesis on the the effects of noncommuting charges in quantum information and thermodynamics was recognized with several honors: the [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html)—Canada’s highest-valued doctoral award—the [WB Pearson Medal](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal), awarded annually to one physics PhD for creative research, the [IQC Achievement Award](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award), and the [John Brodie Memorial Award](https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize), the top graduate prizes at the Institute for Quantum Computing and Perimeter Institute, respectively.
+Honors:
+1. [WB Pearson Medal](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal)—The highest level of achievement for PhD graduates in Science at Waterloo
+2. [Banting Fellowship](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html)-Canada’s highest-valued Postdoctoral fellowship
+3. [Vanier Scholarship](https://vanier.gc.ca/en/home-accueil.html)—Canada’s highest-valued doctoral award
+4. [IQC Achievement Award](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award)-Top graduate prize at the Institute for Quantum Computing
+5. [John Brodie Memorial Award](https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize)-Top graduate prizes at the Perimeter Institute
 
-Shayan is also the lead author of the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), published by Cambridge University Press.
 
 Education & Academic Positions
 ======
