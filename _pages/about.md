@@ -37,6 +37,10 @@ Publications
 ======  
 See [Google Scholar](https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en) for a possibly more updated list that also includes preprints.
 
+1. _A fault-tolerant neutral-atom architecture for universal quantum computation_ <br>
+Dolev Bluvstein, Alexandra A. Geim, Sophie H. Li, Simon J. Evered, J. Pablo Bonilla Ataides, Gefen Baranes, Andi Gu, Tom Manovitz, Muqing Xu, Marcin Kalinowski, **Shayan Majidy**, Christian Kokail, Nishad Maskara, Elias C. Trapp, Luke M. Stewart, Simon Hollerith, Hengyun Zhou, Michael J. Gullans, Susanne F. Yelin, Markus Greiner, Vladan Vuletić, Madelyn Cain & Mikhail D. Lukin<br>
+*[Nature](https://www.nature.com/articles/s41586-025-09848-5) (2025).* [<a href="https://arxiv.org/abs/2506.20661" target="_blank">arXiv pdf</a>]
+
 1. _Scalable and fault-tolerant preparation of encoded k-uniform states_ <br>
 **Shayan Majidy**, Dominik Hangleiter, Michael J. Gullans<br>
 *[Physical Review A](https://journals.aps.org/pra/abstract/10.1103/cl23-c3jg) (2025).* [<a href="https://arxiv.org/abs/2503.14506" target="_blank">arXiv pdf</a>]
