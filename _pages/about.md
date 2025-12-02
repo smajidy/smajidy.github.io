@@ -37,15 +37,18 @@ Publications
 ======  
 See [Google Scholar](https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en) for a possibly more updated list that also includes preprints.
 
-1. <img src="images/Cover.png" alt="TBCover" style="float:right; text-align:right; width:33%; padding-left: 8px; padding-bottom:8px" />
-_Building Quantum Computers: A Practical Introduction_ <br>
-**Shayan Majidy**, Christopher Wilson, Raymond Laflamme<br>
-*[Cambridge University Press](https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview) (2024).*
+1. _Scalable and fault-tolerant preparation of encoded k-uniform states_ <br>
+**Shayan Majidy**, Dominik Hangleiter, Michael J. Gullans<br>
+*[Physical Review A](https://journals.aps.org/pra/abstract/10.1103/cl23-c3jg) (2025).* [<a href="https://arxiv.org/abs/2503.14506" target="_blank">arXiv pdf</a>]
 
 1. _Noncommuting charges can remove non-stationary quantum many-body dynamics_ <br>
 **Shayan Majidy**<br>
 *[Nature Communications](https://www.nature.com/articles/s41467-024-52588-9) (2024).* [<a href="https://arxiv.org/pdf/2403.13046" target="_blank">arXiv pdf</a>]
 
+1. <img src="images/Cover.png" alt="TBCover" style="float:right; text-align:right; width:33%; padding-left: 8px; padding-bottom:8px" />
+_Building Quantum Computers: A Practical Introduction_ <br>
+**Shayan Majidy**, Christopher Wilson, Raymond Laflamme<br>
+*[Cambridge University Press](https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview) (2024).*
 
 1. _Noncommuting conserved charges in quantum thermodynamics and beyond_ <br>
 **Shayan Majidy**, William F Braasch Jr, Aleksander Lasek, Twesh Upadhyaya, Amir Kalev, Nicole Yunger Halpern<br>
