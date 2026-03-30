@@ -1,7 +1,22 @@
-# main links
+# main links links
 main:
-  - title: "Publications"
-    url: https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en
+ # - title: "Talks"
+ #   url: /talks/    
 
+ # - title: "Teaching"
+ #   url: /teaching/    
+    
+  #- title: "Portfolio"
+  #  url: /portfolio/
+        
+ # - title: "Media"
+ #   url: /media/
+    
   - title: "Download CV"
     url: /CV.pdf
+
+  #- title: "Publications"
+  # url: https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en
+    
+  #- title: "Guide"
+  #  url: /markdown/

@@ -24,6 +24,7 @@
     }
   }
 
+
   @include breakpoint($x-large) {
     padding-right: 0;
   }
@@ -72,6 +73,8 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
+  // set width only, for non-square avatars
+  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -84,8 +87,8 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 4px;
-      border: 2px solid $border-color;
+      padding: 5px;
+      border: 1px solid $border-color;
     }
   }
 }
@@ -107,12 +110,10 @@
 
 .author__name {
   margin: 0;
-  font-weight: 700;
-  letter-spacing: -0.01em;
 
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
   }
 }
 .sidebar .author__name {
@@ -122,27 +123,10 @@
 
 .author__bio {
   margin: 0;
-  color: mix(#000, $text-color, -30%);
-  font-size: $type-size-6;
-  font-weight: 500;
 
   @include breakpoint($large) {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-}
-
-.author__location {
-  margin: 0;
-  color: $gray;
-  font-size: $type-size-7;
-  i {
-    color: $gray;
-    font-size: 0.85em;
-  }
-  @include breakpoint($large) {
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
 
@@ -183,9 +167,9 @@
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: $background-color;
+  background: #fff;
   z-index: -1;
-  box-shadow: 0 2px 12px rgba(#000, 0.08);
+  box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
   @include breakpoint($large) {
@@ -224,7 +208,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: $background-color transparent;
+    border-color: #fff transparent;
     z-index: 1;
 
     @include breakpoint($large) {
@@ -248,7 +232,6 @@
 
     &:hover {
       text-decoration: underline;
-      color: $primary-color;
     }
   }
 }

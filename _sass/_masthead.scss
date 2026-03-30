@@ -10,12 +10,11 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-  background-color: $background-color;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em;
+    padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -28,7 +27,6 @@
 
     a {
       text-decoration: none;
-      font-weight: 500;
     }
   }
 }
@@ -51,21 +49,5 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
-  }
-}
-
-.site-title {
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.greedy-nav {
-  a {
-    color: $masthead-link-color;
-    transition: color 0.2s ease;
-    
-    &:hover {
-      color: $primary-color;
-    }
   }
 }

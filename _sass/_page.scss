@@ -12,13 +12,15 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: 1200px;
+    max-width: 1200px;/*$x-large;*/
   }
 }
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    @include span(10 of 12 last); /* Wa 10 of 12s */
+    /*@include prefix(0.5 of 12);*/
+    /*@include suffix(2 of 12);*/
   }
 
   .page__inner-wrap {
@@ -35,8 +37,6 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
-  font-weight: 700;
-  letter-spacing: -0.02em;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -73,15 +73,13 @@
   }
 
   a {
-    text-decoration: none;
-    color: $link-color;
+    text-decoration: underline;
 
     &:hover {
       text-decoration: underline;
-      color: $link-color-hover;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.15);
+        box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
   }
@@ -113,6 +111,8 @@
   position: relative;
   margin-bottom: 2em;
   @include clearfix;
+  animation: intro 0.3s both;
+  animation-delay: 0.25s;
 
   &--overlay {
     position: relative;
@@ -130,8 +130,8 @@
     }
 
     .wrapper {
-      padding-left: 2em;
-      padding-right: 2em;
+      padding-left: 1em;
+      padding-right: 1em;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
@@ -181,6 +181,10 @@
   opacity: 0.5;
   border-radius: $border-radius 0 $border-radius 0;
 
+  @include breakpoint($large) {
+    padding: 5px 10px;
+  }
+
   a {
     color: #fff;
     text-decoration: none;
@@ -196,10 +200,17 @@
   padding-top: 1em;
   border-top: 1px solid $border-color;
 
-  h4 {
-    margin-bottom: 10px;
-    font-size: $type-size-6;
-    text-transform: uppercase;
+  @include breakpoint(max-width $small) {
+    .btn span {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
   }
 }
 
@@ -216,7 +227,7 @@
 
 .page__meta {
   margin-top: 2em;
-  color: mix(#fff, $text-color, 40%);
+  color: mix(#fff, $gray, 25%);
   font-family: $sans-serif;
   font-size: $type-size-6;
 
@@ -237,7 +248,7 @@
 
 
 /*
-   Page taxonomy (tags/categories)
+   Page taxonomy
    ========================================================================== */
 
 .page__taxonomy {
@@ -285,13 +296,85 @@
 
 .page__comments-form {
   padding: 1em;
-  background: $code-background-color;
-  transition: all 0.2s;
+  background: $lighter-gray;
+  transition: $global-transition;
+
+  &.disabled {
+    input,
+    button,
+    textarea,
+    label {
+      pointer-events: none;
+      cursor: not-allowed;
+      filter: alpha(opacity=65);
+      box-shadow: none;
+      opacity: 0.65;
+    }
+  }
+}
+
+.comment {
+  @include clearfix();
+  margin: 1em 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.comment__avatar-wrapper {
+  float: left;
+  width: 60px;
+  height: 60px;
+
+  @include breakpoint($large) {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.comment__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  @include breakpoint($large) {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid $border-color;
+  }
+}
+
+.comment__content-wrapper {
+  float: right;
+  width: calc(100% - 60px);
+
+  @include breakpoint($large) {
+    width: calc(100% - 100px);
+  }
+}
+
+.comment__author {
+  margin: 0;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.comment__date {
+  @extend .page__meta;
+  margin: 0;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 
 /*
-   Related content
+   Related
    ========================================================================== */
 
 .page__related {
@@ -302,8 +385,7 @@
   float: left;
 
   @include breakpoint($large) {
-    @include pre(0.5 of 12);
-    @include span(11 of 12 last);
+    @include pre(2.5 of 12);
   }
 
   a {
