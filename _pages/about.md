@@ -23,16 +23,20 @@ redirect_from:
   </div>
 </div>
 
-I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, interested in the theory of quantum computing and quantum thermodynamics. My current research focuses on fault-tolerant quantum computing — from designing architectures for universal quantum computation to understanding fundamental thermodynamic constraints. I'm also interested in how noncommuting symmetries affect entanglement, dynamics, and thermodynamics in quantum many-body systems.
+I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, working with [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://rqs.umd.edu/research/research-groups/gullans-research-group). My work seeks to realize the scientific potential of quantum computing by overcoming two key challenges: scaling quantum processors to larger, more reliable systems, and identifying tasks where quantum devices clearly outperform classical methods.
 
 During my PhD, I co-wrote the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010) as lead author, published by Cambridge University Press. My PhD work was recognized with top honours from the Science department at Waterloo ([WB Pearson Medal](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal)), the Institute for Quantum Computing ([IQC Achievement Award](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award)), and the Perimeter Institute ([John Brodie Memorial Award](https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize)).
 
 Research interests
 ======
 
-**Fault-tolerant quantum computing.** I work on the theory behind building reliable quantum computers — designing architectures, developing protocols for preparing encoded states, and understanding what physical resources are required. Recent work includes a collaboration on a fault-tolerant neutral-atom architecture published in *Nature*, and a study of thermodynamic limitations on fault-tolerant quantum computing.
+Quantum computation is not defined at a single level of abstraction. It is carried by noisy physical systems, encoded into logical degrees of freedom via error-correcting codes, and deployed within hardware architectures to address concrete applications. My research works across these layers.
 
-**Noncommuting charges in quantum thermodynamics.** Much of my PhD focused on what happens when conserved quantities in a quantum system don't commute with each other. This leads to surprising effects: noncommuting charges can increase entanglement entropy, remove non-stationary dynamics in many-body systems, and induce critical phases in monitored quantum circuits. I co-authored a review of this emerging field in *Nature Reviews Physics*.
+**Quantum error correction.** Quantum computers must run deep circuits despite decoherence, and quantum error correction (QEC) is the only known mechanism for achieving this—but existing approaches impose prohibitive overheads. My research reduces this cost. By adopting a gate-first design perspective—fixing a target set of operations and then identifying which codes realize them with minimal overhead—I introduced phantom codes, a family of codes whose internal structure allows zero-overhead logical entangling gates with perfect fidelity. In noisy simulations, these codes achieve one-to-two-order-of-magnitude improvements in logical fidelity over the surface code on workloads with dense entangling structure.
+
+**Fault-tolerant quantum architectures.** The constraints imposed by algorithms, QEC codes, and hardware must be addressed jointly, since choices at one level shape what is achievable at the others. This perspective informed my design of a neutral-atom fault-tolerant architecture, published in *Nature*, where I was the first-listed theory author. In this scheme, deep circuits are enabled by sustained entropy removal at the physical layer through repeated teleportation, while universality is achieved by integrating multiple logical-layer gate constructions.
+
+**Quantum thermodynamics & noncommuting charges.** A standard assumption in physics is that conserved quantities commute. Yet charges need not commute—a fact central to quantum uncertainty relations. During my PhD, I helped establish noncommuting-charge physics as a distinct subfield, showing that noncommuting charges can increase entanglement entropy, remove non-stationary dynamics in many-body systems, and induce critical phases in monitored quantum circuits. This work culminated in a lead-authored review in *Nature Reviews Physics*. Understanding the microscopic mechanisms governing entropy production and information flow continues to inform my work on error correction and fault tolerance.
 
 Education & academic positions
 ======
@@ -75,7 +79,7 @@ See [Google Scholar](https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en
 **Textbook**
 
 <img src="/images/Cover.png" alt="Building Quantum Computers" style="float:right; width:28%; padding-left: 12px; padding-bottom:8px" />
-S. Majidy, C. Wilson, and R. Laflamme,
+**S. Majidy**, C. Wilson, and R. Laflamme,
 _Building Quantum Computers: A Practical Introduction._
 [Cambridge University Press](https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview) (2024).
 
