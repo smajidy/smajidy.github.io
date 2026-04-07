@@ -1,22 +1,7 @@
-# main links links
+# main links
 main:
- # - title: "Talks"
- #   url: /talks/    
+  - title: "Home"
+    url: /
 
- # - title: "Teaching"
- #   url: /teaching/    
-    
-  #- title: "Portfolio"
-  #  url: /portfolio/
-        
- # - title: "Media"
- #   url: /media/
-    
-  - title: "Download CV"
-    url: /CV.pdf
-
-  #- title: "Publications"
-  # url: https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en
-    
-  #- title: "Guide"
-  #  url: /markdown/
+  - title: "Oot and Aboot"
+    url: /oot-and-aboot/
