@@ -9,6 +9,14 @@ I'm Canadian. Since moving to the US, I've learned that Americans think we say "
 <!-- Add the gallery below -->
 <div class="gallery">
     <div class="gallery-item">
+        <img src="/images/ray_kai.jpg" alt="Ray and Kaius">
+        <div class="caption"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7342249712558776320/" style="color: #fff; text-decoration: underline;">When Ray and Kaius first met, one of my favourite photos</a></div>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/QuICS_seminar.jpeg" alt="QuICS Seminar">
+        <div class="caption">QuICS Seminar, right before going to the best dining hall in the country</div>
+    </div>
+    <div class="gallery-item">
         <img src="/images/Brodie.jpeg" alt="Image 1">
         <div class="caption">Receiving the John Brodie (May 21, 2024) </div>
     </div>
@@ -18,7 +26,7 @@ I'm Canadian. Since moving to the US, I've learned that Americans think we say "
     </div>
     <div class="gallery-item">
         <img src="/images/Quirks.jpeg" alt="Image 3">
-        <div class="caption"> I was on CBC Radio's Quirks and Quarks (Dec 30, 2023)</div>
+        <div class="caption"><a href="https://www.cbc.ca/radio/quirks/dec-30-the-quirks-quarks-listener-question-show-1.7066583" style="color: #fff; text-decoration: underline;">I was on CBC Radio's Quirks and Quarks (Dec 30, 2023)</a></div>
     </div>
     <div class="gallery-item">
         <img src="/images/Princeton.jpeg" alt="Image 3">
