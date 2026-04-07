@@ -13,9 +13,9 @@ $paragraph-indent           : false; // true, false ()
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$serif                      : "Source Serif 4", Georgia, Times, serif;
+$sans-serif                 : "Source Sans 3", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$monospace                  : "IBM Plex Mono", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -53,20 +53,20 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$background-color           : #333333 ;
-$text-color                 : #ffffff;
-$primary-color              : #d3d3d3;
-$border-color               : mix(#fff, $background-color, 20%);
-$code-background-color      : mix(#000, $background-color, 15%);
-$code-background-color-dark : mix(#000, $background-color, 20%);
-$form-background-color      : mix(#000, $background-color, 15%);
-$footer-background-color    : mix($primary-color, #000, 10%);
+$background-color           : #ffffff;
+$text-color                 : #2b2b2b;
+$primary-color              : #1a6e8e;
+$border-color               : #e2e2e2;
+$code-background-color      : #f5f7f9;
+$code-background-color-dark : #eef1f4;
+$form-background-color      : #f5f7f9;
+$footer-background-color    : #f8f9fa;
 $link-color                 : $primary-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color-visited         : mix(#000, $link-color, 15%);
 $masthead-link-color        : $text-color;
-$masthead-link-color-hover  : mix(#fff, $text-color, 20%);
-$navicon-link-color-hover   : mix(#fff, $background-color, 30%);
+$masthead-link-color-hover  : $primary-color;
+$navicon-link-color-hover   : mix(#000, $background-color, 30%);
 
 $success-color              : #62c462;
 $warning-color              : #f89406;
@@ -78,8 +78,8 @@ $behance-color              : #1769FF;
 $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
 $flickr-color               : #ff0084;
-$foursquare-color           : #ffffff;
-$github-color               : #ffffff;
+$foursquare-color           : #0732a2;
+$github-color               : #333333;
 $google-plus-color          : #dd4b39;
 $instagram-color            : #517fa4;
 $lastfm-color               : #d51007;
@@ -97,11 +97,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : $primary-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color-visited         : mix(#000, $link-color, 15%);
+$masthead-link-color        : $text-color;
+$masthead-link-color-hover  : $primary-color;
 
 
 /*
