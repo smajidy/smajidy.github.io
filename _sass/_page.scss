@@ -58,6 +58,10 @@
     font-size: 1em;
   }
 
+  ol li {
+    margin-bottom: 0.2em;
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;

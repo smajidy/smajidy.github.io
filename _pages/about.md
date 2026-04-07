@@ -82,21 +82,18 @@ _Building Quantum Computers: A Practical Introduction._
 **Journal articles**
 
 1. D. Bluvstein, A. Geim, ..., **S. Majidy**, ..., and M.D. Lukin, _A fault-tolerant neutral-atom architecture for universal quantum computation._ [Nature 649, 39–46 (2026).](https://www.nature.com/articles/s41586-025-09848-5)
-
 1. **S. Majidy**, D. Hangleiter, and M. Gullans, _Scalable and fault-tolerant preparation of encoded k-uniform states._ [Phys. Rev. A 112, 042409 (2025).](https://journals.aps.org/pra/abstract/10.1103/cl23-c3jg)
-
 1. **S. Majidy**, _Noncommuting charges can remove non-stationary quantum many-body dynamics._ [Nat. Comm. 15, 8246 (2024).](https://www.nature.com/articles/s41467-024-52588-9)
-
 1. **S. Majidy**, W.F. Braasch Jr., A. Lasek, T. Upadhyaya, A. Kalev, and N. Yunger Halpern, _Noncommuting conserved charges in quantum thermodynamics and beyond._ [Nat. Rev. Phys. 5, 689–698 (2023).](https://www.nature.com/articles/s42254-023-00641-9)
-
 1. **S. Majidy**, U. Agrawal, S. Gopalakrishnan, A. Potter, R. Vasseur, and N. Yunger Halpern, _Critical phase and spin sharpening in SU(2)-symmetric monitored quantum circuits._ [Phys. Rev. B 108, 054307 (2023).](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.054307)
-
+1. **S. Majidy**, _A unification of the coding theory and OAQEC perspective on hybrid codes._ [Int. J. Theor. Phys. 62.8: 177 (2023).](https://link.springer.com/article/10.1007/s10773-023-05439-0)
 1. **S. Majidy**, A. Lasek, D.A. Huse, and N. Yunger Halpern, _Non-Abelian symmetry can increase entanglement entropy._ [Phys. Rev. B 107, 045102 (2023).](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045102)
-
 1. N. Yunger Halpern and **S. Majidy**, _How to build Hamiltonians that transport noncommuting charges in quantum thermodynamics._ [npj Quantum Information 8, 10 (2022).](https://www.nature.com/articles/s41534-022-00516-4)
+1. **S. Majidy**, J.J. Halliwell, and R. Laflamme, _Detecting violations of macrorealism when the original Leggett-Garg inequalities are satisfied._ [Phys. Rev. A 103, 062212 (2021).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.062212)
+1. **S. Majidy**, H. Katiyar, G. Anikeeva, J. Halliwell, and R. Laflamme, _Exploration of an augmented set of Leggett-Garg inequalities using a noninvasive continuous-in-time velocity measurement._ [Phys. Rev. A 100, 042325 (2019).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.042325)
 
 **Preprints**
 
 1. J.M. Koh, A. Gong, ..., M.D. Lukin, and **S. Majidy**, _Entangling logical qubits without physical operations._ [arXiv:2601.20927 (2026).](https://arxiv.org/abs/2601.20927)
-
 1. M. Bilokur, S. Gopalakrishnan, and **S. Majidy**, _Thermodynamic limitations on fault-tolerant quantum computing._ [arXiv:2411.12805 (2024).](https://arxiv.org/abs/2411.12805)
+1. **S. Majidy**, _Addressing misconceptions in university physics: A review and experiences from quantum physics educators._ [arXiv:2405.20923 (2025).](https://arxiv.org/abs/2405.20923)
