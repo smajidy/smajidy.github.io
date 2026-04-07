@@ -34,16 +34,14 @@ Education & academic positions
     <td>2024–2027</td>
     <td>
       <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html"><strong>Banting Postdoctoral Fellow</strong></a>, Department of Physics, Harvard University<br>
-      Faculty Advisors: &ensp;Misha Lukin, Joshua and Beth Friedman University Professor<br>
-      <span style="visibility: hidden;">Faculty Advisors: &ensp;</span>Michael Gullans, NIST Physicist &amp; QuICS Fellow
+      <span style="display: inline-table;"><span style="display: table-cell; white-space: nowrap;">Faculty Advisors:&ensp;</span><span style="display: table-cell;">Misha Lukin, Joshua and Beth Friedman University Professor<br>Michael Gullans, NIST Physicist &amp; QuICS Fellow</span></span>
     </td>
   </tr>
   <tr>
     <td>2019–2024</td>
     <td>
       <strong>Ph.D. in Physics</strong>, University of Waterloo<br>
-      Faculty Advisors: &ensp;Raymond Laflamme, late Mike and Ophelia Lazaridis “John von Neumann” Chair in Quantum Information<br>
-      <span style="visibility: hidden;">Faculty Advisors: &ensp;</span>Nicole Yunger Halpern, NIST Physicist &amp; QuICS Fellow<br>
+      <span style="display: inline-table;"><span style="display: table-cell; white-space: nowrap;">Faculty Advisors:&ensp;</span><span style="display: table-cell;">Raymond Laflamme, late Mike and Ophelia Lazaridis “John von Neumann” Chair in Quantum Information<br>Nicole Yunger Halpern, NIST Physicist &amp; QuICS Fellow</span></span><br>
       Funding: <a href="https://vanier.gc.ca/en/home-accueil.html">Vanier Scholarship</a>, 2021–2024
     </td>
   </tr>
@@ -51,7 +49,7 @@ Education & academic positions
     <td>2018–2019</td>
     <td>
       <strong>M.Sc. in Physics</strong>, University of Waterloo<br>
-      Faculty Advisors: &ensp;Raymond Laflamme, late late Mike and Ophelia Lazaridis “John von Neumann” Chair in Quantum Information
+      <span style="display: inline-table;"><span style="display: table-cell; white-space: nowrap;">Faculty Advisors:&ensp;</span><span style="display: table-cell;">Raymond Laflamme, late late Mike and Ophelia Lazaridis “John von Neumann” Chair in Quantum Information</span></span>
     </td>
   </tr>
   <tr>
