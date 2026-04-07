@@ -1,7 +1,7 @@
 ---
 permalink: /oot-and-aboot/
 title: "Oot and Aboot"
-author_profile: true
+author_profile: false
 ---
 
 Hover over the photos for context.

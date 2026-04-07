@@ -1,13 +1,28 @@
 ---
 permalink: /
-title: "Home"
+title: ""
 excerpt: "About Me"
-author_profile: true
+author_profile: false
 navbar: false
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<div style="display: flex; align-items: flex-start; gap: 24px; margin-bottom: 1.5em;">
+  <img src="/images/profile.png" alt="Shayan Majidy" style="width: 140px; border-radius: 50%;" />
+  <div>
+    <h1 style="margin: 0 0 0.15em 0; font-size: 1.8em;">Shayan Majidy</h1>
+    <p style="margin: 0 0 0.4em 0; color: #666; font-style: italic;">shah-YAHN mah-JEE-dee</p>
+    <p style="margin: 0; font-size: 0.95em;">
+      <a href="mailto:smajidy@fas.harvard.edu">email</a> /
+      <a href="https://arxiv.org/search/?query=shayan+majidy&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arxiv</a> /
+      <a href="https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&hl=en">google scholar</a> /
+      <a href="https://www.linkedin.com/in/shayan-majidy">linkedin</a> /
+      <a href="/CV.pdf">cv</a>
+    </p>
+  </div>
+</div>
 
 Shayan Majidy is a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, working with [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://rqs.umd.edu/research/research-groups/gullans-research-group). He earned his PhD in 2024 from the University of Waterloo under the supervision of [Raymond Laflamme](https://laflamme.iqc.uwaterloo.ca/) and [Nicole Yunger Halpern](https://quantumsteampunk.umiacs.io/people/nicole-yunger-halpern/). He is the lead author of [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010), published by Cambridge University Press. His research spans quantum error correction, quantum thermodynamics, and applications of quantum computing.
 

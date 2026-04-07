@@ -3,24 +3,20 @@
    ========================================================================== */
 
 #main {
-  @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  max-width: 850px;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
-  @include breakpoint($x-large) {
-    max-width: 1200px;/*$x-large;*/
-  }
 }
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last); /* Wa 10 of 12s */
-    /*@include prefix(0.5 of 12);*/
-    /*@include suffix(2 of 12);*/
+    @include span(12 of 12);
   }
 
   .page__inner-wrap {
@@ -51,8 +47,7 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    padding-bottom: 0.25em;
   }
 
   p, li, dl {
@@ -75,9 +70,10 @@
   a {
     text-decoration: none;
     color: $link-color;
+    border-bottom: 1px solid mix(#fff, $link-color, 60%);
 
     &:hover {
-      text-decoration: underline;
+      border-bottom-color: $link-color;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);

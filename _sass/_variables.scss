@@ -29,7 +29,7 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$header-font-family         : $serif;
 $caption-font-family        : $serif;
 
 /* type scale */
@@ -55,15 +55,15 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
 $background-color           : #ffffff;
 $text-color                 : #2b2b2b;
-$primary-color              : #1a6e8e;
+$primary-color              : #1b2a4a;
 $border-color               : #e2e2e2;
 $code-background-color      : #f5f7f9;
 $code-background-color-dark : #eef1f4;
 $form-background-color      : #f5f7f9;
 $footer-background-color    : #f8f9fa;
-$link-color                 : $primary-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#000, $link-color, 15%);
+$link-color                 : #1b2a4a;
+$link-color-hover           : mix(#000, $link-color, 15%);
+$link-color-visited         : mix(#000, $link-color, 10%);
 $masthead-link-color        : $text-color;
 $masthead-link-color-hover  : $primary-color;
 $navicon-link-color-hover   : mix(#000, $background-color, 30%);
@@ -97,9 +97,9 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $primary-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#000, $link-color, 15%);
+$link-color                 : #1b2a4a;
+$link-color-hover           : mix(#000, $link-color, 15%);
+$link-color-visited         : mix(#000, $link-color, 10%);
 $masthead-link-color        : $text-color;
 $masthead-link-color-hover  : $primary-color;
 
