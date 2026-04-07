@@ -4,17 +4,17 @@ title: "Oot and Aboot"
 author_profile: false
 ---
 
-Hover over the photos for context.
+I'm Canadian. Since moving to the US, I've learned that Americans think we say "oot and aboot." For the record, it's more like "oat and aboat" — but I won't fight it. Hover over the photos for context.
 
 <!-- Add the gallery below -->
 <div class="gallery">
     <div class="gallery-item">
         <img src="/images/Brodie.jpeg" alt="Image 1">
-        <div class="caption">Recieving the John Brodie (May 21, 2024) </div>
+        <div class="caption">Receiving the John Brodie (May 21, 2024) </div>
     </div>
     <div class="gallery-item">
         <img src="/images/Yale.jpeg" alt="Image 1">
-        <div class="caption">YQI Talk, Yale (Jam 16, 2024) </div>
+        <div class="caption">YQI Talk, Yale (Jan 16, 2024) </div>
     </div>
     <div class="gallery-item">
         <img src="/images/Quirks.jpeg" alt="Image 3">
