@@ -36,3 +36,26 @@ td {
 tr, td, th {
   vertical-align: middle;
 }
+
+/* Borderless CV-style table */
+table.cv-table {
+  border: none;
+  font-size: 0.95em;
+
+  tr {
+    border: none;
+    vertical-align: top;
+  }
+
+  td {
+    border: none;
+    padding: 0.5em 0;
+    vertical-align: top;
+  }
+
+  td:first-child {
+    white-space: nowrap;
+    padding-right: 1.5em;
+    font-weight: bold;
+  }
+}

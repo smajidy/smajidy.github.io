@@ -28,34 +28,34 @@ Shayan Majidy is a [Banting Postdoctoral Fellow](https://banting.fellowships-bou
 
 Education & academic positions:
 
-<table style="border-collapse: collapse; width: 100%; border: none;">
-  <tr style="vertical-align: top; border: none;">
-    <td style="white-space: nowrap; padding: 0.4em 1.5em 0.4em 0; font-weight: bold; border: none;">2024–</td>
-    <td style="padding: 0.4em 0; border: none;">
+<table class="cv-table">
+  <tr>
+    <td>2024–</td>
+    <td>
       <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html"><strong>Banting Postdoctoral Fellow</strong></a>, Department of Physics, Harvard University<br>
       Faculty Advisors: &ensp;Misha Lukin, Joshua and Beth Friedman University Professor<br>
       <span style="visibility: hidden;">Faculty Advisors: &ensp;</span>Michael Gullans, NIST Physicist &amp; QuICS Fellow
     </td>
   </tr>
-  <tr style="vertical-align: top; border: none;">
-    <td style="white-space: nowrap; padding: 0.4em 1.5em 0.4em 0; font-weight: bold; border: none;">2019–2024</td>
-    <td style="padding: 0.4em 0; border: none;">
+  <tr>
+    <td>2019–2024</td>
+    <td>
       <strong>Ph.D. in Physics</strong>, University of Waterloo<br>
       Faculty Advisors: &ensp;Raymond Laflamme, late Professor of Physics<br>
       <span style="visibility: hidden;">Faculty Advisors: &ensp;</span>Nicole Yunger Halpern, NIST Physicist &amp; QuICS Fellow<br>
       Funding: <a href="https://vanier.gc.ca/en/home-accueil.html">Vanier Scholarship</a>, 2021–2024
     </td>
   </tr>
-  <tr style="vertical-align: top; border: none;">
-    <td style="white-space: nowrap; padding: 0.4em 1.5em 0.4em 0; font-weight: bold; border: none;">2018–2019</td>
-    <td style="padding: 0.4em 0; border: none;">
+  <tr>
+    <td>2018–2019</td>
+    <td>
       <strong>M.Sc. in Physics</strong>, University of Waterloo<br>
       Faculty Advisors: &ensp;Raymond Laflamme, late Professor of Physics
     </td>
   </tr>
-  <tr style="vertical-align: top; border: none;">
-    <td style="white-space: nowrap; padding: 0.4em 1.5em 0.4em 0; font-weight: bold; border: none;">2011–2015</td>
-    <td style="padding: 0.4em 0; border: none;">
+  <tr>
+    <td>2011–2015</td>
+    <td>
       <strong>B.Sc. in Theoretical Physics</strong>, University of Guelph
     </td>
   </tr>
