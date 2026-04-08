@@ -34,6 +34,8 @@ Research interests
 
 *Fault-tolerant quantum architectures*—Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.
 
+*AI and quantum computing*—I'm interested in both directions of the AI–quantum interface: using machine learning to discover error-correcting codes with and to decode syndromes in real time, and designing elementary machine learning primitives that run natively on quantum hardware to understand where quantum resources offer a genuine computational advantage for learning tasks.
+
 *Quantum thermodynamics*—A standard assumption in physics is that conserved quantities commute, yet charges need not — a fact central to quantum theory. During my PhD, I helped establish noncommuting-charge physics as a distinct subfield, showing that noncommuting charges can increase entanglement, remove non-stationary dynamics in many-body systems, and induce critical phases in monitored quantum circuits. I co-authored a Perspective on this emerging field in *Nature Reviews Physics*.
 
 Education & academic positions
