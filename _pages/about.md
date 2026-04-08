@@ -51,7 +51,7 @@ Education & academic positions
     <td>2019–2024</td>
     <td>
       Ph.D. in Physics, University of Waterloo<br>
-      <span style="display: inline-table;"><span style="display: table-cell; white-space: nowrap;">Faculty Advisors:&ensp;</span><span style="display: table-cell;">Raymond Laflamme, late Mike and Ophelia Lazaridis &#8220;John von Neumann&#8221; Chair in Quantum Information<br>Nicole Yunger Halpern, NIST Physicist &amp; QuICS Fellow<br>Funding: <a href="https://vanier.gc.ca/en/home-accueil.html">Vanier Scholarship</a>, 2021–2024</span></span>
+      <table class="cv-table" style="margin: 0;"><tr><td style="white-space: nowrap; vertical-align: top; padding: 0 0.4em 0 0;">Faculty Advisors:</td><td style="vertical-align: top; padding: 0;">Raymond Laflamme, late Mike and Ophelia Lazaridis &#8220;John von Neumann&#8221; Chair in Quantum Information<br>Nicole Yunger Halpern, NIST Physicist &amp; QuICS Fellow</td></tr><tr><td style="white-space: nowrap; vertical-align: top; padding: 0 0.4em 0 0;">Funding:</td><td style="vertical-align: top; padding: 0;"><a href="https://vanier.gc.ca/en/home-accueil.html">Vanier Scholarship</a>, 2021–2024</td></tr></table>
     </td>
   </tr>
   <tr>
