@@ -23,20 +23,18 @@ redirect_from:
   </div>
 </div>
 
-I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, working with [Misha Lukin](https://lukin.physics.harvard.edu/) and [Michael Gullans](https://rqs.umd.edu/research/research-groups/gullans-research-group). My work seeks to realize the scientific potential of quantum computing by overcoming two key challenges: scaling quantum processors to larger, more reliable systems, and identifying tasks where quantum devices clearly outperform classical methods.
+I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, interested in quantum error correction and fault-tolerant applications, thermalization and dynamics of quantum many-body systems, and the intersection of AI and quantum computing.
 
 During my PhD, I co-wrote the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010) as lead author, published by Cambridge University Press. My PhD work was recognized with top honours from the Science department at Waterloo ([WB Pearson Medal](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal)), the Institute for Quantum Computing ([IQC Achievement Award](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award)), and the Perimeter Institute ([John Brodie Memorial Award](https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize)).
 
 Research interests
 ======
 
-Quantum computation is not defined at a single level of abstraction. It is carried by noisy physical systems, encoded into logical degrees of freedom via error-correcting codes, and deployed within hardware architectures to address concrete applications. My research works across these layers.
+*Quantum error correction*—Most efforts to reduce error-correction overhead focus on maximizing how many logical qubits you can store — but a qubit you can store and not operate on is not very useful. My recent work starts from the other end: fix the gates you need, then find the best codes that support them. This led to phantom codes, which can implement any CNOT circuit in-block with zero overhead and perfect fidelity.
 
-**Quantum error correction.** Quantum computers must run deep circuits despite decoherence, and quantum error correction (QEC) is the only known mechanism for achieving this—but existing approaches impose prohibitive overheads. My research reduces this cost. By adopting a gate-first design perspective—fixing a target set of operations and then identifying which codes realize them with minimal overhead—I introduced phantom codes, a family of codes whose internal structure allows zero-overhead logical entangling gates with perfect fidelity. In noisy simulations, these codes achieve one-to-two-order-of-magnitude improvements in logical fidelity over the surface code on workloads with dense entangling structure.
+*Fault-tolerant quantum architectures*—Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.
 
-**Fault-tolerant quantum architectures.** The constraints imposed by algorithms, QEC codes, and hardware must be addressed jointly, since choices at one level shape what is achievable at the others. This perspective informed my design of a neutral-atom fault-tolerant architecture, published in *Nature*, where I was the first-listed theory author. In this scheme, deep circuits are enabled by sustained entropy removal at the physical layer through repeated teleportation, while universality is achieved by integrating multiple logical-layer gate constructions.
-
-**Quantum thermodynamics & noncommuting charges.** A standard assumption in physics is that conserved quantities commute. Yet charges need not commute—a fact central to quantum uncertainty relations. During my PhD, I helped establish noncommuting-charge physics as a distinct subfield, showing that noncommuting charges can increase entanglement entropy, remove non-stationary dynamics in many-body systems, and induce critical phases in monitored quantum circuits. This work culminated in a lead-authored review in *Nature Reviews Physics*. Understanding the microscopic mechanisms governing entropy production and information flow continues to inform my work on error correction and fault tolerance.
+*Quantum thermodynamics*—A standard assumption in physics is that conserved quantities commute, yet charges need not — a fact central to quantum theory. During my PhD, I helped establish noncommuting-charge physics as a distinct subfield, showing that noncommuting charges can increase entanglement, remove non-stationary dynamics in many-body systems, and induce critical phases in monitored quantum circuits. I co-authored a Perspective on this emerging field in *Nature Reviews Physics*.
 
 Education & academic positions
 ======
@@ -45,29 +43,28 @@ Education & academic positions
   <tr>
     <td>2024–2027</td>
     <td>
-      <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html"><strong>Banting Postdoctoral Fellow</strong></a>, Department of Physics, Harvard University<br>
+      <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellow</a>, Department of Physics, Harvard University<br>
       <span style="display: inline-table;"><span style="display: table-cell; white-space: nowrap;">Faculty Advisors:&ensp;</span><span style="display: table-cell;">Misha Lukin, Joshua and Beth Friedman University Professor<br>Michael Gullans, NIST Physicist &amp; QuICS Fellow</span></span>
     </td>
   </tr>
   <tr>
     <td>2019–2024</td>
     <td>
-      <strong>Ph.D. in Physics</strong>, University of Waterloo<br>
-      <span style="display: inline-table;"><span style="display: table-cell; white-space: nowrap;">Faculty Advisors:&ensp;</span><span style="display: table-cell;">Raymond Laflamme, late Mike and Ophelia Lazaridis &#8220;John von Neumann&#8221; Chair in Quantum Information<br>Nicole Yunger Halpern, NIST Physicist &amp; QuICS Fellow</span></span><br>
-      Funding: <a href="https://vanier.gc.ca/en/home-accueil.html">Vanier Scholarship</a>, 2021–2024
+      Ph.D. in Physics, University of Waterloo<br>
+      <span style="display: inline-table;"><span style="display: table-cell; white-space: nowrap;">Faculty Advisors:&ensp;</span><span style="display: table-cell;">Raymond Laflamme, late Mike and Ophelia Lazaridis &#8220;John von Neumann&#8221; Chair in Quantum Information<br>Nicole Yunger Halpern, NIST Physicist &amp; QuICS Fellow<br>Funding: <a href="https://vanier.gc.ca/en/home-accueil.html">Vanier Scholarship</a>, 2021–2024</span></span>
     </td>
   </tr>
   <tr>
     <td>2018–2019</td>
     <td>
-      <strong>M.Sc. in Physics</strong>, University of Waterloo<br>
+      M.Sc. in Physics, University of Waterloo<br>
       <span style="display: inline-table;"><span style="display: table-cell; white-space: nowrap;">Faculty Advisors:&ensp;</span><span style="display: table-cell;">Raymond Laflamme, late Mike and Ophelia Lazaridis &#8220;John von Neumann&#8221; Chair in Quantum Information</span></span>
     </td>
   </tr>
   <tr>
     <td>2011–2015</td>
     <td>
-      <strong>B.Sc. in Theoretical Physics</strong>, University of Guelph
+      B.Sc. in Theoretical Physics, University of Guelph
     </td>
   </tr>
 </table>
