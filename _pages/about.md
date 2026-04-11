@@ -23,7 +23,7 @@ redirect_from:
   </div>
 </div>
 
-I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, interested in quantum error correction and fault-tolerant applications, thermalization and dynamics of quantum many-body systems, and the intersection of AI and quantum computing.
+I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, working with Misha Lukin and Michael Gullans. I'm interested in quantum error correction and fault-tolerant applications, thermalization and dynamics of quantum many-body systems, and the intersection of AI and quantum computing. I completed my PhD at the University of Waterloo as a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html), supervised by Raymond Laflamme and Nicole Yunger Halpern.
 
 During my PhD, I co-wrote the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010) as lead author, published by Cambridge University Press. My PhD work was recognized with top honours from the Science department at Waterloo ([WB Pearson Medal](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal)), the Institute for Quantum Computing ([IQC Achievement Award](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award)), and the Perimeter Institute ([John Brodie Memorial Award](https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize)).
 
