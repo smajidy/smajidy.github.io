@@ -30,7 +30,7 @@ During my PhD, I co-wrote the textbook [Building Quantum Computers](https://www.
 Research interests
 ======
 
-*Quantum error correction*—Most efforts to reduce error-correction overhead focus on maximizing how many logical qubits you can store — but a qubit you can store and not operate on is not very useful. My recent work starts from the other end: fix the gates you need, then find the best codes that support them. This led to phantom codes, which can implement any CNOT circuit in-block with zero overhead and perfect fidelity.
+*Quantum error correction*—Most efforts to reduce error-correction overhead focus on maximizing how many logical qubits you can store — but a qubit you can store and not operate on is not very useful. My recent work starts from the other end: fix the gates you need, then find the best codes that support them. This led to phantom codes, which can implement any intra-block CNOT circuit with zero overhead and perfect fidelity. 
 
 *Fault-tolerant quantum architectures*—Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.
 
