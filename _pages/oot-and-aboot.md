@@ -1,7 +1,6 @@
 ---
 permalink: /oot-and-aboot/
 title: "Oot and Aboot"
-author_profile: false
 ---
 
 I'm Canadian. Since moving to the US, I've learned that Americans think we say "oot and aboot." For the record, it's more like "oat and aboat" — but I won't fight it. Hover over the photos for context.

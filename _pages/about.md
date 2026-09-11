@@ -2,8 +2,6 @@
 permalink: /
 title: ""
 excerpt: "About Me"
-author_profile: false
-navbar: false
 redirect_from: 
   - /about/
   - /about.html
@@ -23,16 +21,18 @@ redirect_from:
   </div>
 </div>
 
-I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, working with Misha Lukin and Michael Gullans. I'm interested in quantum error correction, quantum algorithms, quantum computing architecture, and thermalization and dynamics of quantum many-body systems. I completed my PhD at the University of Waterloo as a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html), supervised by Raymond Laflamme and Nicole Yunger Halpern.
+I'm a [Banting Postdoctoral Fellow](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) at Harvard University, working with Misha Lukin and Michael Gullans. I'm interested in quantum error correction and fault-tolerant applications, thermalization and dynamics of quantum many-body systems, and the intersection of AI and quantum computing. I completed my PhD at the University of Waterloo as a [Vanier Scholar](https://vanier.gc.ca/en/home-accueil.html), supervised by Raymond Laflamme and Nicole Yunger Halpern.
 
-During my PhD, I co-wrote the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010) as lead author, published by Cambridge University Press. My PhD work was recognized with the top honour from the Science department at Waterloo ([WB Pearson Medal](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal)), the Institute for Quantum Computing ([IQC Achievement Award](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award)), and the Perimeter Institute ([John Brodie Memorial Award](https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize)).
+During my PhD, I co-wrote the textbook [Building Quantum Computers](https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010) as lead author, published by Cambridge University Press. My PhD work was recognized with top honours from the Science department at Waterloo ([WB Pearson Medal](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal)), the Institute for Quantum Computing ([IQC Achievement Award](https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award)), and the Perimeter Institute ([John Brodie Memorial Award](https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize)).
 
 Research interests
 ======
 
 *Quantum error correction*—Most efforts to reduce error-correction overhead focus on maximizing how many logical qubits you can store — but a qubit you can store and not operate on is not very useful. My recent work starts from the other end: fix the gates you need, then find the best codes that support them. This led to phantom codes, which can implement any intra-block CNOT circuit with zero overhead and perfect fidelity. 
 
-*Quantum computing architecture*—Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.
+*Fault-tolerant quantum architectures*—Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.
+
+*AI and quantum computing*—I'm interested in both directions of the AI–quantum interface: using machine learning to discover error-correcting codes with and to decode syndromes in real time, and designing elementary machine learning primitives that run natively on quantum hardware to understand where quantum resources offer a genuine computational advantage for learning tasks.
 
 *Quantum thermodynamics*—A standard assumption in physics is that conserved quantities commute, yet charges need not — a fact central to quantum theory. During my PhD, I helped establish noncommuting-charge physics as a distinct subfield, showing that noncommuting charges can increase entanglement, remove non-stationary dynamics in many-body systems, and induce critical phases in monitored quantum circuits. I co-authored a Perspective on this emerging field in *Nature Reviews Physics*.
 
