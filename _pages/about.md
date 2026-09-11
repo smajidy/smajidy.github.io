@@ -26,19 +26,19 @@ redirect_from:
 <h2 class="section-heading" id="research-heading">Research interests</h2>
 <div class="research-topic">
 <h3>Quantum error correction</h3>
-<p>Most efforts to reduce error-correction overhead focus on maximizing how many logical qubits you can store — but a qubit you can store and not operate on is not very useful. My recent work starts from the other end: fix the gates you need, then find the best codes that support them. This led to phantom codes, which can implement any intra-block CNOT circuit with zero overhead and perfect fidelity.</p>
+<p>I study how to make fault-tolerant quantum computing practical, from the structure and fundamental limits of quantum codes to low-overhead logical operations and their implementation on real hardware.</p>
 </div>
 <div class="research-topic">
 <h3>Quantum algorithms</h3>
-<p>Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.</p>
+<p>I develop quantum algorithms for scientifically relevant problems, with a focus on quantum simulation, many-body physics, and algorithms that can take advantage of emerging fault-tolerant quantum computers.</p>
 </div>
 <div class="research-topic">
 <h3>Quantum computing architectures</h3>
-<p>Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.</p>
+<p>I study how hardware, error correction, logical operations, and compilation can be co-designed to build scalable quantum computers, with a particular interest in the capabilities and hidden costs of different architectures.</p>
 </div>
 <div class="research-topic">
 <h3>Quantum thermodynamics</h3>
-<p>A standard assumption in physics is that conserved quantities commute, yet charges need not — a fact central to quantum theory. During my PhD, I helped establish noncommuting-charge physics as a distinct subfield, showing that noncommuting charges can increase entanglement, remove non-stationary dynamics in many-body systems, and induce critical phases in monitored quantum circuits. I co-authored a Perspective on this emerging field in <em>Nature Reviews Physics</em>.</p>
+<p>During my PhD, I studied how conservation laws reshape thermodynamics and many-body dynamics. I helped establish noncommuting-charge physics as a distinct research direction, showing that noncommuting conserved quantities can enhance entanglement, suppress non-stationary dynamics, and generate critical phases in monitored quantum circuits. I co-authored a Perspective on this emerging field in <em>Nature Reviews Physics</em>.</p>
 </div>
 </section>
 <section aria-labelledby="background-heading" class="major-section" id="background">
