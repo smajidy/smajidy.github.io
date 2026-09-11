@@ -87,6 +87,14 @@ figcaption { margin-top:12px; font-size:15px; line-height:1.5; color:#454e5c; }
 .wave-signature { display:block; width:56px; height:32px; margin:0 auto; }
 .skip-link { position:absolute; z-index:10001; top:8px; left:16px; transform:translateY(-200%); background:#fff; padding:8px 12px; }
 .skip-link:focus { transform:none; }
+/* Desktop only: a 860px homepage and the existing 920px gallery.
+   Let the homepage text use its shared column instead of a second ch-based cap.
+   Mobile, narrow tablets and print retain their existing styles. */
+@media screen and (min-width:825px) {
+ :root { --measure:920px; }
+ :root.page-home { --measure:860px; }
+ .introduction,.research-topic p,.publication h4 { max-width:none; }
+}
 @media(max-width:640px) {
  body { font-size:17px; line-height:1.65; }
  #main,.masthead__inner-wrap,.site-footer { width:calc(100% - 48px); }
