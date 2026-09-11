@@ -19,7 +19,7 @@ redirect_from:
 </ul></div>
 </header>
 <div class="introduction">
-<p>I'm a <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellow</a> at Harvard University, working with Misha Lukin and Michael Gullans. I'm interested in quantum error correction and fault-tolerant applications, thermalization and dynamics of quantum many-body systems, and the intersection of AI and quantum computing. I completed my PhD at the University of Waterloo as a <a href="https://vanier.gc.ca/en/home-accueil.html">Vanier Scholar</a>, supervised by Raymond Laflamme and Nicole Yunger Halpern.</p>
+<p>I'm a <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellow</a> at Harvard University, working with Misha Lukin and Michael Gullans. I'm interested in quantum error correction, quantum algorithms, quantum computing architectures, and the thermalization of quantum many-body systems. I completed my PhD at the University of Waterloo as a <a href="https://vanier.gc.ca/en/home-accueil.html">Vanier Scholar</a>, supervised by Raymond Laflamme and Nicole Yunger Halpern.</p>
 <p>During my PhD, I co-wrote the textbook <a href="https://www.amazon.com/Building-Quantum-Computers-Practical-Introduction/dp/1009417010">Building Quantum Computers</a> as lead author, published by Cambridge University Press. My PhD work was recognized with top honours from the Science department at Waterloo (<a href="https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal">WB Pearson Medal</a>), the Institute for Quantum Computing (<a href="https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award">IQC Achievement Award</a>), and the Perimeter Institute (<a href="https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize">John Brodie Memorial Award</a>).</p>
 </div>
 <section aria-labelledby="research-heading" class="major-section" id="research">
@@ -29,12 +29,12 @@ redirect_from:
 <p>Most efforts to reduce error-correction overhead focus on maximizing how many logical qubits you can store — but a qubit you can store and not operate on is not very useful. My recent work starts from the other end: fix the gates you need, then find the best codes that support them. This led to phantom codes, which can implement any intra-block CNOT circuit with zero overhead and perfect fidelity.</p>
 </div>
 <div class="research-topic">
-<h3>Fault-tolerant quantum architectures</h3>
+<h3>Quantum algorithms</h3>
 <p>Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.</p>
 </div>
 <div class="research-topic">
-<h3>AI and quantum computing</h3>
-<p>I'm interested in both directions of the AI–quantum interface: using machine learning to discover error-correcting codes with and to decode syndromes in real time, and designing elementary machine learning primitives that run natively on quantum hardware to understand where quantum resources offer a genuine computational advantage for learning tasks.</p>
+<h3>Quantum computing architectures</h3>
+<p>Algorithms, error-correcting codes, and hardware must be co-designed, as choices at one level shape what is achievable at the others. My work develops fault-tolerant architectures—efficiently mapping applications to hardware and designing schemes to achieve universality and reduce the overhead of logical gates—with a recent focus on neutral-atom platforms.</p>
 </div>
 <div class="research-topic">
 <h3>Quantum thermodynamics</h3>
@@ -45,13 +45,17 @@ redirect_from:
 <h2 class="section-heading" id="background-heading">Education &amp; academic positions</h2>
 <ol class="positions">
 <li class="position">
-<div class="position-date">2024–2027</div>
+<div class="position-date">2024–2026</div>
 <div>
-<h3><a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellow</a>, Department of Physics, Harvard University</h3>
+<h3>Postdoctoral Fellow, Harvard</h3>
 <dl class="position-details">
 <div class="detail">
 <dt>Faculty Advisors:</dt>
 <dd>Misha Lukin, Joshua and Beth Friedman University Professor<br/>Michael Gullans, NIST Physicist &amp; QuICS Fellow</dd>
+</div>
+<div class="detail">
+<dt>Funding:</dt>
+<dd><a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Fellowship</a>, 2024–2026</dd>
 </div>
 </dl>
 </div>
