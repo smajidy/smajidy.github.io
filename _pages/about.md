@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 24px; margin-bottom: 1.5em;">
-  <img src="/images/profile.png" alt="Shayan Majidy" style="width: 140px; border-radius: 50%;" />
+  <img src="/images/profile.png" width="140" height="140" alt="Shayan Majidy" style="width: 140px; flex-shrink: 0; border-radius: 50%;" />
   <div>
     <h1 style="margin: 0 0 0.15em 0; font-size: 1.8em;">Shayan (Shay) Majidy</h1>
     <p style="margin: 0 0 0.4em 0; color: #666; font-style: italic;">shah-YAHN mah-JEE-dee</p>

@@ -1,0 +1,104 @@
+{% comment %}
+  Progressive-enhancement opening: no JavaScript means the normal page.
+  Keep these small critical styles inline to avoid a flash before the intro.
+{% endcomment %}
+<style>
+  #site-intro {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    overflow: hidden;
+    cursor: default;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #site-intro svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    fill: none;
+  }
+  #site-intro .site-intro__name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transform-origin: top left;
+    will-change: transform;
+  }
+  #site-intro .site-intro__text { display: block; }
+  html.site-intro-pending .masthead,
+  html.site-intro-pending #main {
+    animation: none !important;
+    opacity: 0;
+  }
+  html.site-intro-playing .masthead,
+  html.site-intro-playing #main {
+    animation: none !important;
+    opacity: var(--site-intro-reveal, 0);
+  }
+  html.site-intro-playing .masthead { border-bottom-color: transparent; }
+  html.site-intro-playing #main {
+    transform: translate3d(0, var(--site-intro-lift, 12px), 0);
+  }
+  html.site-intro-playing .site-intro-target { opacity: 0; }
+  html.site-intro-seen .masthead,
+  html.site-intro-seen #main { animation: none !important; }
+  @media (prefers-reduced-motion: reduce), print {
+    #site-intro { display: none !important; }
+    html .masthead, html #main {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+    html .site-intro-target { opacity: 1 !important; }
+  }
+</style>
+<script>
+(function () {
+  'use strict';
+  var root = document.documentElement;
+  var state = window.SiteIntro = {
+    home: {{ '/' | relative_url | jsonify }},
+    isHome: {% if page.url == '/' %}true{% else %}false{% endif %},
+    key: 'sm-collapse-intro-v1',
+    wanted: false,
+    timer: null
+  };
+  state.reset = function () {
+    state.wanted = false;
+    window.clearTimeout(state.timer);
+    if (root.classList.contains('site-intro-pending')) root.classList.add('site-intro-seen');
+    root.classList.remove('site-intro-pending', 'site-intro-playing');
+    root.style.removeProperty('--site-intro-reveal');
+    root.style.removeProperty('--site-intro-lift');
+    var overlay = document.getElementById('site-intro');
+    if (overlay) overlay.remove();
+    var target = document.querySelector('.site-intro-target');
+    if (target) target.classList.remove('site-intro-target');
+  };
+  try {
+    var seen = sessionStorage.getItem(state.key) === '1';
+    var replay = sessionStorage.getItem(state.key + '-replay') === '1';
+    if (state.isHome) sessionStorage.removeItem(state.key + '-replay');
+    if (seen) root.classList.add('site-intro-seen');
+    if (!state.isHome || !window.requestAnimationFrame || !window.matchMedia ||
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+        window.location.hash || document.hidden) return;
+    var nav = window.performance && performance.getEntriesByType &&
+      performance.getEntriesByType('navigation')[0];
+    if (nav && nav.type === 'back_forward') return;
+    var preview = /(?:^|[?&])intro=1(?:&|$)/.test(window.location.search);
+    if (seen && !replay && !preview) return;
+    state.wanted = true;
+    root.classList.add('site-intro-pending');
+    /* A missing, blocked or slow animation script must never strand visitors. */
+    state.timer = window.setTimeout(state.reset, 1000);
+  } catch (error) {
+    /* With storage blocked, favour immediate navigation over repeated openings. */
+    state.reset();
+  }
+}());
+</script>
+<script src="{{ '/assets/js/site-intro.js' | relative_url }}" defer onerror="window.SiteIntro && window.SiteIntro.reset()"></script>
