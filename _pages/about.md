@@ -12,12 +12,7 @@ redirect_from:
 <div class="profile-copy">
 <h1 data-intro-title="">Shayan Majidy</h1>
 <p class="profile-alias">I also go by Shay.</p>
-<ul aria-label="Contact and profiles" class="contact-links">
-<li><a href="mailto:smajidy@fas.harvard.edu">Email</a></li>
-<li><a href="https://arxiv.org/search/?query=shayan+majidy&amp;searchtype=all&amp;abstracts=show&amp;order=-announced_date_first&amp;size=50">arXiv</a></li>
-<li><a href="https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&amp;hl=en">Google Scholar</a></li>
-<li><a href="{{ '/CV.pdf' | relative_url }}">CV</a></li>
-</ul></div>
+<p class="profile-email"><a href="mailto:smajidy@fas.harvard.edu">smajidy@fas.harvard.edu</a></p></div>
 </header>
 <div class="introduction">
 <p>I am a quantum computing theorist studying what quantum computers can do, where they can offer a scientific advantage, and what it takes to make those applications practical. My research connects quantum error correction, algorithms, and architectures to understand—and reduce—the true costs of useful quantum computation.</p>
@@ -51,10 +46,11 @@ redirect_from:
 <p class="book-authors"><strong>S. Majidy</strong>, C. Wilson, and R. Laflamme</p>
 <p class="book-venue">Cambridge University Press (2024).</p>
 <p class="book-context">A practical introduction to the physical implementation of quantum computers.</p></div>
-<a aria-label="Building Quantum Computers at Cambridge University Press" class="book-image-link" href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><img alt="Building Quantum Computers book cover" decoding="async" height="3071" loading="lazy" src="{{ '/images/Cover.png' | relative_url }}" width="2138"/></a></div>
-<div class="teaching-topic">
+<a aria-label="Building Quantum Computers at Cambridge University Press" class="book-image-link" href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><img alt="Building Quantum Computers book cover" decoding="async" height="3071" loading="lazy" src="{{ '/images/Cover.png' | relative_url }}" width="2138"/></a>
+<div class="teaching-topic course-topic">
 <h3>Course design &amp; teaching</h3>
 <p>In Fall 2022, I designed and taught <em>Introduction to Implementation of Quantum Information Processing</em> at the University of Waterloo. I developed the syllabus, lectures, and assessments, coordinated teaching assistants, and held office hours.</p>
+</div>
 </div>
 <div class="teaching-topic">
 <h3>Educational development</h3>
@@ -75,7 +71,7 @@ redirect_from:
 </figure>
 </div>
 </section><section aria-labelledby="background-heading" class="major-section" id="background" tabindex="-1">
-<h2 class="section-heading" id="background-heading">Background</h2>
+<h2 class="section-heading" id="background-heading">Background &amp; CV</h2>
 <ol class="positions">
 <li class="position">
 <div class="position-date">2024–2026</div>

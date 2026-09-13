@@ -47,7 +47,8 @@
       root.classList.add('site-intro-seen', 'site-intro-playing');
       root.classList.remove('site-intro-pending');
       var headingStyle = window.getComputedStyle(target);
-      var lineStartColour = colour(window.getComputedStyle(document.body).color);
+      // Match the site's navy heading colour, not the charcoal body text.
+      var lineStartColour = colour(headingStyle.color);
       // Read the border before the temporary transparent-border rule is applied.
       root.classList.remove('site-intro-playing');
       var lineEndColour = colour(window.getComputedStyle(masthead).borderBottomColor);
