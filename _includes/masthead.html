@@ -7,8 +7,36 @@
         {% else %}
           {% assign destination = link.url | relative_url %}
         {% endif %}
-        <a href="{{ destination }}"{% if link.url == '/' %} data-intro-home{% endif %}{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+        <a href="{{ destination }}"{% if link.url == '/' %} data-intro-home{% endif %}{% if link.url contains '/#' %} data-nav-section="{{ link.url | split: '#' | last | escape }}"{% endif %}{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
       {% endfor %}
     </nav>
   </div>
 </header>
+<!-- Match anchor offsets to the actual navigation height, including wrapped mobile rows. -->
+<script>
+(function () {
+  'use strict';
+  var header = document.querySelector('.masthead');
+  if (!header) return;
+  var root = document.documentElement;
+  var previousHeight = 0;
+  function measureHeader() {
+    var height = Math.ceil(header.getBoundingClientRect().height);
+    if (height > 0 && height !== previousHeight) {
+      root.style.setProperty('--nav-height', height + 'px');
+      previousHeight = height;
+    }
+  }
+  measureHeader();
+  if (window.ResizeObserver) {
+    new ResizeObserver(measureHeader).observe(header);
+  } else {
+    window.addEventListener('resize', measureHeader);
+    window.addEventListener('load', measureHeader);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measureHeader);
+  }
+}());
+</script>
+
+<!-- Progressive enhancement: native links also work without this script. -->
+<script src="{{ '/assets/js/site-navigation.js' | relative_url }}?v=active-nav-1" defer></script>

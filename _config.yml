@@ -3,7 +3,7 @@ locale: en-US
 title: Shayan Majidy
 title_separator: '-'
 name: Shayan Majidy
-description: Pronounced shah-YAHN mah-JEE-dee
+description: Quantum computing theorist connecting error correction, algorithms, and architectures to scientific applications and practical fault-tolerant computation.
 url: https://smajidy.github.io
 baseurl: ''
 repository: smajidy.github.io

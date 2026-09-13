@@ -1,7 +1,14 @@
-# main links
+# Main links: section links work from every page without a JavaScript menu.
 main:
   - title: "Home"
     url: /
-
+  - title: "Research"
+    url: /#research
+  - title: "Teaching"
+    url: /#teaching
+  - title: "Background"
+    url: /#background
+  - title: "Publications"
+    url: /publications/
   - title: "Oot and Aboot"
     url: /oot-and-aboot/

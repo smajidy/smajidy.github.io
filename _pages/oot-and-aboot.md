@@ -3,7 +3,7 @@ permalink: /oot-and-aboot/
 title: "Oot and Aboot"
 ---
 
-<p class="gallery-description">I'm Canadian. Since moving to the US, I've learned that Americans think we say "oot and aboot." For the record, it's more like "oat and aboat" — but I won't fight it.</p>
+<p class="gallery-description">I'm Canadian. <span class="canadian-emojis" role="img" aria-label="Maple leaf, hockey stick, and beaver">🍁 🏒 🦫</span> Since moving to the US, I've learned that Americans think we say "oot and aboot." For the record, it's more like "oat and aboat" — but I won't fight it.</p>
 <div class="photo-gallery">
 <div class="gallery-row">
 <figure style="--image-ratio:1.991968"><img alt="TQC26 talk in Sherbrooke" decoding="async" height="996" loading="eager" src="{{ '/images/TQC26.jpg' | relative_url }}" width="1984"/>
