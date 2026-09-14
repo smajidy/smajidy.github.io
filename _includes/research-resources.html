@@ -1,0 +1,4 @@
+{%- assign paper = site.data.publications | where: 'id', include.id | first -%}
+{%- for resource in paper.resources -%}
+<span class="evidence-link"><a href="{{ resource.url }}" aria-label="{{ resource.label }}: {{ paper.title | escape }}">{{ resource.label }}</a></span>
+{%- endfor -%}

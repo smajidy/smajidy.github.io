@@ -1,0 +1,4 @@
+{%- assign paper = site.data.publications | where: 'id', include.id | first -%}
+{%- assign arxiv_url = 'https://arxiv.org/abs/' | append: paper.arxiv_id -%}
+{%- assign primary_url = paper.journal_url | default: arxiv_url -%}
+<span class="evidence-link"><a href="{{ primary_url }}">{{ include.label }}</a>{% if include.status %} <span class="link-context">({% if paper.status == 'published' %}{{ paper.venue_short }}{% else %}preprint{% endif %}, {{ paper.year }})</span>{% endif %}</span>

@@ -3,7 +3,7 @@ locale: en-US
 title: Shayan Majidy
 title_separator: '-'
 name: Shayan Majidy
-description: Quantum computing theorist connecting error correction, algorithms, and architectures to scientific applications and practical fault-tolerant computation.
+description: Quantum computing theorist connecting quantum error correction, algorithms and architectures, and quantum dynamics and thermodynamics for scientific discovery.
 url: https://smajidy.github.io
 baseurl: ''
 repository: smajidy.github.io
@@ -13,9 +13,13 @@ author:
   name: Shayan Majidy
   email: smajidy@fas.harvard.edu
 social:
-  type: null
-  name: null
-  links: null
+  type: Person
+  name: Shayan Majidy
+  links:
+    - https://scholar.google.ca/citations?user=rLyCWhoAAAAJ
+    - https://github.com/smajidy
+og_image: optimized/profile-share.jpg
+og_image_alt: Shayan Majidy
 atom_feed:
   path: null
 
@@ -38,6 +42,9 @@ exclude:
 - Gruntfile.js
 - LICENSE
 - README
+- README.md
+- scripts
+- Gemfile.lock
 - Rakefile
 - assets/js/_main.js
 - assets/js/plugins

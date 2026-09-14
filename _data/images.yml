@@ -1,0 +1,237 @@
+# Display-only derivatives; original image files remain untouched.
+berkeley:
+  width: 1280
+  height: 1600
+  src: /images/optimized/berkeley-960.webp
+  variants:
+  - path: /images/optimized/berkeley-480.webp
+    width: 480
+  - path: /images/optimized/berkeley-960.webp
+    width: 960
+  - path: /images/optimized/berkeley-1280.webp
+    width: 1280
+brodie:
+  width: 1280
+  height: 960
+  src: /images/optimized/brodie-960.webp
+  variants:
+  - path: /images/optimized/brodie-480.webp
+    width: 480
+  - path: /images/optimized/brodie-960.webp
+    width: 960
+  - path: /images/optimized/brodie-1280.webp
+    width: 1280
+cover:
+  width: 2138
+  height: 3071
+  src: /images/optimized/cover-480.webp
+  variants:
+  - path: /images/optimized/cover-240.webp
+    width: 240
+  - path: /images/optimized/cover-480.webp
+    width: 480
+  - path: /images/optimized/cover-720.webp
+    width: 720
+dinner:
+  width: 3347
+  height: 1883
+  src: /images/optimized/dinner-960.webp
+  variants:
+  - path: /images/optimized/dinner-480.webp
+    width: 480
+  - path: /images/optimized/dinner-960.webp
+    width: 960
+  - path: /images/optimized/dinner-1440.webp
+    width: 1440
+ias:
+  width: 1024
+  height: 768
+  src: /images/optimized/ias-960.webp
+  variants:
+  - path: /images/optimized/ias-480.webp
+    width: 480
+  - path: /images/optimized/ias-960.webp
+    width: 960
+  - path: /images/optimized/ias-1024.webp
+    width: 1024
+iql:
+  width: 2048
+  height: 1194
+  src: /images/optimized/iql-960.webp
+  variants:
+  - path: /images/optimized/iql-480.webp
+    width: 480
+  - path: /images/optimized/iql-960.webp
+    width: 960
+  - path: /images/optimized/iql-1440.webp
+    width: 1440
+princeton:
+  width: 2048
+  height: 1365
+  src: /images/optimized/princeton-960.webp
+  variants:
+  - path: /images/optimized/princeton-480.webp
+    width: 480
+  - path: /images/optimized/princeton-960.webp
+    width: 960
+  - path: /images/optimized/princeton-1440.webp
+    width: 1440
+qec26:
+  width: 1011
+  height: 534
+  src: /images/optimized/qec26-960.webp
+  variants:
+  - path: /images/optimized/qec26-480.webp
+    width: 480
+  - path: /images/optimized/qec26-960.webp
+    width: 960
+  - path: /images/optimized/qec26-1011.webp
+    width: 1011
+quics-seminar:
+  width: 2000
+  height: 1166
+  src: /images/optimized/quics-seminar-960.webp
+  variants:
+  - path: /images/optimized/quics-seminar-480.webp
+    width: 480
+  - path: /images/optimized/quics-seminar-960.webp
+    width: 960
+  - path: /images/optimized/quics-seminar-1440.webp
+    width: 1440
+quirks:
+  width: 800
+  height: 800
+  src: /images/optimized/quirks-800.webp
+  variants:
+  - path: /images/optimized/quirks-480.webp
+    width: 480
+  - path: /images/optimized/quirks-800.webp
+    width: 800
+rqs:
+  width: 1600
+  height: 1200
+  src: /images/optimized/rqs-960.webp
+  variants:
+  - path: /images/optimized/rqs-480.webp
+    width: 480
+  - path: /images/optimized/rqs-960.webp
+    width: 960
+  - path: /images/optimized/rqs-1440.webp
+    width: 1440
+rqs1:
+  width: 4032
+  height: 3024
+  src: /images/optimized/rqs1-960.webp
+  variants:
+  - path: /images/optimized/rqs1-480.webp
+    width: 480
+  - path: /images/optimized/rqs1-960.webp
+    width: 960
+  - path: /images/optimized/rqs1-1440.webp
+    width: 1440
+raybday:
+  width: 4096
+  height: 2304
+  src: /images/optimized/raybday-960.webp
+  variants:
+  - path: /images/optimized/raybday-480.webp
+    width: 480
+  - path: /images/optimized/raybday-960.webp
+    width: 960
+  - path: /images/optimized/raybday-1440.webp
+    width: 1440
+stanford:
+  width: 1280
+  height: 1599
+  src: /images/optimized/stanford-960.webp
+  variants:
+  - path: /images/optimized/stanford-480.webp
+    width: 480
+  - path: /images/optimized/stanford-960.webp
+    width: 960
+  - path: /images/optimized/stanford-1280.webp
+    width: 1280
+tqc26:
+  width: 1984
+  height: 996
+  src: /images/optimized/tqc26-960.webp
+  variants:
+  - path: /images/optimized/tqc26-480.webp
+    width: 480
+  - path: /images/optimized/tqc26-960.webp
+    width: 960
+  - path: /images/optimized/tqc26-1440.webp
+    width: 1440
+telluride:
+  width: 3225
+  height: 2419
+  src: /images/optimized/telluride-960.webp
+  variants:
+  - path: /images/optimized/telluride-480.webp
+    width: 480
+  - path: /images/optimized/telluride-960.webp
+    width: 960
+  - path: /images/optimized/telluride-1440.webp
+    width: 1440
+uoft:
+  width: 1448
+  height: 1448
+  src: /images/optimized/uoft-960.webp
+  variants:
+  - path: /images/optimized/uoft-480.webp
+    width: 480
+  - path: /images/optimized/uoft-960.webp
+    width: 960
+  - path: /images/optimized/uoft-1440.webp
+    width: 1440
+yale:
+  width: 3789
+  height: 2246
+  src: /images/optimized/yale-960.webp
+  variants:
+  - path: /images/optimized/yale-480.webp
+    width: 480
+  - path: /images/optimized/yale-960.webp
+    width: 960
+  - path: /images/optimized/yale-1440.webp
+    width: 1440
+harvard-group:
+  width: 768
+  height: 1024
+  src: /images/optimized/harvard-group-768.webp
+  variants:
+  - path: /images/optimized/harvard-group-480.webp
+    width: 480
+  - path: /images/optimized/harvard-group-768.webp
+    width: 768
+kaius-book:
+  width: 768
+  height: 1024
+  src: /images/optimized/kaius-book-768.webp
+  variants:
+  - path: /images/optimized/kaius-book-480.webp
+    width: 480
+  - path: /images/optimized/kaius-book-768.webp
+    width: 768
+profile:
+  width: 1668
+  height: 1668
+  src: /images/optimized/profile-256.webp
+  variants:
+  - path: /images/optimized/profile-128.webp
+    width: 128
+  - path: /images/optimized/profile-256.webp
+    width: 256
+  - path: /images/optimized/profile-384.webp
+    width: 384
+ray-kai:
+  width: 1024
+  height: 1024
+  src: /images/optimized/ray-kai-960.webp
+  variants:
+  - path: /images/optimized/ray-kai-480.webp
+    width: 480
+  - path: /images/optimized/ray-kai-960.webp
+    width: 960
+  - path: /images/optimized/ray-kai-1024.webp
+    width: 1024

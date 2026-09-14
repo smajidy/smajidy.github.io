@@ -1,0 +1,4 @@
+{%- for name in include.authors -%}
+{%- unless forloop.first -%}{% if forloop.last %}{% if include.authors.size > 2 %}, and {% else %} and {% endif %}{% else %}, {% endif %}{%- endunless -%}
+{%- if name == 'S. Majidy' -%}<strong>{{ name }}</strong>{%- else -%}{{ name | escape }}{%- endif -%}
+{%- endfor -%}

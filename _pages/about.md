@@ -2,67 +2,115 @@
 permalink: /
 title: ""
 seo_title: "Shayan Majidy — Quantum Computing Theory"
-excerpt: "Quantum computing theorist connecting error correction, algorithms, and architectures to scientific applications and practical fault-tolerant computation."
+excerpt: "Quantum computing theorist connecting quantum error correction, algorithms and architectures, and quantum dynamics and thermodynamics for scientific discovery."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<header class="profile"><img alt="Shayan Majidy" class="profile-photo" decoding="async" fetchpriority="high" height="128" src="{{ '/images/profile.png' | relative_url }}" width="128"/>
+<header class="profile">{% include responsive-image.html id="profile" alt="Shayan Majidy" class="profile-photo" width=128 height=128 sizes="(max-width: 640px) 96px, 128px" loading="eager" fetchpriority="high" %}
 <div class="profile-copy">
 <h1 data-intro-title="">Shayan Majidy</h1>
 <p class="profile-alias">I also go by Shay.</p>
 <p class="profile-email"><a href="mailto:smajidy@fas.harvard.edu">smajidy@fas.harvard.edu</a></p></div>
 </header>
 <div class="introduction">
-<p>I am a quantum computing theorist studying what quantum computers can do, where they can offer a scientific advantage, and what it takes to make those applications practical. My research connects quantum error correction, algorithms, and architectures to understand—and reduce—the true costs of useful quantum computation.</p>
-<p>I'm a <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellow</a> at Harvard University, working with Misha Lukin and Michael Gullans, and the lead author of <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><em>Building Quantum Computers</em></a> (Cambridge University Press).</p>
+<p>I am a quantum computing theorist working towards reliable quantum computers for scientific discovery. My research connects quantum error correction, the joint design of quantum algorithms and architectures, and quantum dynamics and thermodynamics—from understanding how quantum information behaves in physical systems to protecting it and putting it to use.</p>
+<p>I'm a <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellow</a> at Harvard University, working with Mikhail D. Lukin and Michael Gullans, and the lead author of <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><em>Building Quantum Computers</em></a> (Cambridge University Press).</p>
 </div>
 <section aria-labelledby="research-heading" class="major-section" id="research" tabindex="-1">
 <h2 class="section-heading" id="research-heading">Research</h2>
-<p class="research-overview">I am building a research programme that links scientific questions to the algorithms, error-correcting codes, and architectures needed to answer them. The core work combines mathematical analysis, algorithm design, and hardware-aware compilation, with experimental collaborations helping to test ideas against the capabilities of real devices.</p><p class="section-links" id="publications"><a href="{{ '/publications/' | relative_url }}">Browse publications</a><span aria-hidden="true">·</span><a href="https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&amp;hl=en">Google Scholar</a></p>
-<div class="research-topic">
+<p class="section-links" id="publications"><a href="{{ '/publications/' | relative_url }}">Browse publications</a><span aria-hidden="true">·</span><a href="https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&amp;hl=en">Google Scholar</a></p>
+{% comment %}
+Research-link presentation: keep each selected-work link paired only with its
+publication status/venue and year. TODO: Reconsider explanations and recorded
+talks in a clearer, paper-specific format in a future revision, rather than
+placing them beside these research-area links. The existing resources metadata
+is retained in _data/publications.yml. Selected recent talks now follows the
+career/education timeline in Background & CV, before Selected honours.
+Research themes are equally prominent, in the approved order below. The dynamics
+and thermodynamics theme is part of the coherent programme, not an archive.
+{% endcomment %}
+<div class="research-topic" id="quantum-error-correction">
 <h3>Quantum error correction</h3>
-<p>I study how to make fault-tolerant quantum computing practical, from the structure and fundamental limits of quantum codes to low-overhead logical operations and their implementation on real hardware. My goal is to develop codes and fault-tolerant protocols whose reliability and resource requirements are suited to the computations they are meant to support.</p>
+<p>What is the minimum cost of protecting and manipulating logical quantum information? I design and analyse quantum codes with their logical operations in mind. Our <em>phantom codes</em> implement entangling gates within a code block through classically tracked relabellings, without applying physical gates. More broadly, I study how code structure and supported logical operations determine the cost of fault-tolerant computation, including the trade-offs involved in tailoring codes to particular computational tasks.</p>
+<div class="research-links" aria-label="Selected quantum error correction work">
+{% include research-paper-link.html id="phantom-codes" label="Phantom codes" status=true %}
 </div>
-<div class="research-topic">
-<h3>Quantum algorithms</h3>
-<p>I develop quantum algorithms for scientifically relevant problems, with a focus on quantum simulation, many-body physics, and algorithms that can take advantage of emerging fault-tolerant quantum computers. I aim to identify applications where quantum computers can provide new scientific insight, and develop algorithms whose advantages survive realistic implementation costs.</p>
+{% comment %}
+TODO: Add further representative QEC results here when ready to feature.
+Homepage highlights are curated separately from the complete Publications list.
+{% endcomment %}
 </div>
-<div class="research-topic">
-<h3>Quantum computing architectures</h3>
-<p>I study how hardware, error correction, logical operations, and compilation can be co-designed to build scalable quantum computers, with a particular interest in the capabilities and hidden costs of different architectures. I am working towards architectures and compilation methods that connect scientific applications to the capabilities and constraints of real devices.</p>
+<div class="research-topic" id="quantum-algorithms-and-architectures">
+<span class="research-anchor" id="quantum-algorithms" aria-hidden="true"></span><span class="research-anchor" id="quantum-architectures" aria-hidden="true"></span>
+<h3>Quantum algorithms and architectures</h3>
+<p>How should algorithms, error correction and hardware be designed together? I helped design a teleportation-based neutral-atom architecture that removes entropy while processing logical information, exploiting non-local connectivity and parallel control. This work, and my role as lead author of <em>Building Quantum Computers</em>, shape my approach to protocols that use the strengths of a particular platform. My interests include quantum simulation, cooling and state preparation, with the algorithm and its fault-tolerant implementation considered together.</p>
+<div class="research-links" aria-label="Selected quantum algorithms and architectures work">
+{% include research-paper-link.html id="neutral-atom-architecture" label="Fault-tolerant neutral-atom architecture" status=true %}
+<span class="evidence-link"><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><em>Building Quantum Computers</em></a> <span class="link-context">(Cambridge University Press, 2024)</span></span>
 </div>
-<div class="research-topic">
-<h3>Quantum thermodynamics</h3>
-<p>During my PhD, I studied how conservation laws reshape thermodynamics and many-body dynamics. I helped establish noncommuting-charge physics as a distinct research direction, showing that noncommuting conserved quantities can enhance entanglement, suppress non-stationary dynamics, and generate critical phases in monitored quantum circuits. I co-authored a Perspective on this emerging field in <em>Nature Reviews Physics</em>.</p>
+{% comment %}
+TODO: Add selected quantum-algorithms work here when ready to feature.
+Keep the complete Publications list unchanged when curating homepage highlights.
+The empty spans above preserve existing links to the formerly separate themes.
+{% endcomment %}
+</div>
+<div class="research-topic" id="quantum-dynamics-and-thermodynamics">
+<span class="research-anchor" id="earlier-research" aria-hidden="true"></span>
+<h3>Quantum dynamics and thermodynamics</h3>
+<p>How do conservation laws and measurements shape quantum information? I helped establish noncommuting-charge physics as a research direction, showing how noncommuting conserved quantities can enhance entanglement, generate critical phases in monitored circuits, and constrain mechanisms that prevent thermalization. This work includes a lead-authored Perspective in <em>Nature Reviews Physics</em> and a single-author study of many-body dynamics. It also informs my interest in cooling and entropy removal as tools for preparing and protecting quantum states.</p>
+<div class="research-links" aria-label="Selected quantum dynamics and thermodynamics work">
+{% include research-paper-link.html id="nonstationary-dynamics" label="Many-body dynamics" status=true %}
+{% include research-paper-link.html id="noncommuting-charges-perspective" label="Perspective" status=true %}
+</div>
+{% comment %}
+Keep only the Nature Communications paper and Nature Reviews Physics Perspective
+in this selected-work group. The other papers remain in the full bibliography.
+The earlier-research fragment is retained solely for old inbound links.
+{% endcomment %}
 </div>
 
+
+
 </section><section aria-labelledby="teaching-heading" class="major-section teaching-section" id="teaching" tabindex="-1">
-<h2 class="section-heading" id="teaching-heading">Teaching &amp; mentoring</h2><div class="book-feature" id="textbook">
+<h2 class="section-heading" id="teaching-heading">Teaching &amp; mentoring</h2>
+{% comment %}
+Teaching details below were supplied by the site owner on 14 September 2026:
+independent fourth-year instruction, 4.8/5 course evaluation with 97% response,
+six students supported into IQC internships, five-course textbook pilot and
+84 exercises. Keep the evaluation response rate with the score. Do not upgrade
+planned adoption of the redesign to completed adoption or infer PhD enrolment.
+A public syllabus/assignment can be linked once suitable material is supplied.
+{% endcomment %}
+<div class="book-feature" id="textbook">
 <div class="book-copy">
 <h3 class="group-label">Textbook</h3>
-<h4><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">Building Quantum Computers:<br class="desktop-break"/> A Practical Introduction.</a></h4>
+<h4><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">Building Quantum Computers:<br class="desktop-break"/> A Practical Introduction</a></h4>
 <p class="book-authors"><strong>S. Majidy</strong>, C. Wilson, and R. Laflamme</p>
-<p class="book-venue">Cambridge University Press (2024).</p>
-<p class="book-context">A practical introduction to the physical implementation of quantum computers.</p></div>
-<a aria-label="Building Quantum Computers at Cambridge University Press" class="book-image-link" href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><img alt="Building Quantum Computers book cover" decoding="async" height="3071" loading="lazy" src="{{ '/images/Cover.png' | relative_url }}" width="2138"/></a>
+<p class="book-venue">Cambridge University Press (2024)</p>
+<p class="book-context">Written for advanced undergraduates and beginning graduate students, the book compares physical implementations through shared concepts and notation. Writing it developed the cross-platform perspective that informs my work on hardware-aware architectures and scientific applications.</p>
+<p class="book-context">The draft was piloted in five Waterloo courses; the published text includes 84 exercises.</p>
+<p class="book-resources"><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#contents">Contents</a> <span aria-hidden="true">·</span> <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90/resources/">Teaching resources</a></p></div>
+<a aria-label="Building Quantum Computers at Cambridge University Press" class="book-image-link" href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">{% include responsive-image.html id="cover" alt="Building Quantum Computers book cover" sizes="(max-width: 359px) 76px, (max-width: 640px) 88px, 240px" %}</a>
 <div class="teaching-topic course-topic">
 <h3>Course design &amp; teaching</h3>
-<p>In Fall 2022, I designed and taught <em>Introduction to Implementation of Quantum Information Processing</em> at the University of Waterloo. I developed the syllabus, lectures, and assessments, coordinated teaching assistants, and held office hours.</p>
+<p>In Fall 2022, I independently taught Waterloo’s fourth-year course, <em>Introduction to Implementation of Quantum Information Processing</em>. I redesigned the syllabus, teaching methods and assessments, delivered the lectures, and coordinated the teaching assistants.</p>
+<p>The course received an average evaluation of 4.8/5, with a 97% response rate.</p>
 </div>
-</div>
-<div class="teaching-topic">
-<h3>Educational development</h3>
-<p>At Waterloo’s Centre for Teaching Excellence, I worked as a Graduate Educational Developer and TA Workshop Facilitator. My work included teaching observations, workshops, and microteaching sessions for graduate instructors. I also completed Waterloo’s Certificate in University Teaching.</p>
 </div>
 <div class="teaching-topic">
 <h3>Mentoring</h3>
-<p>I have mentored undergraduate and graduate researchers at Harvard, ETH Zürich, Princeton, and the University of Waterloo. My aim as a mentor is to help students build strong technical foundations, develop their own questions, and grow into independent researchers.</p>
+<p>I have mentored graduate researchers at Harvard, the University of Maryland, ETH Zürich and the University of Waterloo, and undergraduates at Princeton and Waterloo. I also helped six students from my Waterloo course secure IQC internships through guidance on approaching faculty and reference letters.</p>
+</div>
+<div class="teaching-topic">
+<h3>Educational development</h3>
+<p>At Waterloo’s Centre for Teaching Excellence, I worked as a Graduate Educational Developer and TA Workshop Facilitator. My work included designing and facilitating workshops, teaching observations, microteaching sessions, and personalised feedback for graduate instructors. I also completed Waterloo’s Certificate in University Teaching. My physics-education research examines how instructors identify and address misconceptions, including in quantum physics.</p>
+<div class="research-links" aria-label="Physics education research">{% include research-paper-link.html id="physics-misconceptions" label="Addressing misconceptions in university physics" status=true %}</div>
 </div>
 <div class="teaching-topic outreach-topic" id="outreach">
 <h3>Outreach</h3>
-<p>My non-profit, Unentangled, brings current scientific research into high-school classrooms. The programme connects school science with questions at the research frontier, making advanced ideas approachable and helping students see where their curiosity can lead.</p>
+<p>Through Unentangled, my former non-profit, I brought current scientific research into high-school classrooms. The programme connected school science with questions at the research frontier, making advanced ideas approachable and helping students see where their curiosity could lead.</p>
 <figure class="outreach-film">
 <div class="outreach-video">
 <iframe src="https://player.vimeo.com/video/316304696?dnt=1&amp;autoplay=0" width="960" height="540" title="Unentangled — One Community documentary by Ward 1 Studios" loading="lazy" allow="fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -72,6 +120,7 @@ redirect_from:
 </div>
 </section><section aria-labelledby="background-heading" class="major-section" id="background" tabindex="-1">
 <h2 class="section-heading" id="background-heading">Background &amp; CV</h2>
+<p class="cv-access"><a href="{{ '/CV.pdf' | relative_url }}">Curriculum vitae (PDF)</a></p>
 <ol class="positions">
 <li class="position">
 <div class="position-date">2024–2026</div>
@@ -80,7 +129,7 @@ redirect_from:
 <dl class="position-details">
 <div class="detail">
 <dt>Advisers:</dt>
-<dd>Misha Lukin<br/>Michael Gullans</dd>
+<dd>Mikhail D. Lukin<br/>Michael Gullans</dd>
 </div>
 <div class="detail">
 <dt>Funding:</dt>
@@ -124,5 +173,55 @@ redirect_from:
 </div>
 </li>
 </ol>
-<p class="background-recognition">My doctoral work was recognised with the <a href="https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/wb-pearson-medal">W.B. Pearson Medal</a>, the <a href="https://uwaterloo.ca/current-graduate-students/catalogs/graduate-funding-and-awards-database/iqc-achievement-award">IQC Achievement Award</a>, and the <a href="https://annualreport.2024.perimeterinstitute.ca/training/phd-students/#:~:text=PhD%20students%20Shayan%20Majidy%20and%20Shengqi%20Sang%20awarded%20Brodie%20Memorial%20Prize">John Brodie Memorial Award</a>. Further details are in my <a href="{{ '/CV.pdf' | relative_url }}">CV</a>.</p>
+<section class="selected-talks" id="selected-talks" aria-labelledby="talks-heading">
+<h3 id="talks-heading">Selected recent talks</h3>
+<ol class="talk-list">
+{% comment %}
+Princeton: title and 22 October date are in the bundled CV, p. 2. The official
+PQTC 2026 page lists Shayan among the invited speakers; the posted agenda also
+places the talk on 22 October. Remove "(upcoming)" after the presentation.
+Source: https://quantum.princeton.edu/pqtc2026 (checked 14 September 2026).
+{% endcomment %}
+<li class="talk">
+<time class="talk-date" datetime="2026-10-22">22 Oct 2026</time>
+<div class="talk-copy"><h4>Entangling logical qubits without physical operations</h4><p class="talk-meta"><a href="https://quantum.princeton.edu/pqtc2026">PQTC 2026</a>, Princeton <span aria-hidden="true">·</span> Invited talk (upcoming)</p></div>
+</li>
+<li class="talk">
+<time class="talk-date" datetime="2026-09-02">2 Sep 2026</time>
+<div class="talk-copy"><h4>Entangling logical qubits without physical operations</h4><p class="talk-meta"><a href="https://tqc-conference.org/2026/schedule/">TQC 2026</a>, Sherbrooke <span aria-hidden="true">·</span> Contributed talk</p></div>
+</li>
+<li class="talk">
+<time class="talk-date" datetime="2026-06-11">11 Jun 2026</time>
+<div class="talk-copy"><h4>Entangling logical qubits without physical operations</h4><p class="talk-meta"><a href="https://qec-conference.org/2026/accepted-papers/">QEC 2026</a>, Santa Barbara <span aria-hidden="true">·</span> Contributed talk</p></div>
+</li>
+<li class="talk">
+<time class="talk-date" datetime="2025-10-03">3 Oct 2025</time>
+<div class="talk-copy"><h4>Architectural mechanisms of a universal fault-tolerant quantum computer</h4><p class="talk-meta"><a href="https://www.physics.utoronto.ca/research/quantum-optics/cqiqc-seminars/cqiqc-seminar-on-3-october-2025/">CQIQC</a>, University of Toronto <span aria-hidden="true">·</span> Invited seminar <span aria-hidden="true">·</span> <a href="https://www.youtube.com/watch?v=zCgcY0ejYmo" aria-label="Watch the CQIQC architecture seminar recording">Watch talk</a></p></div>
+</li>
+<li class="talk">
+<time class="talk-date" datetime="2024-01-16">16 Jan 2024</time>
+<div class="talk-copy"><h4>Noncommuting charges can increase entanglement and induce critical dynamics</h4><p class="talk-meta"><a href="https://quantuminstitute.yale.edu/event/yqi-talk-shayan-majidy-waterloo-university">YQI Seminar</a>, Yale <span aria-hidden="true">·</span> Invited seminar</p></div>
+</li>
+
+</ol>
+<p class="talks-more"><a href="{{ '/CV.pdf' | relative_url }}#page=2">More talks in my CV</a></p>
+</section>
+
+<section class="selected-honours" aria-labelledby="honours-heading" id="selected-honours">
+<h3 id="honours-heading">Selected honours</h3>
+{% comment %}
+Each honour uses the same two-line structure: award type + awarding body,
+then the official award name. These are descriptions, not invented award titles.
+IQC's award is for graduate research, rather than a doctoral-only competition:
+https://uwaterloo.ca/institute-for-quantum-computing/graduate-studies/scholarships-and-awards
+Award years are retained; funding periods remain in the career timeline.
+{% endcomment %}
+<ul class="honours-list">
+<li><span class="honour-date">2025</span><div class="honour-copy"><span class="honour-summary">Doctoral research award, Faculty of Science, University of Waterloo</span><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/institute-quantum-computing-grad-receives-prestigious">W.B. Pearson Medal</a></div></li>
+<li><span class="honour-date">2024</span><div class="honour-copy"><span class="honour-summary">National postdoctoral fellowship, Government of Canada</span><a class="honour-name" href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellowship</a></div></li>
+<li><span class="honour-date">2024</span><div class="honour-copy"><span class="honour-summary">Doctoral research award, Perimeter Institute</span><a class="honour-name" href="https://annualreport.2024.perimeterinstitute.ca/training/phd-students/">John Brodie Memorial Award</a></div></li>
+<li><span class="honour-date">2022</span><div class="honour-copy"><span class="honour-summary">Graduate research award, Institute for Quantum Computing</span><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/iqc-achievement-award-recipient-shayan-majidy-shares">IQC Achievement Award</a></div></li>
+<li><span class="honour-date">2021</span><div class="honour-copy"><span class="honour-summary">National doctoral scholarship, Government of Canada</span><a class="honour-name" href="https://vanier.gc.ca/en/home-accueil.html">Vanier Canada Graduate Scholarship</a></div></li>
+</ul>
+</section>
 </section>

@@ -1,0 +1,21 @@
+{% assign paper = include.paper %}
+{% assign arxiv_url = 'https://arxiv.org/abs/' | append: paper.arxiv_id %}
+{% assign primary_url = paper.journal_url | default: arxiv_url %}
+<li class="publication" id="{{ paper.id }}" data-publication-status="{{ paper.status }}">
+{% if include.year_anchor %}<span class="publication-year-anchor" id="year-{{ include.year_anchor }}" aria-hidden="true"></span>{% endif %}
+<h3><a href="{{ primary_url }}">{{ paper.title_html | default: paper.title }}</a></h3>
+{% if paper.authors_compact %}
+<p class="publication-authors">{% include publication-authors.html authors=paper.authors_compact %}</p>
+<details class="publication-author-details"><summary>Full author list <span class="link-context">({{ paper.authors.size }})</span></summary>
+<p class="publication-authors">{% include publication-authors.html authors=paper.authors %}</p></details>
+{% else %}
+<p class="publication-authors">{% include publication-authors.html authors=paper.authors %}</p>
+{% endif %}
+<p class="publication-venue"><span class="publication-status">{{ paper.status | capitalize }}</span><span aria-hidden="true"> · </span>{% if paper.status == 'published' %}{{ paper.citation }}{% else %}arXiv:{{ paper.arxiv_id }}{% if paper.revised %} · First posted {{ paper.first_posted }}; revised {{ paper.revised }}{% else %} ({{ paper.year }}){% endif %}{% endif %}</p>
+<div class="publication-links" aria-label="Links for {{ paper.title | escape }}">
+{% if paper.journal_url %}<a href="{{ paper.journal_url }}">Journal</a>{% endif %}
+<a href="{{ arxiv_url }}">arXiv</a>
+{% for resource in paper.resources %}<a href="{{ resource.url }}">{{ resource.label }}</a>{% endfor %}
+<a href="#{{ paper.id }}" aria-label="Permanent link to {{ paper.title | escape }}">Permalink</a>
+</div>
+</li>

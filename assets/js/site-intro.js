@@ -1,7 +1,9 @@
 /*
  * Shayan Majidy — collapse opening. No library, canvas, video, or font dependency.
- * A 2.25-second opening, midway between the original and slower versions.
- * Draw (0–390 ms), ripple/settle (390–1200), name (1185–1575), dock (1575–1980), reveal (1920–2250).
+ * A 1.75-second opening, with the original movement and easing preserved.
+ * Choreography uses a 2250-unit timeline, uniformly compressed into 1750 ms.
+ * Timeline: draw (0–390), ripple/settle (390–1200), name (1185–1575),
+ * dock (1575–1980), reveal (1920–2250). Change duration to adjust speed only.
  * All drawing stops and temporary DOM/styles are removed at the end.
  */
 (function () {
@@ -12,7 +14,8 @@
   var motion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
   var active = false;
   var frame = null;
-  var duration = 2250;
+  var duration = 1750;
+  var timelineDuration = 2250;
 
   function clamp(n) { return Math.max(0, Math.min(1, n)); }
   function progress(t, a, b) { return clamp((t - a) / (b - a)); }
@@ -113,8 +116,9 @@
         if (motion.matches) { finish(); return; }
         try {
           if (start === null) start = timestamp;
-          var t = timestamp - start;
-          if (t >= duration) { finish(); return; }
+          var elapsed = timestamp - start;
+          if (elapsed >= duration) { finish(); return; }
+          var t = elapsed * timelineDuration / duration;
           // Remeasure after fonts have had time to arrive, without waiting for them.
           if (t >= 1575 && !measuredForDock) {
             root.style.setProperty('--site-intro-lift', '0px');
@@ -125,7 +129,7 @@
             measuredForDock = true;
           }
           var dock = smooth(progress(t, 1575, 1980));
-          var reveal = smooth(progress(t, 1920, duration));
+          var reveal = smooth(progress(t, 1920, timelineDuration));
           var label = out(progress(t, 1185, 1575));
           var length = mix(lineWidth * out(progress(t, 0, 390)), width, dock);
           var left = (width - length) / 2;

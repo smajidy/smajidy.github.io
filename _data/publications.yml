@@ -1,0 +1,210 @@
+# Bibliography shared by Research, teaching links and Publications.
+# Published: journal citation year. Preprints: initial posting year.
+# Keep IDs stable: /publications/#ID is a permanent link.
+- id: phantom-codes
+  year: 2026
+  order: 100
+  status: preprint
+  title: Entangling logical qubits without physical operations
+  authors:
+  - J. M. Koh
+  - A. Gong
+  - A. C. Diaconu
+  - D. B. Tan
+  - A. A. Geim
+  - M. J. Gullans
+  - N. Y. Yao
+  - M. D. Lukin
+  - S. Majidy
+  arxiv_id: '2601.20927'
+  resources:
+  - label: Explanation
+    url: https://quantumfrontiers.com/2026/02/02/spooky-action-nearby-entangling-logical-qubits-without-physical-operations/
+  - label: Watch talk
+    url: https://www.youtube.com/watch?v=fQXg3bLtQAI
+- id: neutral-atom-architecture
+  year: 2026
+  order: 99
+  status: published
+  title: A fault-tolerant neutral-atom architecture for universal quantum computation
+  authors:
+  - D. Bluvstein
+  - A. A. Geim
+  - S. H. Li
+  - S. J. Evered
+  - J. P. Bonilla Ataides
+  - G. Baranes
+  - A. Gu
+  - T. Manovitz
+  - M. Xu
+  - M. Kalinowski
+  - S. Majidy
+  - C. Kokail
+  - N. Maskara
+  - E. C. Trapp
+  - L. M. Stewart
+  - S. Hollerith
+  - H. Zhou
+  - M. J. Gullans
+  - S. F. Yelin
+  - M. Greiner
+  - V. Vuletić
+  - M. Cain
+  - M. D. Lukin
+  arxiv_id: '2506.20661'
+  journal_url: https://www.nature.com/articles/s41586-025-09848-5
+  citation: Nature 649, 39–46 (2026)
+  venue_short: Nature
+  authors_compact:
+  - D. Bluvstein
+  - A. A. Geim
+  - …
+  - S. Majidy
+  - …
+  - M. D. Lukin
+  resources:
+  - label: Watch talk
+    url: https://www.youtube.com/watch?v=zCgcY0ejYmo
+- id: encoded-k-uniform-states
+  year: 2025
+  order: 98
+  status: published
+  title: Scalable and fault-tolerant preparation of encoded k-uniform states
+  authors:
+  - S. Majidy
+  - D. Hangleiter
+  - M. J. Gullans
+  arxiv_id: '2503.14506'
+  title_html: Scalable and fault-tolerant preparation of encoded <em>k</em>-uniform states
+  journal_url: https://journals.aps.org/pra/abstract/10.1103/cl23-c3jg
+  citation: Phys. Rev. A 112, 042409 (2025)
+  venue_short: Phys. Rev. A
+- id: physics-misconceptions
+  year: 2024
+  order: 92
+  status: preprint
+  title: 'Addressing misconceptions in university physics: A review and experiences from quantum physics educators'
+  authors:
+  - S. Majidy
+  arxiv_id: '2405.20923'
+  first_posted: 2024
+  revised: 2025
+- id: thermodynamic-limits
+  year: 2024
+  order: 96
+  status: preprint
+  title: Thermodynamic limitations on fault-tolerant quantum computing
+  authors:
+  - M. Bilokur
+  - S. Gopalakrishnan
+  - S. Majidy
+  arxiv_id: '2411.12805'
+- id: nonstationary-dynamics
+  year: 2024
+  order: 95
+  status: published
+  title: Noncommuting charges can remove non-stationary quantum many-body dynamics
+  authors:
+  - S. Majidy
+  arxiv_id: '2403.13046'
+  journal_url: https://www.nature.com/articles/s41467-024-52588-9
+  citation: Nat. Commun. 15, 8246 (2024)
+  venue_short: Nat. Commun.
+- id: noncommuting-charges-perspective
+  year: 2023
+  order: 94
+  status: published
+  title: Noncommuting conserved charges in quantum thermodynamics and beyond
+  authors:
+  - S. Majidy
+  - W. F. Braasch Jr.
+  - A. Lasek
+  - T. Upadhyaya
+  - A. Kalev
+  - N. Yunger Halpern
+  arxiv_id: '2306.00054'
+  journal_url: https://www.nature.com/articles/s42254-023-00641-9
+  citation: Nat. Rev. Phys. 5, 689–698 (2023)
+  venue_short: Nat. Rev. Phys.
+- id: su2-monitored-circuits
+  year: 2023
+  order: 93
+  status: published
+  title: Critical phase and spin sharpening in SU(2)-symmetric monitored quantum circuits
+  authors:
+  - S. Majidy
+  - U. Agrawal
+  - S. Gopalakrishnan
+  - A. C. Potter
+  - R. Vasseur
+  - N. Yunger Halpern
+  arxiv_id: '2305.13356'
+  journal_url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.054307
+  citation: Phys. Rev. B 108, 054307 (2023)
+  venue_short: Phys. Rev. B
+- id: hybrid-codes
+  year: 2023
+  order: 92
+  status: published
+  title: A unification of the coding theory and OAQEC perspective on hybrid codes
+  authors:
+  - S. Majidy
+  arxiv_id: '1806.03702'
+  journal_url: https://link.springer.com/article/10.1007/s10773-023-05439-0
+  citation: Int. J. Theor. Phys. 62, 177 (2023)
+  venue_short: Int. J. Theor. Phys.
+- id: non-abelian-entanglement
+  year: 2023
+  order: 91
+  status: published
+  title: Non-Abelian symmetry can increase entanglement entropy
+  authors:
+  - S. Majidy
+  - A. Lasek
+  - D. A. Huse
+  - N. Yunger Halpern
+  arxiv_id: '2209.14303'
+  journal_url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045102
+  citation: Phys. Rev. B 107, 045102 (2023)
+  venue_short: Phys. Rev. B
+- id: charge-transport-hamiltonians
+  year: 2022
+  order: 90
+  status: published
+  title: How to build Hamiltonians that transport noncommuting charges in quantum thermodynamics
+  authors:
+  - N. Yunger Halpern
+  - S. Majidy
+  arxiv_id: '2103.14041'
+  journal_url: https://www.nature.com/articles/s41534-022-00516-4
+  citation: npj Quantum Inf. 8, 10 (2022)
+  venue_short: npj Quantum Inf.
+- id: macrorealism-violations
+  year: 2021
+  order: 89
+  status: published
+  title: Detecting violations of macrorealism when the original Leggett-Garg inequalities are satisfied
+  authors:
+  - S. Majidy
+  - J. J. Halliwell
+  - R. Laflamme
+  arxiv_id: '2101.12266'
+  journal_url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.062212
+  citation: Phys. Rev. A 103, 062212 (2021)
+  venue_short: Phys. Rev. A
+- id: leggett-garg-measurement
+  year: 2019
+  order: 88
+  status: published
+  title: Exploration of an augmented set of Leggett-Garg inequalities using a noninvasive continuous-in-time velocity
+    measurement
+  authors:
+  - S. Majidy
+  - H. Katiyar
+  - G. Anikeeva
+  - J. Halliwell
+  - R. Laflamme
+  arxiv_id: '1907.05489'
+  journal_url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.042325
+  citation: Phys. Rev. A 100, 042325 (2019)
+  venue_short: Phys. Rev. A
