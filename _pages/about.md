@@ -73,16 +73,15 @@ The earlier-research fragment is retained solely for old inbound links.
 
 
 
-</section><section aria-labelledby="teaching-heading" class="major-section teaching-section" id="teaching" tabindex="-1">
-<h2 class="section-heading" id="teaching-heading">Teaching &amp; mentoring</h2>
+</section><section aria-labelledby="textbook-outreach-heading" class="major-section textbook-outreach-section" id="textbook-and-outreach" data-nav-home tabindex="-1">
+<h2 class="section-heading" id="textbook-outreach-heading">Textbook &amp; outreach</h2>
 {% comment %}
-Teaching details below were supplied by the site owner on 14 September 2026:
-independent fourth-year instruction, 4.8/5 course evaluation with 97% response,
-six students supported into IQC internships, five-course textbook pilot and
-84 exercises. Keep the evaluation response rate with the score. Do not upgrade
-planned adoption of the redesign to completed adoption or infer PhD enrolment.
-A public syllabus/assignment can be linked once suitable material is supplied.
+The full textbook feature and Unentangled film intentionally remain on Home.
+The independent course, mentoring and educational-development record now lives
+at /teaching/. Keep the book's complete description, pilot details and links here.
+The #teaching fragment remains a legacy anchor beside a link to the new page.
 {% endcomment %}
+<span class="research-anchor" id="teaching" aria-hidden="true"></span>
 <div class="book-feature" id="textbook">
 <div class="book-copy">
 <h3 class="group-label">Textbook</h3>
@@ -93,20 +92,6 @@ A public syllabus/assignment can be linked once suitable material is supplied.
 <p class="book-context">The draft was piloted in five Waterloo courses; the published text includes 84 exercises.</p>
 <p class="book-resources"><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#contents">Contents</a> <span aria-hidden="true">·</span> <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90/resources/">Teaching resources</a></p></div>
 <a aria-label="Building Quantum Computers at Cambridge University Press" class="book-image-link" href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">{% include responsive-image.html id="cover" alt="Building Quantum Computers book cover" sizes="(max-width: 359px) 76px, (max-width: 640px) 88px, 240px" %}</a>
-<div class="teaching-topic course-topic">
-<h3>Course design &amp; teaching</h3>
-<p>In Fall 2022, I independently taught Waterloo’s fourth-year course, <em>Introduction to Implementation of Quantum Information Processing</em>. I redesigned the syllabus, teaching methods and assessments, delivered the lectures, and coordinated the teaching assistants.</p>
-<p>The course received an average evaluation of 4.8/5, with a 97% response rate.</p>
-</div>
-</div>
-<div class="teaching-topic">
-<h3>Mentoring</h3>
-<p>I have mentored graduate researchers at Harvard, the University of Maryland, ETH Zürich and the University of Waterloo, and undergraduates at Princeton and Waterloo. I also helped six students from my Waterloo course secure IQC internships through guidance on approaching faculty and reference letters.</p>
-</div>
-<div class="teaching-topic">
-<h3>Educational development</h3>
-<p>At Waterloo’s Centre for Teaching Excellence, I worked as a Graduate Educational Developer and TA Workshop Facilitator. My work included designing and facilitating workshops, teaching observations, microteaching sessions, and personalised feedback for graduate instructors. I also completed Waterloo’s Certificate in University Teaching. My physics-education research examines how instructors identify and address misconceptions, including in quantum physics.</p>
-<div class="research-links" aria-label="Physics education research">{% include research-paper-link.html id="physics-misconceptions" label="Addressing misconceptions in university physics" status=true %}</div>
 </div>
 <div class="teaching-topic outreach-topic" id="outreach">
 <h3>Outreach</h3>
@@ -118,6 +103,7 @@ A public syllabus/assignment can be linked once suitable material is supplied.
 <figcaption><em>Unentangled</em> — a <em>One Community</em> documentary by Ward 1 Studios. <a href="https://vimeo.com/316304696">Watch on Vimeo</a>.</figcaption>
 </figure>
 </div>
+<p class="teaching-page-link"><a href="{{ '/teaching/' | relative_url }}">More on teaching and mentoring <span aria-hidden="true">&rarr;</span></a></p>
 </section><section aria-labelledby="background-heading" class="major-section" id="background" tabindex="-1">
 <h2 class="section-heading" id="background-heading">Background &amp; CV</h2>
 <p class="cv-access"><a href="{{ '/CV.pdf' | relative_url }}">Curriculum vitae (PDF)</a></p>
@@ -210,18 +196,18 @@ Source: https://quantum.princeton.edu/pqtc2026 (checked 14 September 2026).
 <section class="selected-honours" aria-labelledby="honours-heading" id="selected-honours">
 <h3 id="honours-heading">Selected honours</h3>
 {% comment %}
-Each honour uses the same two-line structure: award type + awarding body,
-then the official award name. These are descriptions, not invented award titles.
+Each honour uses the same two-line structure: official linked award name first
+in dark type, then award type + awarding body beneath it in muted type. These are descriptions, not invented award titles.
 IQC's award is for graduate research, rather than a doctoral-only competition:
 https://uwaterloo.ca/institute-for-quantum-computing/graduate-studies/scholarships-and-awards
 Award years are retained; funding periods remain in the career timeline.
 {% endcomment %}
 <ul class="honours-list">
-<li><span class="honour-date">2025</span><div class="honour-copy"><span class="honour-summary">Doctoral research award, Faculty of Science, University of Waterloo</span><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/institute-quantum-computing-grad-receives-prestigious">W.B. Pearson Medal</a></div></li>
-<li><span class="honour-date">2024</span><div class="honour-copy"><span class="honour-summary">National postdoctoral fellowship, Government of Canada</span><a class="honour-name" href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellowship</a></div></li>
-<li><span class="honour-date">2024</span><div class="honour-copy"><span class="honour-summary">Doctoral research award, Perimeter Institute</span><a class="honour-name" href="https://annualreport.2024.perimeterinstitute.ca/training/phd-students/">John Brodie Memorial Award</a></div></li>
-<li><span class="honour-date">2022</span><div class="honour-copy"><span class="honour-summary">Graduate research award, Institute for Quantum Computing</span><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/iqc-achievement-award-recipient-shayan-majidy-shares">IQC Achievement Award</a></div></li>
-<li><span class="honour-date">2021</span><div class="honour-copy"><span class="honour-summary">National doctoral scholarship, Government of Canada</span><a class="honour-name" href="https://vanier.gc.ca/en/home-accueil.html">Vanier Canada Graduate Scholarship</a></div></li>
+<li><span class="honour-date">2025</span><div class="honour-copy"><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/institute-quantum-computing-grad-receives-prestigious">W.B. Pearson Medal</a><span class="honour-summary">Doctoral research award, Faculty of Science, University of Waterloo</span></div></li>
+<li><span class="honour-date">2024</span><div class="honour-copy"><a class="honour-name" href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellowship</a><span class="honour-summary">National postdoctoral fellowship, Government of Canada</span></div></li>
+<li><span class="honour-date">2024</span><div class="honour-copy"><a class="honour-name" href="https://annualreport.2024.perimeterinstitute.ca/training/phd-students/">John Brodie Memorial Award</a><span class="honour-summary">Doctoral research award, Perimeter Institute</span></div></li>
+<li><span class="honour-date">2022</span><div class="honour-copy"><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/iqc-achievement-award-recipient-shayan-majidy-shares">IQC Achievement Award</a><span class="honour-summary">Graduate research award, Institute for Quantum Computing</span></div></li>
+<li><span class="honour-date">2021</span><div class="honour-copy"><a class="honour-name" href="https://vanier.gc.ca/en/home-accueil.html">Vanier Canada Graduate Scholarship</a><span class="honour-summary">National doctoral scholarship, Government of Canada</span></div></li>
 </ul>
 </section>
 </section>

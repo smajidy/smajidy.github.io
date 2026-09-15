@@ -6,7 +6,8 @@ Jekyll source for the GitHub Pages website at https://smajidy.github.io/.
 
 | File | Purpose |
 | --- | --- |
-| `_pages/about.md` | Introduction, research, teaching and mentoring, then background (timeline, recent talks and honours). |
+| `_pages/about.md` | Introduction, research, full textbook/outreach feature, then background (timeline, recent talks and honours). |
+| `_pages/teaching.md` | Separate Teaching page: independent course, mentoring and educational development, with links to the homepage book and film. |
 | `_data/publications.yml` | The single source of truth for research-paper titles, authors, publication status, years, citations and paper resources. |
 | `_pages/publications.md` | Continuous reverse-chronological bibliography and the separate textbook citation. |
 | `_pages/oot-and-aboot.md` | Personal gallery captions and image placement. |
@@ -15,7 +16,7 @@ Jekyll source for the GitHub Pages website at https://smajidy.github.io/.
 | `_config.yml` | Identity, social-profile links, share image and build settings. |
 | `assets/css/main.css` | Shared responsive styling. |
 | `assets/js/site-intro.js` | The opening animation: original choreography compressed to 1.75 seconds. |
-| `assets/js/site-navigation.js` | Active-section navigation, deliberately preserved. |
+| `assets/js/site-navigation.js` | Active homepage sections and separate-page links; the textbook/outreach feature maps to Home. |
 | `CV.pdf` | The downloadable CV. |
 
 The site retains the 860 px desktop column, original typeface declarations and navy palette, 1 px profile-photo border, 2 pt textbook-cover border, sticky navigation and original opening-animation choreography (now 1.75 seconds). Display images use WebP derivatives; the originals remain in `images/` unchanged.
@@ -70,8 +71,8 @@ The homepage introduction uses the same order. The third theme is an integrated
 part of the programme, not earlier or archived work. Its selected links are the
 Nature Communications dynamics paper and the Nature Reviews Physics Perspective
 only. The combined algorithms-and-architectures group links the Nature paper and
-Building Quantum Computers; the full textbook feature remains under Teaching &
-mentoring. Keep the same parenthesised venue/year convention for the book link.
+Building Quantum Computers; the full textbook feature remains on the homepage under Textbook &
+outreach. Keep the same parenthesised venue/year convention for the book link.
 
 Canonical fragments are `#quantum-error-correction`,
 `#quantum-algorithms-and-architectures`, and
@@ -87,7 +88,7 @@ Research descriptions distinguish completed results from current directions. Att
 
 Keep Selected recent talks after the education/career timeline and before Selected honours in Background & CV, not in Research. Keep it short and accurately labelled as invited or contributed. Recording links are optional. Repeated titles are retained rather than rewritten to suggest different research. The entry labelled “PQTC 2026, Princeton” is an upcoming invited talk on 22 October; remove the upcoming qualifier after delivery. Keep event and location labels separate, including “YQI Seminar, Yale”. The gallery and full CV can retain older appearances omitted from the homepage selection.
 
-Selected honours show award years; the career timeline shows funding periods. All honours use one consistent two-line structure: a plain-language award type and awarding body, followed by the official linked award name. Do not invent new official titles or add selective prestige claims. IQC's award is described as a graduate research award because its published eligibility is not restricted to doctoral students.
+Selected honours show award years; the career timeline shows funding periods. All honours use one consistent two-line structure: the official linked award name first in dark type, followed by a plain-language award type and awarding body in muted type. Do not invent new official titles or add selective prestige claims. IQC's award is described as a graduate research award because its published eligibility is not restricted to doctoral students.
 
 To adjust animation speed, change `duration` (milliseconds) in `assets/js/site-intro.js`. Leave `timelineDuration` and all choreography keyframes unchanged so every phase speeds up uniformly. Keep reduced-motion, immediate user-interruption, navigation and replay behaviour intact. Refresh the script cache token in `_includes/site-intro.html` after changes.
 
@@ -104,3 +105,21 @@ The favicon reuses the site's existing wave artwork; the share image uses the ex
 ## Heading hierarchy
 
 On screens at least 1000 px wide, major homepage headings and their section rules extend 32 px to the left of the text column. Body text and image widths are unchanged. On narrower screens the headings stay aligned with the body; do not indent mobile text or introduce horizontal scrolling. Research begins directly with its publication-access links and research areas, without a generic overview sentence.
+
+## Teaching page and homepage features
+
+The main menu order is Home, Research, Background & CV, Teaching, Publications,
+Oot and Aboot. Teaching is the separate `/teaching/` page, with a normal
+current-page marker. Do not restore `/#teaching` as its menu destination.
+
+The homepage section “Textbook & outreach” retains the complete book description,
+authors, publisher, pilot/exercise details, contents/resources links, cover, and
+Unentangled description, film and credit. Course design, mentoring and educational
+development appear on Teaching, without duplicating the long feature. Both pages
+link to each other. Preserve `/#textbook` and `/#outreach`; the legacy `/#teaching`
+fragment lands beside the retained feature and its link to the full Teaching page.
+`data-nav-home` ensures the non-tabbed feature highlights Home, not Research.
+
+The 1.75-second opening, selected research, timeline, talks, complete bibliography,
+CV, gallery and source image files are unchanged by this page split. Preview files
+are external review aids, not public-site source files.

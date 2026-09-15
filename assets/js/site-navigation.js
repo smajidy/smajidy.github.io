@@ -16,6 +16,18 @@
     var target = document.getElementById(link.getAttribute('data-nav-section'));
     if (target) sections.push({ link: link, target: target });
   });
+  // Homepage features without a dedicated tab belong to Home, not Research.
+  // Sort every tracked target in document order so the reading-edge logic stays
+  // correct even though the global menu also contains separate-page links.
+  if (home) {
+    document.querySelectorAll('[data-nav-home]').forEach(function (target) {
+      sections.push({ link: home, target: target });
+    });
+    sections.sort(function (a, b) {
+      if (a.target === b.target) return 0;
+      return a.target.compareDocumentPosition(b.target) & 4 ? -1 : 1;
+    });
+  }
   // Other pages keep their server-rendered current-page marker, even without JS.
   if (!home || !sections.length) return;
   var pending = false;
@@ -57,7 +69,7 @@
       selected = last.link;
     }
     // Honour explicit jumps even on a screen tall enough to show the whole
-    // last part of the page, where both Teaching and Background clamp to bottom.
+    // last part of the homepage, where an explicit section can clamp to bottom.
     if (requestedSection) {
       var target = requestedSection.section.target;
       var gap = parseFloat(window.getComputedStyle(target).scrollMarginTop) || 0;
