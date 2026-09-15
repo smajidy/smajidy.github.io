@@ -71,8 +71,8 @@ The Home/Research narrative uses three equally styled themes in this order:
 The homepage introduction uses the same order. The third theme is an integrated
 part of the programme, not earlier or archived work. Its selected links are the
 Nature Communications dynamics paper and the Nature Reviews Physics Perspective
-only. The combined algorithms-and-architectures group links the Nature paper and
-Building Quantum Computers; the full textbook feature remains on the homepage under Textbook &
+only. The combined algorithms-and-architectures group links Building Quantum
+Computers first, then the Nature paper; the full textbook feature remains on the homepage under Textbook &
 outreach. Keep the same parenthesised venue/year convention for the book link.
 
 Canonical fragments are `#quantum-error-correction`,
@@ -93,7 +93,7 @@ Selected honours show award years; the career timeline shows funding periods. Al
 
 To adjust animation speed, change `duration` (milliseconds) in `assets/js/site-intro.js`. Leave `timelineDuration` and all choreography keyframes unchanged so every phase speeds up uniformly. Keep reduced-motion, immediate user-interruption, navigation and replay behaviour intact. Refresh the script cache token in `_includes/site-intro.html` after changes.
 
-Teaching and mentoring copy uses the owner-supplied September 2026 account. It identifies independent fourth-year instruction, the 4.8/5 evaluation with its 97% response rate, six students supported into IQC internships, textbook piloting in five Waterloo courses, 84 exercises, and graduate mentoring at Maryland. Keep student support distinct from claims of causing PhD enrolment. Do not convert anticipated departmental adoption into an established result. Unentangled is a former organisation and is described in the past tense. Use “Mikhail D. Lukin” in the homepage biography; retain author initials in citations. A public syllabus or representative assignment can be linked once a suitable file and permission are available. No fabricated example or empty download placeholder is included.
+Teaching and mentoring copy uses the owner-supplied September 2026 account. It identifies independent fourth-year instruction, the 4.8/5 evaluation with its 97% response rate, six students supported into IQC internships, and graduate mentoring at Maryland. The textbook feature describes documented international teaching use, without claiming it is the universally standard textbook; source-only notes in `_pages/about.md` record the course references. Keep student support distinct from claims of causing PhD enrolment. Do not convert anticipated departmental adoption into an established result. Unentangled is a former organisation and is described in the past tense. Use “Mikhail D. Lukin” in the homepage biography; retain author initials in citations. A public syllabus or representative assignment can be linked once a suitable file and permission are available. No fabricated example or empty download placeholder is included.
 
 ## Images
 
@@ -114,8 +114,9 @@ Oot and Aboot. Teaching is the separate `/teaching/` page, with a normal
 current-page marker. Do not restore `/#teaching` as its menu destination.
 
 The homepage section “Textbook & outreach” retains the complete book description,
-authors, publisher, pilot/exercise details, contents/resources links, cover, and
-Unentangled description, film and credit. Course design, mentoring and educational
+authors, publisher, international teaching-use context, contents/resources links, cover,
+and Unentangled description and film. The separate documentary caption is intentionally omitted;
+the embedded player and its accessible title remain. Course design, mentoring and educational
 development appear on Teaching, without duplicating the long feature. Both pages
 link to each other. Preserve `/#textbook` and `/#outreach`; the legacy `/#teaching`
 fragment lands beside the retained feature and its link to the full Teaching page.
@@ -134,3 +135,15 @@ Conference annotations and three timestamped talk links were supplied by the sit
 The owner supplied `Nicole_Ray_2022.png` (18 May 2022) and `Quantum_Steampunk_2026.png` (2 March 2026), together with their captions. No identities or dates were inferred from the images. Original files are retained; only the generated display copies are resized/compressed.
 
 Two Instagram photos could not be retrieved. Source-only notes in `_pages/oot-and-aboot.md` preserve the exact post URLs, caption instructions and dates. There are no public placeholders. The outreach date is only specified to February 2021, so use the month without inventing a day when adding that photo.
+
+## Homepage copy refinement
+
+The three research descriptions follow the owner-supplied text. Preserve the bold
+opening question in each, the bold **gate-first approach**, and the italic book
+and phantom-code names. Keep the architectural selected links book-first. The
+Nature Communications link is labelled **Effect on thermalization**; its destination
+and journal/year metadata are unchanged.
+
+Outreach uses the owner's supplied scope (more than 1,000 students annually at its
+peak, with 10 volunteers) and remains past tense. Do not restore the documentary
+caption beneath the player or reintroduce a running organisation claim.

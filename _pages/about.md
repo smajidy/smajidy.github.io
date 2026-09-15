@@ -33,7 +33,7 @@ and thermodynamics theme is part of the coherent programme, not an archive.
 {% endcomment %}
 <div class="research-topic" id="quantum-error-correction">
 <h3>Quantum error correction</h3>
-<p>What is the minimum cost of protecting and manipulating logical quantum information? I design and analyse quantum codes with their logical operations in mind. Our <em>phantom codes</em> implement entangling gates within a code block through classically tracked relabellings, without applying physical gates. More broadly, I study how code structure and supported logical operations determine the cost of fault-tolerant computation, including the trade-offs involved in tailoring codes to particular computational tasks.</p>
+<p><strong>What is the minimum cost of protecting and manipulating logical quantum information?</strong> I work broadly on reducing the overhead of quantum error correction, from the design of codes and logical operations to syndrome extraction and fault-tolerant architectures. One direction is a <strong>gate-first approach</strong> to code design: rather than choosing a code and accepting the logical operations it supports, I design codes around the computations they must perform. Our <em>phantom codes</em> illustrate one extreme, implementing in-block entangling gates through classically tracked relabellings, without applying physical gates.</p>
 <div class="research-links" aria-label="Selected quantum error correction work">
 {% include research-paper-link.html id="phantom-codes" label="Phantom codes" status=true %}
 </div>
@@ -45,10 +45,10 @@ Homepage highlights are curated separately from the complete Publications list.
 <div class="research-topic" id="quantum-algorithms-and-architectures">
 <span class="research-anchor" id="quantum-algorithms" aria-hidden="true"></span><span class="research-anchor" id="quantum-architectures" aria-hidden="true"></span>
 <h3>Quantum algorithms and architectures</h3>
-<p>How should algorithms, error correction and hardware be designed together? I helped design a teleportation-based neutral-atom architecture that removes entropy while processing logical information, exploiting non-local connectivity and parallel control. This work, and my role as lead author of <em>Building Quantum Computers</em>, shape my approach to protocols that use the strengths of a particular platform. My interests include quantum simulation, cooling and state preparation, with the algorithm and its fault-tolerant implementation considered together.</p>
+<p><strong>How should algorithms, error correction, and hardware be designed together?</strong> I study quantum computation as a co-design problem, developing algorithms and fault-tolerant protocols around the capabilities and constraints of the hardware that will run them. This perspective grew from my role as lead author of <em>Building Quantum Computers</em> and shapes my work on quantum simulation, cooling, and state preparation. For example, I helped design a teleportation-based neutral-atom architecture that exploits non-local connectivity and parallel control to remove entropy while processing logical information.</p>
 <div class="research-links" aria-label="Selected quantum algorithms and architectures work">
-{% include research-paper-link.html id="neutral-atom-architecture" label="Fault-tolerant neutral-atom architecture" status=true %}
 <span class="evidence-link"><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><em>Building Quantum Computers</em></a> <span class="link-context">(Cambridge University Press, 2024)</span></span>
+{% include research-paper-link.html id="neutral-atom-architecture" label="Fault-tolerant neutral-atom architecture" status=true %}
 </div>
 {% comment %}
 TODO: Add selected quantum-algorithms work here when ready to feature.
@@ -59,9 +59,9 @@ The empty spans above preserve existing links to the formerly separate themes.
 <div class="research-topic" id="quantum-dynamics-and-thermodynamics">
 <span class="research-anchor" id="earlier-research" aria-hidden="true"></span>
 <h3>Quantum dynamics and thermodynamics</h3>
-<p>How do conservation laws and measurements shape quantum information? I helped establish noncommuting-charge physics as a research direction, showing how noncommuting conserved quantities can enhance entanglement, generate critical phases in monitored circuits, and constrain mechanisms that prevent thermalization. This work includes a lead-authored Perspective in <em>Nature Reviews Physics</em> and a single-author study of many-body dynamics. It also informs my interest in cooling and entropy removal as tools for preparing and protecting quantum states.</p>
+<p><strong>How do microscopic dynamics govern quantum information loss?</strong> I investigate the mechanisms governing entropy production, seeking physical structures that suppress or amplify decoherence. One important setting is dynamics constrained by conservation laws, where symmetries can fundamentally reshape thermalization. During my PhD, I helped establish noncommuting-charge physics as a distinct subfield, showing that noncommuting conserved quantities can enhance entanglement, generate critical phases in monitored quantum circuits, and remove dynamical structures that inhibit thermalization.</p>
 <div class="research-links" aria-label="Selected quantum dynamics and thermodynamics work">
-{% include research-paper-link.html id="nonstationary-dynamics" label="Many-body dynamics" status=true %}
+{% include research-paper-link.html id="nonstationary-dynamics" label="Effect on thermalization" status=true %}
 {% include research-paper-link.html id="noncommuting-charges-perspective" label="Perspective" status=true %}
 </div>
 {% comment %}
@@ -78,7 +78,7 @@ The earlier-research fragment is retained solely for old inbound links.
 {% comment %}
 The full textbook feature and Unentangled film intentionally remain on Home.
 The independent course, mentoring and educational-development record now lives
-at /teaching/. Keep the book's complete description, pilot details and links here.
+at /teaching/. Keep the book's complete description, adoption context and links here.
 The #teaching fragment remains a legacy anchor beside a link to the new page.
 {% endcomment %}
 <span class="research-anchor" id="teaching" aria-hidden="true"></span>
@@ -89,18 +89,25 @@ The #teaching fragment remains a legacy anchor beside a link to the new page.
 <p class="book-authors"><strong>S. Majidy</strong>, C. Wilson, and R. Laflamme</p>
 <p class="book-venue">Cambridge University Press (2024)</p>
 <p class="book-context">Written for advanced undergraduates and beginning graduate students, the book compares physical implementations through shared concepts and notation. Writing it developed the cross-platform perspective that informs my work on hardware-aware architectures and scientific applications.</p>
-<p class="book-context">The draft was piloted in five Waterloo courses; the published text includes 84 exercises.</p>
+{% comment %}
+International teaching use is supported by course reading lists, including:
+https://insti.physics.sunysb.edu/~twei/Courses/Fall2025/PHY568/
+https://physics.carleton.ca/sites/default/files/content-files/202530_14.pdf
+These establish teaching use, not a worldwide consensus that this is "the standard"
+textbook. Use the narrower public wording below unless stronger adoption evidence
+is available. This source note is not rendered in the public site.
+{% endcomment %}
+<p class="book-context">The book is used in university teaching internationally as an introduction to quantum computing hardware.</p>
 <p class="book-resources"><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#contents">Contents</a> <span aria-hidden="true">·</span> <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90/resources/">Teaching resources</a></p></div>
 <a aria-label="Building Quantum Computers at Cambridge University Press" class="book-image-link" href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">{% include responsive-image.html id="cover" alt="Building Quantum Computers book cover" sizes="(max-width: 359px) 76px, (max-width: 640px) 88px, 240px" %}</a>
 </div>
 <div class="teaching-topic outreach-topic" id="outreach">
 <h3>Outreach</h3>
-<p>Through Unentangled, my former non-profit, I brought current scientific research into high-school classrooms. The programme connected school science with questions at the research frontier, making advanced ideas approachable and helping students see where their curiosity could lead.</p>
+<p>Through Unentangled, my non-profit, I worked to broaden access to science by bringing current research into high-school classrooms. The programme was built on the idea that more people should benefit not only from scientific knowledge, but from the tools science provides for reasoning, questioning, and solving problems. At its peak, Unentangled served more than 1,000 students annually with a team of 10 volunteers.</p>
 <figure class="outreach-film">
 <div class="outreach-video">
 <iframe src="https://player.vimeo.com/video/316304696?dnt=1&amp;autoplay=0" width="960" height="540" title="Unentangled — One Community documentary by Ward 1 Studios" loading="lazy" allow="fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<figcaption><em>Unentangled</em> — a <em>One Community</em> documentary by Ward 1 Studios. <a href="https://vimeo.com/316304696">Watch on Vimeo</a>.</figcaption>
 </figure>
 </div>
 <p class="teaching-page-link"><a href="{{ '/teaching/' | relative_url }}">More on teaching and mentoring <span aria-hidden="true">&rarr;</span></a></p>
