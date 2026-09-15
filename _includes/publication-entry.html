@@ -11,11 +11,11 @@
 {% else %}
 <p class="publication-authors">{% include publication-authors.html authors=paper.authors %}</p>
 {% endif %}
-<p class="publication-venue"><span class="publication-status">{{ paper.status | capitalize }}</span><span aria-hidden="true"> · </span>{% if paper.status == 'published' %}{{ paper.citation }}{% else %}arXiv:{{ paper.arxiv_id }}{% if paper.revised %} · First posted {{ paper.first_posted }}; revised {{ paper.revised }}{% else %} ({{ paper.year }}){% endif %}{% endif %}</p>
+<p class="publication-venue"><span class="publication-status">{{ paper.status | capitalize }}</span><span aria-hidden="true"> · </span>{% if paper.status == 'published' %}{{ paper.citation }}{% else %}arXiv:{{ paper.arxiv_id }}{% if paper.revised %} · First posted {{ paper.first_posted }}; revised {{ paper.revised }}{% else %} ({{ paper.year }}){% endif %}{% endif %}{% if paper.conferences %} <span class="publication-conferences"><span class="visually-hidden">Conference presentations: </span>[{% for conference in paper.conferences %}<span class="conference-name">{{ conference | escape }}</span>{% unless forloop.last %} · {% endunless %}{% endfor %}]</span>{% endif %}</p>
 <div class="publication-links" aria-label="Links for {{ paper.title | escape }}">
 {% if paper.journal_url %}<a href="{{ paper.journal_url }}">Journal</a>{% endif %}
 <a href="{{ arxiv_url }}">arXiv</a>
-{% for resource in paper.resources %}<a href="{{ resource.url }}">{{ resource.label }}</a>{% endfor %}
+{% for resource in paper.resources %}<a href="{{ resource.url | escape }}">{{ resource.label }}</a>{% endfor %}
 <a href="#{{ paper.id }}" aria-label="Permanent link to {{ paper.title | escape }}">Permalink</a>
 </div>
 </li>

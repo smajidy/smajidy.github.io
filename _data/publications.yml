@@ -22,6 +22,10 @@
     url: https://quantumfrontiers.com/2026/02/02/spooky-action-nearby-entangling-logical-qubits-without-physical-operations/
   - label: Watch talk
     url: https://www.youtube.com/watch?v=fQXg3bLtQAI
+  conferences:
+  - TQC 2026
+  - QEC 2026
+  - CQIQC-XI
 - id: neutral-atom-architecture
   year: 2026
   order: 99
@@ -142,6 +146,11 @@
   journal_url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.054307
   citation: Phys. Rev. B 108, 054307 (2023)
   venue_short: Phys. Rev. B
+  conferences:
+  - CQIQC-X
+  resources:
+  - label: Watch talk
+    url: https://www.youtube.com/watch?v=SWkSyE-4q0U&t=2690s
 - id: hybrid-codes
   year: 2023
   order: 92
@@ -167,6 +176,9 @@
   journal_url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045102
   citation: Phys. Rev. B 107, 045102 (2023)
   venue_short: Phys. Rev. B
+  resources:
+  - label: Watch talk
+    url: https://www.youtube.com/watch?v=-n64lup6w34&t=1462s
 - id: charge-transport-hamiltonians
   year: 2022
   order: 90
@@ -179,6 +191,9 @@
   journal_url: https://www.nature.com/articles/s41534-022-00516-4
   citation: npj Quantum Inf. 8, 10 (2022)
   venue_short: npj Quantum Inf.
+  resources:
+  - label: Watch talk
+    url: https://www.youtube.com/watch?v=lF7c7eKxcy0&t=271s
 - id: macrorealism-violations
   year: 2021
   order: 89

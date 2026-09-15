@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-seo_title: "Shayan Majidy — Quantum Computing Theory"
+seo_title: "Shayan Majidy"
 excerpt: "Quantum computing theorist connecting quantum error correction, algorithms and architectures, and quantum dynamics and thermodynamics for scientific discovery."
 redirect_from:
   - /about/
@@ -84,7 +84,7 @@ The #teaching fragment remains a legacy anchor beside a link to the new page.
 <span class="research-anchor" id="teaching" aria-hidden="true"></span>
 <div class="book-feature" id="textbook">
 <div class="book-copy">
-<h3 class="group-label">Textbook</h3>
+<h3 class="book-section-heading">Textbook</h3>
 <h4><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">Building Quantum Computers:<br class="desktop-break"/> A Practical Introduction</a></h4>
 <p class="book-authors"><strong>S. Majidy</strong>, C. Wilson, and R. Laflamme</p>
 <p class="book-venue">Cambridge University Press (2024)</p>

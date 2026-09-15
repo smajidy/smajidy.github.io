@@ -24,7 +24,7 @@ h3 { font-size:18px; font-weight:600; line-height:1.4; }
 .site-nav a:hover { color:var(--navy); }
 #main { width:min(calc(100% - 64px),var(--measure)); margin:64px auto 0; }
 .profile { display:flex; align-items:center; gap:32px; margin-bottom:42px; }
-.profile-photo { width:128px; height:128px; flex-shrink:0; border:1px solid var(--navy); border-radius:50%; object-fit:cover; }
+.profile-photo { width:128px; height:128px; flex-shrink:0; border:2pt solid var(--navy); border-radius:50%; object-fit:cover; }
 .profile-copy { min-width:0; }
 .profile h1 { margin:0 0 8px; }
 .profile-alias { font-size:16px; color:var(--muted); font-style:italic; line-height:1.5; margin:0 0 12px; }
@@ -59,7 +59,7 @@ dt,dd { margin:0; }
 /* Standalone homepage textbook feature; teaching details live on /teaching/. */
 .book-feature { display:grid; grid-template-columns:minmax(0,1fr) clamp(184px,26vw,240px); grid-template-areas:"book cover"; align-items:start; column-gap:36px; row-gap:28px; margin:0 0 28px; padding:2px 0; }
 .book-copy { grid-area:book; min-width:0; }
-.book-copy .group-label { margin-bottom:15px; }
+.book-copy .book-section-heading { margin-bottom:8px; }
 .book-copy h4 { font-family:"Source Serif 4",Georgia,"Times New Roman",serif; font-size:25px; font-weight:600; letter-spacing:-.2px; line-height:1.3; margin:0 0 16px; }
 .book-copy h4 a { text-decoration:none; }
 .book-copy h4 a:hover { text-decoration:underline; text-decoration-thickness:1px; }
@@ -81,7 +81,7 @@ dt,dd { margin:0; }
 .publication-venue { color:var(--muted); margin-top:3px; }
 .publication-group.preprints { margin-top:40px; padding-top:30px; border-top:1px solid var(--rule); }
 .gallery-heading { margin-bottom:23px; }
-.gallery-description { max-width:65ch; margin-bottom:40px; }
+.gallery-description { max-width:none; margin-bottom:40px; }
 .photo-gallery { display:flex; flex-direction:column; gap:35px; }
 .gallery-row { display:flex; align-items:flex-start; gap:24px; }
 .gallery-row figure { margin:0; flex:var(--image-ratio) 1 0; min-width:0; }
@@ -289,3 +289,8 @@ figcaption { margin-top:12px; font-size:15px; line-height:1.5; color:#454e5c; }
  .teaching-page .teaching-topic h2 { font-size:18px; }
  .teaching-page .teaching-related > p,.teaching-page-link { font-size:15px; }
 }
+
+/* Conference context sits beside each citation, not in the selected-talk list. */
+.publication-conferences { margin-left:.45em; color:var(--navy); font-size:14px; font-weight:400; }
+.conference-name { white-space:nowrap; }
+.visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }

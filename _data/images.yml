@@ -235,3 +235,27 @@ ray-kai:
     width: 960
   - path: /images/optimized/ray-kai-1024.webp
     width: 1024
+
+# New gallery photos supplied by the site owner; originals retained in images/.
+nicole-ray-2022:
+  width: 1440
+  height: 960
+  src: /images/optimized/nicole-ray-2022-960.webp
+  variants:
+  - path: /images/optimized/nicole-ray-2022-480.webp
+    width: 480
+  - path: /images/optimized/nicole-ray-2022-960.webp
+    width: 960
+  - path: /images/optimized/nicole-ray-2022-1440.webp
+    width: 1440
+quantum-steampunk-2026:
+  width: 1280
+  height: 960
+  src: /images/optimized/quantum-steampunk-2026-960.webp
+  variants:
+  - path: /images/optimized/quantum-steampunk-2026-480.webp
+    width: 480
+  - path: /images/optimized/quantum-steampunk-2026-960.webp
+    width: 960
+  - path: /images/optimized/quantum-steampunk-2026-1280.webp
+    width: 1280

@@ -19,7 +19,7 @@ Jekyll source for the GitHub Pages website at https://smajidy.github.io/.
 | `assets/js/site-navigation.js` | Active homepage sections and separate-page links; the textbook/outreach feature maps to Home. |
 | `CV.pdf` | The downloadable CV. |
 
-The site retains the 860 px desktop column, original typeface declarations and navy palette, 1 px profile-photo border, 2 pt textbook-cover border, sticky navigation and original opening-animation choreography (now 1.75 seconds). Display images use WebP derivatives; the originals remain in `images/` unchanged.
+The site retains the 860 px desktop column, original typeface declarations and navy palette, 2 pt profile-photo border, 2 pt textbook-cover border, sticky navigation and original opening-animation choreography (now 1.75 seconds). Display images use WebP derivatives; the originals remain in `images/` unchanged.
 
 ## Local development and validation
 
@@ -52,6 +52,7 @@ Edit `_data/publications.yml`, not the rendered HTML. Each paper has a permanent
 - Keep the existing `id` when publication details change: it is the stable `/publications/#paper-id` destination.
 - Write mathematical title markup only in optional `title_html`, while keeping `title` as plain text for accessible labels.
 - List all authors. For very long collaborations, optional `authors_compact` supplies the visible short list; the full `authors` array appears in an accessible native disclosure.
+- Optional `conferences` is a list of short conference names, displayed in square brackets beside the citation. These annotations are separate from journal/preprint status and do not add entries to Selected recent talks.
 - Optional `resources` is an array of `label`/`url` pairs, e.g. an existing explanation or recorded talk. Do not publish private draft URLs or confidential material.
 
 Homepage paper links read the same bibliography through `research-paper-link.html`. Use `status=true` for every research-area link, including quantum thermodynamics, so each link has one parenthesised status or venue and year: `(preprint, 2026)` or `(Nature, 2026)`.
@@ -123,3 +124,13 @@ fragment lands beside the retained feature and its link to the full Teaching pag
 The 1.75-second opening, selected research, timeline, talks, complete bibliography,
 CV, gallery and source image files are unchanged by this page split. Preview files
 are external review aids, not public-site source files.
+
+## September 2026 gallery and publication refinements
+
+The homepage browser/share title is simply **Shayan Majidy**; separate pages retain their descriptive titles. The Textbook and Outreach subheadings share the same type treatment. The gallery introduction uses the whole shared column.
+
+Conference annotations and three timestamped talk links were supplied by the site owner. Retain the YouTube `t=` parameters. Do not infer further acceptances from the presence of a recording.
+
+The owner supplied `Nicole_Ray_2022.png` (18 May 2022) and `Quantum_Steampunk_2026.png` (2 March 2026), together with their captions. No identities or dates were inferred from the images. Original files are retained; only the generated display copies are resized/compressed.
+
+Two Instagram photos could not be retrieved. Source-only notes in `_pages/oot-and-aboot.md` preserve the exact post URLs, caption instructions and dates. There are no public placeholders. The outreach date is only specified to February 2021, so use the month without inventing a day when adding that photo.
