@@ -177,7 +177,7 @@ Source: https://quantum.princeton.edu/pqtc2026 (checked 14 September 2026).
 {% endcomment %}
 <li class="talk">
 <time class="talk-date" datetime="2026-10-22">22 Oct 2026</time>
-<div class="talk-copy"><h4>Entangling logical qubits without physical operations</h4><p class="talk-meta"><a href="https://quantum.princeton.edu/pqtc2026">PQTC 2026</a>, Princeton <span aria-hidden="true">·</span> Invited talk (upcoming)</p></div>
+<div class="talk-copy"><h4>Achieving the limits of automorphism gates</h4><p class="talk-meta"><a href="https://quantum.princeton.edu/pqtc2026">PQTC 2026</a>, Princeton <span aria-hidden="true">·</span> Invited talk</p></div>
 </li>
 <li class="talk">
 <time class="talk-date" datetime="2026-09-02">2 Sep 2026</time>
