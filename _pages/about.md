@@ -11,25 +11,19 @@ redirect_from:
 <header class="profile">{% include responsive-image.html id="profile" alt="Shayan Majidy" class="profile-photo" width=128 height=128 sizes="(max-width: 640px) 96px, 128px" loading="eager" fetchpriority="high" %}
 <div class="profile-copy">
 <h1 data-intro-title="">Shayan Majidy</h1>
-<p class="profile-alias">I also go by Shay.</p>
-<p class="profile-email"><a href="mailto:smajidy@fas.harvard.edu">smajidy@fas.harvard.edu</a></p></div>
+<p class="profile-email"><a href="mailto:smajidy@fas.harvard.edu">smajidy@fas.harvard.edu</a><span aria-hidden="true">·</span><a href="{{ '/CV.pdf' | relative_url }}">CV (PDF)</a></p></div>
 </header>
 <div class="introduction">
 <p>I am a quantum computing theorist working towards reliable quantum computers for scientific discovery. My research connects quantum error correction, the joint design of quantum algorithms and architectures, and quantum dynamics and thermodynamics—from understanding how quantum information behaves in physical systems to protecting it and putting it to use.</p>
-<p>I'm a <a href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellow</a> at Harvard University, working with Mikhail D. Lukin and Michael Gullans, and the lead author of <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><em>Building Quantum Computers</em></a> (Cambridge University Press).</p>
+<p>I'm a Senior Research Scientist at QuEra, an Associate at Harvard University, working with Mikhail D. Lukin, and the lead author of <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><em>Building Quantum Computers</em></a> (Cambridge University Press).</p>
 </div>
 <section aria-labelledby="research-heading" class="major-section" id="research" tabindex="-1">
 <h2 class="section-heading" id="research-heading">Research</h2>
 <p class="section-links" id="publications"><a href="{{ '/publications/' | relative_url }}">Browse publications</a><span aria-hidden="true">·</span><a href="https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&amp;hl=en">Google Scholar</a></p>
 {% comment %}
-Research-link presentation: keep each selected-work link paired only with its
-publication status/venue and year. TODO: Reconsider explanations and recorded
-talks in a clearer, paper-specific format in a future revision, rather than
-placing them beside these research-area links. The existing resources metadata
-is retained in _data/publications.yml. Selected recent talks now follows the
-career/education timeline in Background & CV, before Selected honours.
-Research themes are equally prominent, in the approved order below. The dynamics
-and thermodynamics theme is part of the coherent programme, not an archive.
+The three research summaries retain the owner's original website wording.
+The owner plans to revise these summaries directly. Preserve the theme headings,
+selected-paper links, publication status/year metadata, and section ordering.
 {% endcomment %}
 <div class="research-topic" id="quantum-error-correction">
 <h3>Quantum error correction</h3>
@@ -73,52 +67,25 @@ The earlier-research fragment is retained solely for old inbound links.
 
 
 
-</section><section aria-labelledby="textbook-outreach-heading" class="major-section textbook-outreach-section" id="textbook-and-outreach" data-nav-home tabindex="-1">
-<h2 class="section-heading" id="textbook-outreach-heading">Textbook &amp; outreach</h2>
-{% comment %}
-The full textbook feature and Unentangled film intentionally remain on Home.
-The independent course, mentoring and educational-development record now lives
-at /teaching/. Keep the book's complete description, adoption context and links here.
-The #teaching fragment remains a legacy anchor beside a link to the new page.
-{% endcomment %}
-<span class="research-anchor" id="teaching" aria-hidden="true"></span>
-<div class="book-feature" id="textbook">
-<div class="book-copy">
-<h3 class="book-section-heading">Textbook</h3>
-<h4><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">Building Quantum Computers:<br class="desktop-break"/> A Practical Introduction</a></h4>
-<p class="book-authors"><strong>S. Majidy</strong>, C. Wilson, and R. Laflamme</p>
-<p class="book-venue">Cambridge University Press (2024)</p>
-<p class="book-context">Written for advanced undergraduates and beginning graduate students, the book compares physical implementations through shared concepts and notation. Writing it developed the cross-platform perspective that informs my work on hardware-aware architectures and scientific applications.</p>
-{% comment %}
-International teaching use is supported by course reading lists, including:
-https://insti.physics.sunysb.edu/~twei/Courses/Fall2025/PHY568/
-https://physics.carleton.ca/sites/default/files/content-files/202530_14.pdf
-These establish teaching use, not a worldwide consensus that this is "the standard"
-textbook. Use the narrower public wording below unless stronger adoption evidence
-is available. This source note is not rendered in the public site.
-{% endcomment %}
-<p class="book-context">The book is used in university teaching internationally as an introduction to quantum computing hardware.</p>
-<p class="book-resources"><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#contents">Contents</a> <span aria-hidden="true">·</span> <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90/resources/">Teaching resources</a></p></div>
-<a aria-label="Building Quantum Computers at Cambridge University Press" class="book-image-link" href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">{% include responsive-image.html id="cover" alt="Building Quantum Computers book cover" sizes="(max-width: 359px) 76px, (max-width: 640px) 88px, 240px" %}</a>
-</div>
-<div class="teaching-topic outreach-topic" id="outreach">
-<h3>Outreach</h3>
-<p>Through Unentangled, my non-profit, I worked to broaden access to science by bringing current research into high-school classrooms. The programme was built on the idea that more people should benefit not only from scientific knowledge, but from the tools science provides for reasoning, questioning, and solving problems. At its peak, Unentangled served more than 1,000 students annually with a team of 10 volunteers.</p>
-<figure class="outreach-film">
-<div class="outreach-video">
-<iframe src="https://player.vimeo.com/video/316304696?dnt=1&amp;autoplay=0" width="960" height="540" title="Unentangled — One Community documentary by Ward 1 Studios" loading="lazy" allow="fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-</figure>
-</div>
-<p class="teaching-page-link"><a href="{{ '/teaching/' | relative_url }}">More on teaching and mentoring <span aria-hidden="true">&rarr;</span></a></p>
 </section><section aria-labelledby="background-heading" class="major-section" id="background" tabindex="-1">
 <h2 class="section-heading" id="background-heading">Background &amp; CV</h2>
 <p class="cv-access"><a href="{{ '/CV.pdf' | relative_url }}">Curriculum vitae (PDF)</a></p>
 <ol class="positions">
 <li class="position">
+<div class="position-date">2026</div>
+<div><h3>Senior Research Scientist, QuEra</h3></div>
+</li>
+<li class="position">
+<div class="position-date">2026</div>
+<div>
+<h3>Associate, Harvard University</h3>
+<dl class="position-details"><div class="detail"><dt>Adviser:</dt><dd>Mikhail D. Lukin</dd></div></dl>
+</div>
+</li>
+<li class="position">
 <div class="position-date">2024–2026</div>
 <div>
-<h3>Postdoctoral Fellow, Harvard</h3>
+<h3>Postdoctoral Fellow, Harvard University</h3>
 <dl class="position-details">
 <div class="detail">
 <dt>Advisers:</dt>
@@ -170,10 +137,10 @@ is available. This source note is not rendered in the public site.
 <h3 id="talks-heading">Selected recent talks</h3>
 <ol class="talk-list">
 {% comment %}
-Princeton: title and 22 October date are in the bundled CV, p. 2. The official
-PQTC 2026 page lists Shayan among the invited speakers; the posted agenda also
-places the talk on 22 October. Remove "(upcoming)" after the presentation.
-Source: https://quantum.princeton.edu/pqtc2026 (checked 14 September 2026).
+Keep the owner's existing five selected talks and their invitation/contribution
+labels. The Princeton invitation is dated 22 October 2026; the date communicates
+timing without a separate forthcoming category. The CV's talk record starts on
+page 3. Do not infer a delivered-talk total from scheduled entries.
 {% endcomment %}
 <li class="talk">
 <time class="talk-date" datetime="2026-10-22">22 Oct 2026</time>
@@ -197,24 +164,69 @@ Source: https://quantum.princeton.edu/pqtc2026 (checked 14 September 2026).
 </li>
 
 </ol>
-<p class="talks-more"><a href="{{ '/CV.pdf' | relative_url }}#page=2">More talks in my CV</a></p>
+<p class="talks-more"><a href="{{ '/CV.pdf' | relative_url }}#page=3">More talks in my CV</a></p>
 </section>
 
 <section class="selected-honours" aria-labelledby="honours-heading" id="selected-honours">
 <h3 id="honours-heading">Selected honours</h3>
 {% comment %}
 Each honour uses the same two-line structure: official linked award name first
-in dark type, then award type + awarding body beneath it in muted type. These are descriptions, not invented award titles.
+in dark type, then awarding body and the CV's factual distinction beneath it.
+Keep CAD amounts as totals over the stated duration, not research-group grants.
+The Banting rank is field-specific, as supplied by the owner. Add the exact
+adjudication panel and competition year only when confirmed. No bold ranking.
 IQC's award is for graduate research, rather than a doctoral-only competition:
 https://uwaterloo.ca/institute-for-quantum-computing/graduate-studies/scholarships-and-awards
 Award years are retained; funding periods remain in the career timeline.
 {% endcomment %}
 <ul class="honours-list">
-<li><span class="honour-date">2025</span><div class="honour-copy"><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/institute-quantum-computing-grad-receives-prestigious">W.B. Pearson Medal</a><span class="honour-summary">Doctoral research award, Faculty of Science, University of Waterloo</span></div></li>
-<li><span class="honour-date">2024</span><div class="honour-copy"><a class="honour-name" href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellowship</a><span class="honour-summary">National postdoctoral fellowship, Government of Canada</span></div></li>
-<li><span class="honour-date">2024</span><div class="honour-copy"><a class="honour-name" href="https://annualreport.2024.perimeterinstitute.ca/training/phd-students/">John Brodie Memorial Award</a><span class="honour-summary">Doctoral research award, Perimeter Institute</span></div></li>
-<li><span class="honour-date">2022</span><div class="honour-copy"><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/iqc-achievement-award-recipient-shayan-majidy-shares">IQC Achievement Award</a><span class="honour-summary">Graduate research award, Institute for Quantum Computing</span></div></li>
-<li><span class="honour-date">2021</span><div class="honour-copy"><a class="honour-name" href="https://vanier.gc.ca/en/home-accueil.html">Vanier Canada Graduate Scholarship</a><span class="honour-summary">National doctoral scholarship, Government of Canada</span></div></li>
+<li><span class="honour-date">2025</span><div class="honour-copy"><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/institute-quantum-computing-grad-receives-prestigious">W.B. Pearson Medal</a><span class="honour-summary">University of Waterloo; creative doctoral research; normally one award per Science department annually.</span></div></li>
+<li><span class="honour-date">2024</span><div class="honour-copy"><a class="honour-name" href="https://banting.fellowships-bourses.gc.ca/en/home-accueil.html">Banting Postdoctoral Fellowship</a><span class="honour-summary">Government of Canada; CAD 140,000 over two years. Field-specific ranking: 3rd of 185 applicants.</span></div></li>
+<li><span class="honour-date">2024</span><div class="honour-copy"><a class="honour-name" href="https://annualreport.2024.perimeterinstitute.ca/training/phd-students/">John Brodie Memorial Award (co-recipient)</a><span class="honour-summary">Perimeter Institute; recognizes creativity in doctoral research.</span></div></li>
+<li><span class="honour-date">2022</span><div class="honour-copy"><a class="honour-name" href="https://uwaterloo.ca/institute-for-quantum-computing/news/iqc-achievement-award-recipient-shayan-majidy-shares">IQC Achievement Award</a><span class="honour-summary">Institute for Quantum Computing; excellence in graduate research.</span></div></li>
+<li><span class="honour-date">2021</span><div class="honour-copy"><a class="honour-name" href="https://vanier.gc.ca/en/home-accueil.html">Vanier Canada Graduate Scholarship</a><span class="honour-summary">Government of Canada; CAD 150,000 over three years.</span></div></li>
 </ul>
 </section>
+</section>
+
+<section aria-labelledby="textbook-outreach-heading" class="major-section textbook-outreach-section" id="textbook-and-outreach" data-nav-home tabindex="-1">
+<h2 class="section-heading" id="textbook-outreach-heading">Textbook &amp; outreach</h2>
+{% comment %}
+The full textbook feature and Unentangled film intentionally remain on Home.
+The independent course, mentoring and educational-development record now lives
+at /teaching/. This complete feature follows Background & CV. Preserve the
+existing public book/outreach copy and links; new teaching evidence stays on
+Teaching, and private teaching materials stay out of the public repository.
+The #teaching fragment remains a legacy anchor beside a link to the new page.
+{% endcomment %}
+<span class="research-anchor" id="teaching" aria-hidden="true"></span>
+<div class="book-feature" id="textbook">
+<div class="book-copy">
+<h3 class="book-section-heading">Textbook</h3>
+<h4><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">Building Quantum Computers:<br class="desktop-break"/> A Practical Introduction</a></h4>
+<p class="book-authors"><strong>S. Majidy</strong>, C. Wilson, and R. Laflamme</p>
+<p class="book-venue">Cambridge University Press (2024)</p>
+<p class="book-context">Written for advanced undergraduates and beginning graduate students, the book compares physical implementations through shared concepts and notation. Writing it developed the cross-platform perspective that informs my work on hardware-aware architectures and scientific applications.</p>
+{% comment %}
+International teaching use is supported by course reading lists, including:
+https://insti.physics.sunysb.edu/~twei/Courses/Fall2025/PHY568/
+https://physics.carleton.ca/sites/default/files/content-files/202530_14.pdf
+These establish teaching use, not a worldwide consensus that this is "the standard"
+textbook. Use the narrower public wording below unless stronger adoption evidence
+is available. This source note is not rendered in the public site.
+{% endcomment %}
+<p class="book-context">The book is used in university teaching internationally as an introduction to quantum computing hardware.</p>
+<p class="book-resources"><a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#contents">Contents</a> <span aria-hidden="true">·</span> <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90/resources/">Teaching resources</a></p></div>
+<a aria-label="Building Quantum Computers at Cambridge University Press" class="book-image-link" href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview">{% include responsive-image.html id="cover" alt="Building Quantum Computers book cover" sizes="(max-width: 359px) 76px, (max-width: 640px) 88px, 240px" %}</a>
+</div>
+<div class="teaching-topic outreach-topic" id="outreach">
+<h3>Outreach</h3>
+<p>Through Unentangled, my non-profit, I worked to broaden access to science by bringing current research into high-school classrooms. The programme was built on the idea that more people should benefit not only from scientific knowledge, but from the tools science provides for reasoning, questioning, and solving problems. At its peak, Unentangled served more than 1,000 students annually with a team of 10 volunteers.</p>
+<figure class="outreach-film">
+<div class="outreach-video">
+<iframe src="https://player.vimeo.com/video/316304696?dnt=1&amp;autoplay=0" width="960" height="540" title="Unentangled — One Community documentary by Ward 1 Studios" loading="lazy" allow="fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</figure>
+</div>
+<p class="teaching-page-link"><a href="{{ '/teaching/' | relative_url }}">More on teaching and mentoring <span aria-hidden="true">&rarr;</span></a></p>
 </section>

@@ -114,6 +114,8 @@
   journal_url: https://www.nature.com/articles/s41467-024-52588-9
   citation: Nat. Commun. 15, 8246 (2024)
   venue_short: Nat. Commun.
+  conferences:
+  - CQIQC-X
 - id: noncommuting-charges-perspective
   year: 2023
   order: 94
@@ -146,8 +148,6 @@
   journal_url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.054307
   citation: Phys. Rev. B 108, 054307 (2023)
   venue_short: Phys. Rev. B
-  conferences:
-  - CQIQC-X
   resources:
   - label: Watch talk
     url: https://www.youtube.com/watch?v=SWkSyE-4q0U&t=2690s

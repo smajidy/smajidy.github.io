@@ -6,7 +6,7 @@ Jekyll source for the GitHub Pages website at https://smajidy.github.io/.
 
 | File | Purpose |
 | --- | --- |
-| `_pages/about.md` | Introduction, research, full textbook/outreach feature, then background (timeline, recent talks and honours). |
+| `_pages/about.md` | Introduction, research, background (timeline, recent talks and honours), then the full textbook/outreach feature. |
 | `_pages/teaching.md` | Separate Teaching page: independent course, mentoring and educational development, with links to the homepage book and film. |
 | `_data/publications.yml` | The single source of truth for research-paper titles, authors, publication status, years, citations and paper resources. |
 | `_pages/publications.md` | Continuous reverse-chronological bibliography and the separate textbook citation. |
@@ -41,7 +41,7 @@ python3 scripts/check_site.py _site
 
 `.github/workflows/check-site.yml` performs these build/check steps on pull requests and manual runs. It has read-only repository permissions and **does not deploy, push, or change the site's existing GitHub Pages configuration**. Use this check before merging. Dependencies must be available in the build environment.
 
-The September 2026 detailed-edit package was reviewed using source-derived HTML and Chromium, not a successful local Jekyll build: the editing environment lacked the GitHub Pages/Jekyll gems and could not download them. The read-only workflow supplies the remaining native-build check. The external standalone preview and screenshots are review aids, not deployment files; keep them out of this source directory.
+This September 2026 revision was reviewed using source-derived HTML and Chromium, not a successful local Jekyll build: the editing environment could not reach RubyGems to install the GitHub Pages/Jekyll dependencies. The read-only workflow supplies the remaining native-build check. The external standalone preview and screenshots are review aids, not deployment files; keep them out of this source directory.
 
 ## Add or update a paper
 
@@ -87,13 +87,13 @@ When a preprint is published, update its existing record rather than adding a du
 
 Research descriptions distinguish completed results from current directions. Attribute individual roles only when established, not inferred from author order. The approved Nature collaboration wording and connected research narrative are grounded in the owner-supplied Faculty Research Statement V6 (Waterloo). Keep completed work distinct from cooling, state-preparation and other prospective directions. The private research statement itself is not included in the public repository.
 
-Keep Selected recent talks after the education/career timeline and before Selected honours in Background & CV, not in Research. Keep it short and accurately labelled as invited or contributed. Recording links are optional. Repeated titles are retained rather than rewritten to suggest different research. The entry labelled “PQTC 2026, Princeton” is an upcoming invited talk on 22 October; remove the upcoming qualifier after delivery. Keep event and location labels separate, including “YQI Seminar, Yale”. The gallery and full CV can retain older appearances omitted from the homepage selection.
+Keep Selected recent talks after the education/career timeline and before Selected honours in Background & CV, not in Research. Keep it short and accurately labelled as invited or contributed. Recording links are optional. Repeated titles are retained rather than rewritten to suggest different research. The entry labelled “PQTC 2026, Princeton” is dated 22 October. Keep the date and invited-talk label; the owner does not use a separate forthcoming qualifier. Keep event and location labels separate, including “YQI Seminar, Yale”. The gallery and full CV can retain older appearances omitted from the homepage selection.
 
-Selected honours show award years; the career timeline shows funding periods. All honours use one consistent two-line structure: the official linked award name first in dark type, followed by a plain-language award type and awarding body in muted type. Do not invent new official titles or add selective prestige claims. IQC's award is described as a graduate research award because its published eligibility is not restricted to doctoral students.
+Selected honours show award years; the career timeline shows funding periods. All honours use one consistent structure: the official linked award name first in dark type, followed by the awarding body and CV-aligned distinction. Fellowship values are CAD totals with duration; the Banting rank is field-specific and not an overall national ranking. Retain the Brodie co-recipient qualification. Do not invent new official titles or add selective prestige claims. IQC's award is described as a graduate research award because its published eligibility is not restricted to doctoral students.
 
 To adjust animation speed, change `duration` (milliseconds) in `assets/js/site-intro.js`. Leave `timelineDuration` and all choreography keyframes unchanged so every phase speeds up uniformly. Keep reduced-motion, immediate user-interruption, navigation and replay behaviour intact. Refresh the script cache token in `_includes/site-intro.html` after changes.
 
-Teaching and mentoring copy uses the owner-supplied September 2026 account. It identifies independent fourth-year instruction, the 4.8/5 evaluation with its 97% response rate, six students supported into IQC internships, and graduate mentoring at Maryland. The textbook feature describes documented international teaching use, without claiming it is the universally standard textbook; source-only notes in `_pages/about.md` record the course references. Keep student support distinct from claims of causing PhD enrolment. Do not convert anticipated departmental adoption into an established result. Unentangled is a former organisation and is described in the past tense. Use “Mikhail D. Lukin” in the homepage biography; retain author initials in citations. A public syllabus or representative assignment can be linked once a suitable file and permission are available. No fabricated example or empty download placeholder is included.
+Teaching and mentoring copy uses the owner-supplied September 2026 account. It identifies independent fourth-year instruction, the 4.8/5 evaluation with its 97% response rate, six students supported into IQC internships, and graduate mentoring at Maryland. The textbook feature describes documented international teaching use, without claiming it is the universally standard textbook; source-only notes in `_pages/about.md` record the course references. Keep student support distinct from claims of causing PhD enrolment. Do not convert anticipated departmental adoption into an established result. Unentangled is a former organisation and is described in the past tense. Use “Mikhail D. Lukin” in the homepage biography; retain author initials in citations. Syllabi and assignments are reserved for the owner’s private application package, not the public website. No teaching-material download or empty placeholder is included.
 
 ## Images
 
@@ -139,11 +139,37 @@ Two Instagram photos could not be retrieved. Source-only notes in `_pages/oot-an
 ## Homepage copy refinement
 
 The three research descriptions follow the owner-supplied text. Preserve the bold
-opening question in each, the bold **gate-first approach**, and the italic book
-and phantom-code names. Keep the architectural selected links book-first. The
+opening question in each and the italic book and phantom-code names. The three
+themes briefly distinguish personal contributions from continuing or prospective
+questions; keep the opening introduction’s research description unchanged. Keep the architectural selected links book-first. The
 Nature Communications link is labelled **Effect on thermalization**; its destination
 and journal/year metadata are unchanged.
 
 Outreach uses the owner's supplied scope (more than 1,000 students annually at its
 peak, with 10 volunteers) and remains past tense. Do not restore the documentary
 caption beneath the player or reintroduce a running organisation claim.
+
+## Approved faculty-signal revision — September 2026
+
+- Keep the opening research description verbatim. The second paragraph identifies
+  Senior Research Scientist at QuEra, Associate at Harvard University, work with
+  Mikhail D. Lukin, and lead authorship of *Building Quantum Computers*.
+- The email row now contains a direct **CV (PDF)** link; the nickname sentence is
+  removed. `CV.pdf` is the latest five-page modular CV supplied in this conversation.
+- Keep all existing navigation and subsection names, including **Selected honours**.
+  The entire **Textbook & outreach** section moves below **Background & CV** without
+  changing its existing text, cover, documentary, or external teaching links.
+- Add QuEra and Harvard Associate to the career timeline, both dated 2026. The
+  existing five Selected recent talks remain unchanged; the more-talks PDF link
+  now opens page 3.
+- Each research theme remains short: one organizing question, clear personal
+  contribution, and one next question. Do not add a separate mentoring section,
+  extra recordings, or application materials to Home.
+- Teaching retains its existing headings and mentoring account. Its independent
+  course, evaluation/response rate, educational-development roles, qualification,
+  and textbook lead authorship are easier to scan. Do not guess the evaluation
+  item, respondent count, or student outcomes.
+- **CQIQC-X** belongs only to **nonstationary-dynamics**, the Nature Communications
+  paper, as corrected by the owner. Do not restore it to **su2-monitored-circuits**.
+- Preview HTML/screenshots are review aids, not Jekyll source or deployment files.
+  The existing read-only GitHub workflow remains available for a native build.
