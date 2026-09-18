@@ -27,13 +27,14 @@ selected-paper links, publication status/year metadata, and section ordering.
 {% endcomment %}
 <div class="research-topic" id="quantum-error-correction">
 <h3>Quantum error correction</h3>
-<p>What is the minimum cost of protecting and manipulating logical quantum information? I work broadly on reducing the overhead of quantum error correction, from the design of codes and logical operations to syndrome extraction and fault-tolerant architectures. One direction is a gate-first approach to code design: rather than choosing a code and accepting the logical operations it supports, I design codes around the computations they must perform. Our <em>phantom codes</em> illustrate one extreme, implementing in-block entangling gates through classically tracked relabellings, without applying physical gates.</p>
+<p>
+What is the minimum cost of protecting and manipulating logical quantum information? I work broadly on reducing the overhead of quantum error correction, from the design of codes and logical operations to syndrome extraction and fault-tolerant architectures. One direction is a gate-first approach to code design: rather than choosing a code and accepting the logical operations it supports, I design codes around the computations they must perform. Our <em>phantom codes</em> illustrate one extreme, implementing in-block entangling gates through classically tracked relabellings, without applying physical gates. This raises a broader question: how much logical computation can be performed with such simple operations, and how large must the code be? Our work on automorphism gates answers this for single-qubit Clifford gates and qubit permutations on stabilizer codes: we establish their maximum logical power, construct codes attaining it, and derive tight bounds on the required number of physical qubits.
+</p>
 <div class="research-links" aria-label="Selected quantum error correction work">
 {% include research-paper-link.html id="phantom-codes" label="Phantom codes" status=true %}
 {% include research-paper-link.html id="automorphism-gates" label="Automorphism gates" status=true %}
 </div>
 {% comment %}
-TODO: Add further representative QEC results here when ready to feature.
 Homepage highlights are curated separately from the complete Publications list.
 {% endcomment %}
 </div>
