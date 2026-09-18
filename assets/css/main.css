@@ -305,3 +305,7 @@ figcaption { margin-top:12px; font-size:15px; line-height:1.5; color:#454e5c; }
 .publication-conferences { margin-left:.45em; color:var(--navy); font-size:14px; font-weight:400; }
 .conference-name { white-space:nowrap; }
 .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+
+/* Co-first authors: dark mathematical asterisks, with a quiet explanatory note. */
+.publication-co-first-marker { color:var(--ink); font-weight:700; font-size:.8em; line-height:0; vertical-align:super; }
+.publications-intro .publication-co-first-note { margin-top:6px; font-size:14px; line-height:1.6; }

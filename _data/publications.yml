@@ -1,6 +1,23 @@
 # Bibliography shared by Research, teaching links and Publications.
 # Published: journal citation year. Preprints: initial posting year.
 # Keep IDs stable: /publications/#ID is a permanent link.
+- id: automorphism-gates
+  year: 2026
+  order: 101
+  status: preprint
+  title: Achieving the limits of automorphism gates
+  authors:
+  - J. M. Koh
+  - S. Majidy
+  - A. Chakraborty
+  - A. Gong
+  - S. J. S. Tan
+  - N. Y. Yao
+  # Mark co-first authors without modifying names or the existing author emphasis.
+  co_first:
+  - J. M. Koh
+  - S. Majidy
+  arxiv_id: '2609.19250'
 - id: phantom-codes
   year: 2026
   order: 100

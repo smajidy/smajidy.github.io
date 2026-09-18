@@ -30,6 +30,7 @@ selected-paper links, publication status/year metadata, and section ordering.
 <p>What is the minimum cost of protecting and manipulating logical quantum information? I work broadly on reducing the overhead of quantum error correction, from the design of codes and logical operations to syndrome extraction and fault-tolerant architectures. One direction is a gate-first approach to code design: rather than choosing a code and accepting the logical operations it supports, I design codes around the computations they must perform. Our <em>phantom codes</em> illustrate one extreme, implementing in-block entangling gates through classically tracked relabellings, without applying physical gates.</p>
 <div class="research-links" aria-label="Selected quantum error correction work">
 {% include research-paper-link.html id="phantom-codes" label="Phantom codes" status=true %}
+{% include research-paper-link.html id="automorphism-gates" label="Automorphism gates" status=true %}
 </div>
 {% comment %}
 TODO: Add further representative QEC results here when ready to feature.

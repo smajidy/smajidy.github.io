@@ -1,4 +1,5 @@
 {%- for name in include.authors -%}
 {%- unless forloop.first -%}{% if forloop.last %}{% if include.authors.size > 2 %}, and {% else %} and {% endif %}{% else %}, {% endif %}{%- endunless -%}
 {%- if name == 'S. Majidy' -%}<strong>{{ name }}</strong>{%- else -%}{{ name | escape }}{%- endif -%}
+{%- if include.co_first contains name -%}<sup class="publication-co-first-marker" aria-label="co-first author">&lowast;</sup>{%- endif -%}
 {%- endfor -%}

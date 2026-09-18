@@ -5,7 +5,8 @@ excerpt: "Research papers and preprints by Shayan Majidy in quantum error correc
 ---
 
 <section class="publications-section publication-page" id="publication-list">
-<div class="publications-intro"><p>Research papers and preprints. <a href="https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&amp;hl=en">Google Scholar</a> <span aria-hidden="true">·</span> <a href="{{ '/#research' | relative_url }}">Research overview</a></p></div>
+<div class="publications-intro"><p>Research papers and preprints. <a href="https://scholar.google.ca/citations?user=rLyCWhoAAAAJ&amp;hl=en">Google Scholar</a> <span aria-hidden="true">·</span> <a href="{{ '/#research' | relative_url }}">Research overview</a></p>
+<p class="publication-co-first-note"><sup class="publication-co-first-marker" aria-hidden="true">&lowast;</sup> Indicates co-first authors.</p></div>
 {% comment %}
 Keep the established descending year/order sort, but render one continuous list.
 Year headings and inter-year gaps are intentionally absent. Legacy year fragments
