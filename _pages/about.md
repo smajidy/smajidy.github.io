@@ -15,7 +15,7 @@ redirect_from:
 </header>
 <div class="introduction">
 <p>I am a quantum computing theorist working towards reliable quantum computers for scientific discovery. My research connects quantum error correction, the joint design of quantum algorithms and architectures, and quantum dynamics and thermodynamics—from understanding how quantum information behaves in physical systems to protecting it and putting it to use.</p>
-<p>I'm a Senior Research Scientist at QuEra, an Associate at Harvard University, working with Mikhail D. Lukin, and the lead author of <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><em>Building Quantum Computers</em></a> (Cambridge University Press).</p>
+<p>I'm a Senior Research Scientist at QuEra and the lead author of <a href="https://www.cambridge.org/highereducation/books/building-quantum-computers/6A73C509D3E0F5F0A566A11F6A566A90#overview"><em>Building Quantum Computers</em></a> (Cambridge University Press).</p>
 </div>
 <section aria-labelledby="research-heading" class="major-section" id="research" tabindex="-1">
 <h2 class="section-heading" id="research-heading">Research</h2>
