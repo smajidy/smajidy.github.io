@@ -259,3 +259,24 @@ quantum-steampunk-2026:
     width: 960
   - path: /images/optimized/quantum-steampunk-2026-1280.webp
     width: 1280
+
+august-talk-2024:
+  width: 2048
+  height: 1162
+  src: /images/optimized/august-talk-2024-960.webp
+  variants:
+  - path: /images/optimized/august-talk-2024-480.webp
+    width: 480
+  - path: /images/optimized/august-talk-2024-960.webp
+    width: 960
+  - path: /images/optimized/august-talk-2024-2048.webp
+    width: 2048
+quantum-connections-2024:
+  width: 750
+  height: 496
+  src: /images/optimized/quantum-connections-2024-750.webp
+  variants:
+  - path: /images/optimized/quantum-connections-2024-480.webp
+    width: 480
+  - path: /images/optimized/quantum-connections-2024-750.webp
+    width: 750

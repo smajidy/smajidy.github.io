@@ -47,11 +47,19 @@ images are available; do not replace them with unrelated photos or broken embeds
 </figure>
 </div>
 <div class="gallery-row">
-<figure style="--image-ratio:0.750000">{% include responsive-image.html id="kaius-book" alt="Kaius with the textbook" sizes="(max-width: 359px) calc(100vw - 40px), (max-width: 640px) calc(100vw - 48px), (max-width: 824px) calc(36.00001vw - 31.68001px), (max-width: 923px) calc(36.00001vw - 31.68001px), 300.96px" loading="lazy" %}
+<figure style="--image-ratio:0.750000">{% include responsive-image.html id="kaius-book" alt="Kaius with the textbook" sizes="(max-width: 359px) calc(100vw - 40px), (max-width: 640px) calc(100vw - 48px), (max-width: 824px) calc(29.85100vw - 26.26888px), (max-width: 923px) calc(29.85100vw - 26.26888px), 249.55px" loading="lazy" %}
 <figcaption>Kaius isn't a fan of the book<time class="photo-date" datetime="2024-09-26">26 Sep 2024</time></figcaption>
 </figure>
-<figure style="--image-ratio:1.333333">{% include responsive-image.html id="brodie" alt="Receiving the John Brodie" sizes="(max-width: 359px) calc(100vw - 40px), (max-width: 640px) calc(100vw - 48px), (max-width: 824px) calc(63.99999vw - 56.31999px), (max-width: 923px) calc(63.99999vw - 56.31999px), 535.04px" loading="lazy" %}
+<figure style="--image-ratio:1.762478">{% include responsive-image.html id="august-talk-2024" alt="Giving a talk in front of a slide titled Noncommuting charges can increase entanglement and induce critical dynamics" sizes="(max-width: 359px) calc(100vw - 40px), (max-width: 640px) calc(100vw - 48px), (max-width: 824px) calc(70.14900vw - 61.73112px), (max-width: 923px) calc(70.14900vw - 61.73112px), 586.45px" loading="lazy" %}
+<figcaption>I told the organizers I might have to miss this if my wife went into labour &mdash; luckily my son waited until after the talk to be born 👶<time class="photo-date" datetime="2024-08-26">26 Aug 2024</time></figcaption>
+</figure>
+</div>
+<div class="gallery-row">
+<figure style="--image-ratio:1.333333">{% include responsive-image.html id="brodie" alt="Receiving the John Brodie" sizes="(max-width: 359px) calc(100vw - 40px), (max-width: 640px) calc(100vw - 48px), (max-width: 824px) calc(46.85876vw - 41.23571px), (max-width: 923px) calc(46.85876vw - 41.23571px), 391.74px" loading="lazy" %}
 <figcaption>Receiving the John Brodie<time class="photo-date" datetime="2024-05-21">21 May 2024</time></figcaption>
+</figure>
+<figure style="--image-ratio:1.512097">{% include responsive-image.html id="quantum-connections-2024" alt="Panel discussion at the Quantum Connections Conference 2024 at IQC" sizes="(max-width: 359px) calc(100vw - 40px), (max-width: 640px) calc(100vw - 48px), (max-width: 824px) calc(53.14124vw - 46.76429px), (max-width: 923px) calc(53.14124vw - 46.76429px), 444.26px" loading="lazy" %}
+<figcaption>Explaining why Canada is the best place to do quantum computing research, right before moving to the US to do quantum computing research<time class="photo-date" datetime="2024-05-02">2 May 2024</time></figcaption>
 </figure>
 </div>
 <div class="gallery-row">
